@@ -182,7 +182,7 @@
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="74" />
 		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="15000" />
+		<set name="reuseDelay" val="1000" />
 		<set name="skillType" val="BUFF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
