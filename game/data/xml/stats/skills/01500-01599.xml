@@ -1748,16 +1748,18 @@
 			</add>
 		</for>
 		<for>
-			<mul stat="runSpd" val="0.75">
+			<mul stat="runSpd" val="0.6">
 				<and>
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
 				</and>
 			</mul>
-			<basemul stat="pAtkSpd" val="0.75">
+			<mul stat="pAtkSpd" val="0.6">
+				<and>
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
-			</basemul>
+				</and>
+			</mul>
 		</for>	
 	</skill>
 	<skill id="1560" levels="1" name="Lucky Blow">
