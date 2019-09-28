@@ -1,0 +1,629 @@
+[21:51:45] INFO: Network Config: ipconfig.xml exists using manual configuration... 
+[21:51:45] INFO: Loaded 6 Filter Words. 
+[21:51:46] INFO: Sunrise Configs Loaded... 
+[21:51:46] INFO: Updated characters online status. 
+[21:51:46] INFO: Cleaned up invalid Weddings. 
+[21:51:46] INFO: Cleaned 0 elements from database in 0 s 
+[21:51:46] INFO: Cleaned 0 expired timestamps from database. 
+[21:51:46] INFO: BitSetIDFactory: 102912 id's available. 
+[21:51:46] INFO: -------------------------------------------------=[ Engines ] 
+[21:51:46] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1 
+[21:51:46] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8 
+[21:51:46] INFO: Script Engine: Oracle Nashorn 1.8.0_222 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1 
+[21:51:46] INFO: -------------------------------------------------=[ Geodata ] 
+[25/09 21:51:46] Loaded ./data/geodata/11_23.l2j
+[25/09 21:51:46] Loaded ./data/geodata/11_24.l2j
+[25/09 21:51:46] Loaded ./data/geodata/11_25.l2j
+[25/09 21:51:46] Loaded ./data/geodata/11_26.l2j
+[25/09 21:51:46] Loaded ./data/geodata/12_23.l2j
+[25/09 21:51:46] Loaded ./data/geodata/12_24.l2j
+[25/09 21:51:46] Loaded ./data/geodata/12_25.l2j
+[25/09 21:51:46] Loaded ./data/geodata/12_26.l2j
+[25/09 21:51:46] Loaded ./data/geodata/13_21.l2j
+[25/09 21:51:46] Loaded ./data/geodata/13_22.l2j
+[25/09 21:51:46] Loaded ./data/geodata/13_23.l2j
+[25/09 21:51:46] Loaded ./data/geodata/13_24.l2j
+[25/09 21:51:47] Loaded ./data/geodata/13_25.l2j
+[25/09 21:51:47] Loaded ./data/geodata/13_26.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_21.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_22.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_23.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_24.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_25.l2j
+[25/09 21:51:47] Loaded ./data/geodata/14_26.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_10.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_11.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_12.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_18.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_19.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_20.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_21.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_22.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_23.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_24.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_25.l2j
+[25/09 21:51:47] Loaded ./data/geodata/15_26.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_10.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_11.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_12.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_13.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_14.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_15.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_16.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_17.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_18.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_19.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_20.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_21.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_22.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_23.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_24.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_25.l2j
+[25/09 21:51:47] Loaded ./data/geodata/16_26.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_10.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_11.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_12.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_13.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_14.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_15.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_16.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_17.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_18.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_19.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_20.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_21.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_22.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_23.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_24.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_25.l2j
+[25/09 21:51:47] Loaded ./data/geodata/17_26.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_10.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_11.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_12.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_13.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_14.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_15.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_16.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_17.l2j
+[25/09 21:51:47] Loaded ./data/geodata/18_18.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_19.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_20.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_21.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_22.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_23.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_24.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_25.l2j
+[25/09 21:51:48] Loaded ./data/geodata/18_26.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_10.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_11.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_12.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_13.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_14.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_15.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_16.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_17.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_18.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_19.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_20.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_21.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_22.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_23.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_24.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_25.l2j
+[25/09 21:51:48] Loaded ./data/geodata/19_26.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_10.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_11.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_12.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_13.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_14.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_15.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_16.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_17.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_18.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_19.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_20.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_21.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_22.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_23.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_24.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_25.l2j
+[25/09 21:51:48] Loaded ./data/geodata/20_26.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_10.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_11.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_12.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_13.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_14.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_15.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_16.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_17.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_18.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_19.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_20.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_21.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_22.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_23.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_24.l2j
+[25/09 21:51:48] Loaded ./data/geodata/21_25.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_10.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_11.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_12.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_13.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_14.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_15.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_16.l2j
+[25/09 21:51:48] Loaded ./data/geodata/22_17.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_18.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_19.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_20.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_21.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_22.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_23.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_24.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_25.l2j
+[25/09 21:51:50] Loaded ./data/geodata/22_26.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_10.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_11.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_12.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_13.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_14.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_15.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_16.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_17.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_18.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_19.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_20.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_21.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_22.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_23.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_24.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_25.l2j
+[25/09 21:51:50] Loaded ./data/geodata/23_26.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_10.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_11.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_12.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_13.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_14.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_15.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_16.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_17.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_18.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_19.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_20.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_21.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_22.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_23.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_24.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_25.l2j
+[25/09 21:51:50] Loaded ./data/geodata/24_26.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_10.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_11.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_12.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_14.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_15.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_16.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_17.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_18.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_19.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_20.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_21.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_22.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_23.l2j
+[25/09 21:51:50] Loaded ./data/geodata/25_24.l2j
+[25/09 21:51:50] Loaded ./data/geodata/26_11.l2j
+[25/09 21:51:50] Loaded ./data/geodata/26_12.l2j
+[25/09 21:51:50] Loaded ./data/geodata/26_14.l2j
+[25/09 21:51:50] Loaded ./data/geodata/26_15.l2j
+[25/09 21:51:50] Loaded ./data/geodata/26_16.l2j
+[25/09 21:51:50] Loaded 203 regions.
+[21:51:50] INFO: ---------------------------------------------------=[ World ] 
+[21:51:50] INFO: GameTimeController: Started. 
+[21:51:50] INFO: InstanceManager: Multiverse Instance created. 
+[21:51:50] INFO: InstanceManager: Universe Instance created. 
+[21:51:50] INFO: InstanceManager: Loaded 160 instance names. 
+[21:51:50] INFO: L2World: (128 by 136) World Region Grid set up. 
+[21:51:50] INFO: MapRegionManager: Loaded 57 map regions. 
+[21:51:50] INFO: GlobalVariablesManager: Loaded 7 variables. 
+[21:51:50] INFO: ----------------------------------------------------=[ Data ] 
+[21:51:51] INFO: CategoryData: Loaded 124 Categories. 
+[21:51:51] INFO: SecondaryAuthData: Loaded 328 forbidden passwords. 
+[21:51:51] INFO: -------------------------------------------------=[ Effects ] 
+[21:51:54] INFO: EffectHandler: Loaded 148 Handlers 
+[21:51:54] INFO: ------------------------------------=[ Enchant Skill Groups ] 
+[21:51:54] INFO: EnchantSkillGroupsData: Loaded 4 groups and 90 routes. 
+[21:51:54] INFO: ---------------------------------------------=[ Skill Trees ] 
+[21:51:54] INFO: SkillTreesData: Loaded 17176 Class Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 76 Sub-Class Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 77 Transfer Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 117 Fishing Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 3 Collect Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 74 Pledge Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 18 Sub-Pledge Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 32 Transform Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 8 Noble Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 5 Hero Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 46 Game Master Skills. 
+[21:51:54] INFO: SkillTreesData: Loaded 46 Game Master Aura Skills. 
+[21:51:54] INFO: --------------------------------------------------=[ Skills ] 
+[21:51:57] INFO: DocumentEngine: Loaded 66008 Skill templates from XML files. 
+[21:51:57] INFO: SummonSkillsTable: Loaded 1891 skills. 
+[21:51:57] INFO: ---------------------------------------------------=[ Items ] 
+[21:51:59] INFO: ItemData: Highest item id used:50105 
+[21:51:59] INFO: ItemData: Loaded: 11495 Etc Items 
+[21:51:59] INFO: ItemData: Loaded: 3844 Armor Items 
+[21:51:59] INFO: ItemData: Loaded: 3893 Weapon Items 
+[21:51:59] INFO: ItemData: Loaded: 19232 Items in total. 
+[21:51:59] INFO: EnchantItemGroupsData: Loaded: 4 item group templates. 
+[21:51:59] INFO: EnchantItemGroupsData: Loaded: 1 scroll group templates. 
+[21:51:59] INFO: EnchantItemData: Loaded 67 Enchant Scrolls. 
+[21:51:59] INFO: EnchantItemData: Loaded 20 Support Items. 
+[21:51:59] INFO: EnchantItemOptionsData: Loaded: 23 Items and 1093 Options. 
+[21:52:00] INFO: OptionData: Loaded: 24985 Options. 
+[21:52:00] INFO: EnchantItemHPBonusData: Loaded 6 Enchant HP Bonuses. 
+[21:52:00] INFO: MerchantPriceConfigData: Loaded 28 merchant price configs. 
+[21:52:01] WARN: BuyListData: Folder /home/ubuntu/L2iTeam/game/data/xml/buylists/custom doesn't exist! 
+[21:52:01] INFO: BuyListData: Loaded 760 BuyLists. 
+[21:52:01] INFO: MultisellData: Loaded 338 multisell lists. 
+[21:52:01] INFO: RecipeData: Loaded 1000 recipes. 
+[21:52:01] INFO: ArmorSetsData: Loaded 198 Armor sets. 
+[21:52:01] INFO: FishData: Loaded 278 Fishes. 
+[21:52:01] INFO: FishingMonstersData: Loaded 8 Fishing Monsters. 
+[21:52:01] INFO: FishingRodsData: Loaded 6 Fishing Rods. 
+[21:52:01] INFO: HennaData: Loaded 180 Henna data. 
+[21:52:01] INFO: -------------------------------------------=[ Product Items ] 
+[21:52:01] INFO: ProductItemData: Loaded 1005 items for Item Mall. 
+[21:52:01] INFO: ----------------------------------------------=[ Characters ] 
+[21:52:01] INFO: ClassListData: Loaded 107 Class data. 
+[21:52:02] INFO: InitialEquipmentData: Loaded 11 Initial Equipment data. 
+[21:52:02] INFO: InitialShortcutData: Loaded 5 Initial Global Shortcuts data. 
+[21:52:02] INFO: InitialShortcutData: Loaded 4 Initial Shortcuts data. 
+[21:52:02] INFO: InitialShortcutData: Loaded 0 Macros presets. 
+[21:52:02] INFO: ExperienceData: Loaded 87 levels. 
+[21:52:02] INFO: ExperienceData: Max Player Level is: 85 
+[21:52:02] INFO: ExperienceData: Max Pet Level is: 86 
+[21:52:02] INFO: KarmaData: Loaded 85 karma modifiers. 
+[21:52:02] INFO: HitConditionBonusData: Loaded Hit Condition bonuses. 
+[21:52:02] INFO: PlayerTemplateData: Loaded 103 character templates. 
+[21:52:02] INFO: PlayerTemplateData: Loaded 52530 level up gain records. 
+[21:52:02] INFO: CharNameTable: Loaded 12 char names. 
+[21:52:02] INFO: AdminData: Loaded: 10 Access Levels. 
+[21:52:02] INFO: AdminData: Loaded: 453 Access Commands. 
+[21:52:02] INFO: RaidBossPointsManager: Loaded 1 Characters Raid Points. 
+[21:52:02] INFO: PetData: Loaded 52 Pets. 
+[21:52:02] INFO: ---------------------------------------------------=[ Clans ] 
+[21:52:02] INFO: Loaded 6 forums. Last forum id used: 6 
+[21:52:02] INFO: ClanTable: Restored 2 clans from the database. 
+[21:52:02] INFO: CHSiegeManager: Loaded 6 conquerable clan halls. 
+[21:52:02] INFO: AuctionManager: Loaded: 37 auction(s) 
+[21:52:02] INFO: ClanHallManager: Loaded: 1 clan halls 
+[21:52:02] INFO: ClanHallManager: Loaded: 37 free clan halls 
+[21:52:02] INFO: ----------------------------------------------------=[ NPCs ] 
+[21:52:02] INFO: HerbDropData: Loaded 9 herb groups. 
+[21:52:02] INFO: SkillLearnData: Loaded 256 Skill Learn data. 
+[21:52:03] INFO: NpcTable: Loaded 10465 (Custom: 41) NPC template(s). 
+[21:52:03] INFO: NpcTable: Loaded 103018 (Custom: 17) NPC skills. 
+[21:52:03] INFO: NpcTable: Loaded 44235 (Custom: 5) drops. 
+[21:52:03] INFO: NpcTable: Loaded 526 Minions. 
+[21:52:03] INFO: NpcTable: Loaded 10461 (Custom: 38) AI Data. 
+[21:52:03] INFO: NpcTable: Loaded 10460 (Custom: 1) Elementals Data. 
+[21:52:04] INFO: WalkingManager: Loaded 123 walking routes. 
+[21:52:04] INFO: StaticObjectsData: Loaded 51 StaticObject Templates. 
+[21:52:04] INFO: DoorData: Loaded 1301 Door Templates for 21 regions. 
+[21:52:05] INFO: GrandBossManager: Queen Ant(29001) status is 0. 
+[21:52:05] INFO: GrandBossManager: Core(29006) status is 0. 
+[21:52:05] INFO: GrandBossManager: Orfen(29014) status is 0. 
+[21:52:05] INFO: GrandBossManager: Baium(29020) status is 0. 
+[21:52:05] INFO: GrandBossManager: Valakas(29028) status is 0. 
+[21:52:05] INFO: GrandBossManager: Andreas Van Halter(29062) status is 0. 
+[21:52:05] INFO: GrandBossManager: Antharas(29068) status is 0. 
+[21:52:05] INFO: GrandBossManager: Beleth(29118) status is 3. 
+[21:52:05] INFO: GrandBossManager: Next spawn date of Beleth is Thu Oct 03 14:08:39 BRT 2019. 
+[21:52:05] INFO: GrandBossManager: Loaded 8 Instances 
+[21:52:05] INFO: ZoneManager: Loaded 29 zone classes and 2828 zones. 
+[21:52:05] INFO: ZoneManager: Loaded 0 NPC spawn territoriers. 
+[21:52:05] INFO: CastleManager: Loaded: 9 castles 
+[21:52:05] INFO: FortManager: Loaded: 21 fortress 
+[21:52:06] INFO: NpcBufferTable: Loaded 1 buffers and 10 skills. 
+[21:52:06] INFO: GrandBossManager: Initialized 10 Grand Boss Zones 
+[21:52:06] INFO: -----------------------------------------=[ Auction Manager ] 
+[21:52:06] INFO: ItemAuctionInstance: Loaded 82 item(s) and registered 2 auction(s) for instance 32320. 
+[21:52:06] INFO: ItemAuctionInstance: Schedule next auction 4 on 17:00:00 27.09.19 for instance 32320 
+[21:52:06] INFO: ItemAuctionInstance: Loaded 82 item(s) and registered 2 auction(s) for instance 32321. 
+[21:52:06] INFO: ItemAuctionInstance: Schedule next auction 5 on 17:00:00 30.09.19 for instance 32321 
+[21:52:06] INFO: ItemAuctionInstance: Loaded 82 item(s) and registered 2 auction(s) for instance 32322. 
+[21:52:06] INFO: ItemAuctionInstance: Schedule current auction 3 for instance 32322 
+[21:52:06] INFO: ItemAuctionManager: Loaded 3 instance(s). 
+[21:52:06] INFO: ------------------------------------------------=[ Olympiad ] 
+[21:52:06] INFO: Olympiad System: Loading Olympiad System.... 
+[21:52:06] INFO: Olympiad System: Currently in Olympiad Period 
+[21:52:06] INFO: Olympiad System: Period ends at 01/10/2019 00:00 
+[21:52:06] INFO: Olympiad System: In 5 days, 2 hours and 7 mins. 
+[21:52:06] INFO: Olympiad System: Next Weekly Change is in.... 
+[21:52:06] INFO: Olympiad System: In 1 days, 0 hours and 57 mins. 
+[21:52:06] INFO: Olympiad System: Loaded 1 Noblesses 
+[21:52:06] INFO: Olympiad System: Competition Period Starts in 0 days, 0 hours and 0 mins. 
+[21:52:06] INFO: Olympiad System: Event starts/started : Wed Sep 25 18:00:06 BRT 2019 
+[21:52:06] INFO: Hero System: Loaded 0 Heroes. 
+[21:52:06] INFO: Hero System: Loaded 0 all time Heroes. 
+[21:52:06] INFO: ---------------------------------------------=[ Seven Signs ] 
+[21:52:06] INFO: SevenSigns: Currently in the Seal Validation period! 
+[21:52:06] INFO: SevenSigns: The Seal of Avarice remains unclaimed. 
+[21:52:06] INFO: SevenSigns: The Seal of Gnosis remains unclaimed. 
+[21:52:06] INFO: SevenSigns: The Seal of Strife remains unclaimed. 
+[21:52:06] INFO: SevenSigns: The competition ended with a tie last week. 
+[21:52:06] INFO: SevenSigns: Next period change set to Mon Sep 30 18:00:06 BRT 2019 
+[21:52:06] INFO: SevenSigns: Next period in 4 days 20 hours and 7 mins. 
+[21:52:06] INFO: ---------------------------------------------------=[ Cache ] 
+[21:52:06] INFO: Cache[HTML]: Running lazy cache 
+[21:52:06] INFO: CrestTable: Loaded 1 Crests. 
+[21:52:06] INFO: TeleportLocationTable: Loaded 957 Teleport Location Templates. 
+[21:52:06] INFO: UIData: Loaded 4 keys 5 categories. 
+[21:52:06] INFO: Olympiad System: Olympiad Game Started 
+[21:52:06] INFO: AugmentationData: Loaded: 33960 augmentations. 
+[21:52:06] INFO: AugmentationData: Loaded: 2754 accessory augmentations. 
+[21:52:06] INFO: CursedWeaponsManager: Loaded : 2 cursed weapon(s). 
+[21:52:06] INFO: Olympiad System: Loaded 160 stadiums. 
+[21:52:06] INFO: TransformData: Loaded: 111 transform templates. 
+[21:52:06] WARN: TransformData: Folder /home/ubuntu/L2iTeam/game/data/xml/stats/transformations/custom doesn't exist! 
+[21:52:06] INFO: TransformData: Loaded 0 custom transform templates. 
+[21:52:06] INFO: BotReportTable: Loaded 0 bot reports 
+[21:52:06] INFO: -------------------------------------------------=[ Scripts ] 
+[21:52:06] INFO: AirShipManager: Loaded 0 private airships 
+[21:52:06] INFO: ----------------------------------------=[ Datapack Scripts ] 
+[21:52:16] INFO: BloodAltarsLoader: Loading related scripts. 
+[21:52:16] INFO: ConquerableHallsLoader: Loading related scripts. 
+[21:52:16] INFO: Devastated Castle: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:16] INFO: Fortress of Resistance: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:16] INFO: Fortresss of the Dead: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:16] INFO: Rainbow Springs: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:16] INFO: CustomsLoader: Loading related scripts. 
+[21:52:16] INFO: 5th Anniversary Event - OFF 
+[21:52:16] INFO: EventsLoader: Loading related scripts. 
+[21:52:16] INFO: FeaturesLoader: Loading related scripts. 
+[21:52:16] INFO: GraciaLoader: Loading related scripts. 
+[21:52:16] INFO: Seed of Destruction Manager: Loaded. Current stage is: 1 
+[21:52:16] INFO: SeedOfDestruction: Loaded 51 spawn zones data. 
+[21:52:16] INFO: SeedOfDestruction: Loaded 548 spawns data. 
+[21:52:16] INFO: GrandBossLoader: Loading related scripts. 
+[21:52:16] INFO: GrandBossManager: Updated Andreas Van Halter(29062) status to 0 
+[21:52:16] INFO: GroupTemplatesLoader: Loading related scripts. 
+[21:52:16] INFO: IndividualLoader: Loading related scripts. 
+[21:52:16] INFO: HellboundLoader: Loading related scripts. 
+[21:52:16] INFO: HellboundPointData: Loaded 47 trust point reward data. 
+[21:52:16] INFO: HellboundSpawns: Loaded 598 Hellbound spawns. 
+[21:52:16] INFO: HellboundEngine: Level: 11 
+[21:52:16] INFO: HellboundEngine: Trust: 4000000 
+[21:52:16] INFO: HellboundEngine: Status: unlocked. 
+[21:52:16] INFO: RaidBossSpawnManager: Loaded 187 Instances 
+[21:52:16] INFO: RaidBossSpawnManager: Scheduled 0 Instances 
+[21:52:16] INFO: InstanceLoader: Loading related scripts. 
+[21:52:16] INFO: MasterHandler: Loading related scripts. 
+[21:52:16] INFO: ActionHandler: Loaded 10 Handlers 
+[21:52:16] INFO: ActionShiftHandler: Loaded 6 Handlers 
+[21:52:16] INFO: AdminCommandHandler: Loaded 466 Handlers 
+[21:52:16] INFO: BypassHandler: Loaded 50 Handlers 
+[21:52:16] INFO: ChatHandler: Loaded 14 Handlers 
+[21:52:16] INFO: ItemHandler: Loaded 34 Handlers 
+[21:52:16] INFO: PunishmentHandler: Loaded 3 Handlers 
+[21:52:16] INFO: SkillHandler: Loaded 27 Handlers 
+[21:52:16] INFO: UserCommandHandler: Loaded 17 Handlers 
+[21:52:16] INFO: VoicedCommandHandler: Loaded 41 Handlers 
+[21:52:16] INFO: TargetHandler: Loaded 35 Handlers 
+[21:52:16] INFO: TelnetHandler: Loaded 20 Handlers 
+[21:52:16] INFO: ModifiersLoader: Loading related scripts. 
+[21:52:16] INFO: NpcLoader: Loading related scripts. 
+[21:52:16] INFO: NpcBuffersData: Loaded: 33 buffers data. 
+[21:52:17] INFO: QuestLoader: Loading related scripts. 
+[21:52:17] INFO: EnhanceYourWeapon: Loaded 54 Soul Crystal data. 
+[21:52:17] INFO: EnhanceYourWeapon: Loaded 243 npc Leveling info data. 
+[21:52:17] INFO: SunriseNpcsLoader: Loading related scripts. 
+[21:52:17] INFO: TeleportersLoader: Loading related scripts. 
+[21:52:17] INFO: VillageMastersLoader: Loading related scripts. 
+[21:52:17] INFO: ZonesLoader: Loading related scripts. 
+[21:52:17] INFO: Handy's Block Checker Event is enabled 
+[21:52:17] INFO: Fantasy Isle: Parade starting at 2019/09/26 01:20 and is scheduled each next 1 hours. 
+[21:52:17] INFO: GlobalLoader: Global scripts loaded in 1056 ms. 
+[21:52:17] INFO: Bandit StrongHold: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:17] INFO: HellboundEngine: Spawned 488 NPCs. 
+[21:52:17] INFO: Beast Farm: Thu Oct 03 12:00:00 BRT 2019 
+[21:52:17] INFO: TerritoryWarSuperClass: Sun Sep 29 22:00:00 BRT 2019 
+[21:52:18] INFO: --------------------------------------------=[ Gracia Seeds ] 
+[21:52:18] INFO: Seed of Infinity Manager: Loaded. Current stage is: 1 
+[21:52:18] INFO: --------------------------------------------------=[ Spawns ] 
+[21:52:20] INFO: SpawnTable: Loaded 3946 npc spawns. 
+[21:52:20] WARN: SpawnTable: Data missing in NPC table for ID: 557. 
+[21:52:20] WARN: SpawnTable: Data missing in NPC table for ID: 540. 
+[21:52:20] INFO: SpawnTable: Loaded 29 custom npc spawns. 
+[21:52:20] INFO: SpawnTable: Loaded 1190 npc spawns from XML. 
+[21:52:20] INFO: DayNightSpawnManager: Removed 0 night creatures 
+[21:52:20] INFO: DayNightSpawnManager: Spawned 232 day creatures 
+[21:52:20] INFO: FourSepulchersManager: loaded 20 Mysterious-Box spawns. 
+[21:52:20] INFO: FourSepulchersManager: loaded 716 Physical monsters. 
+[21:52:20] INFO: FourSepulchersManager: loaded 716 Magical monsters. 
+[21:52:20] INFO: FourSepulchersManager: loaded 92 Church of duke monsters. 
+[21:52:20] INFO: FourSepulchersManager: loaded 68 Emperor's grave NPCs. 
+[21:52:20] INFO: FourSepulchersManager: spawned Conquerors' Sepulcher Manager 
+[21:52:20] INFO: FourSepulchersManager: spawned Emperors' Sepulcher Manager 
+[21:52:20] INFO: FourSepulchersManager: spawned Great Sages' Sepulcher Manager 
+[21:52:20] INFO: FourSepulchersManager: spawned Judges' Sepulcher Manager 
+[21:52:20] INFO: FourSepulchersManager: Beginning in Cooldown time 
+[21:52:20] INFO: DimensionalRiftManager: Loaded 7 room types with 56 rooms. 
+[21:52:20] INFO: DimensionalRiftManager: Loaded 462 dimensional rift spawns. 
+[21:52:20] INFO: ---------------------------------------------------=[ Siege ] 
+[21:52:20] INFO: Siege of Gludio: Sun Sep 29 16:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Dion: Sun Sep 29 16:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Giran: Sun Sep 29 16:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Oren: Sun Sep 29 16:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Aden: Sun Sep 29 16:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Innadril: Sun Sep 29 20:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Goddard: Sun Sep 29 20:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Rune: Sun Sep 29 20:00:00 BRT 2019 
+[21:52:20] INFO: Siege of Schuttgart: Sun Sep 29 20:00:00 BRT 2019 
+[21:52:20] INFO: SiegeScheduleData: Loaded: 2 siege schedulers. 
+[21:52:20] INFO: CastleManorManager: Manor system is deactivated. 
+[21:52:20] INFO: MercTicketManager: Loaded: 0 Mercenary Tickets 
+[21:52:20] INFO: QuestManager: Loaded: 528 quests. 
+[21:52:20] INFO: QuestManager: Loaded: 341 scripts. 
+[21:52:20] INFO: --------------------------------------------------=[ Others ] 
+[21:52:20] INFO: SevenSignsFestival: Initialization bypassed due to Seal Validation in effect. 
+[21:52:20] INFO: Event ID: (Squash Event) has passed... Ignored. 
+[21:52:20] INFO: FaenorScriptEngine: Loaded  SquashEvent.xml successfully. 
+[21:52:20] INFO: Event ID: (Valentines Event) has passed... Ignored. 
+[21:52:20] INFO: FaenorScriptEngine: Loaded  Valentines.xml successfully. 
+[21:52:20] INFO: TaskManager: Loaded: 15 Tasks 
+[21:52:20] INFO: PunishmentManager: Loaded 0 active and 0 expired punishments. 
+[21:52:20] INFO: --------------------------------------------=[ Event Engine ] 
+[21:52:20] INFO: Event Engine: Loaded GlobalConfigs engine. 
+[21:52:20] INFO: Event Engine: Debug messages are stored in 'log/EventEngine/EventEngine_detailed_1.log' 
+[21:52:20] INFO: Event Engine: Thanks for using a legal version. 
+[21:52:20] INFO: Event Engine: Loading engine version 2.2... 
+[21:52:20] INFO: Event Engine: Using HighFive interface (for engine v2.1). 
+[21:52:20] INFO: Event Engine: Loading Admin htmls from the jar file. 
+[21:52:20] INFO: Event Engine: Loaded 58 HTML files from event-engine.jar 
+[21:52:20] INFO: Event Engine: Loaded HTML manager. 
+[21:52:20] INFO: Event Engine: Loading events... 
+[21:52:20] INFO: Event Engine: Next event in 10 minutes. 
+[21:52:20] INFO: Event Engine: Loaded 14 main events. 
+[21:52:20] INFO: Event Engine: Loaded 5 mini event types. 
+[21:52:20] INFO: Event Engine: Loaded editable Event Description system. 
+[21:52:20] INFO: Event Engine: Processing en language -  version 2.21 
+[21:52:20] INFO: Event Engine: Loaded en language with 266 messages. 
+[21:52:20] INFO: Event Engine: Loaded 1 languages. 
+[21:52:20] INFO: Event Engine: Loaded 14 mini event modes. 
+[21:52:20] INFO: Event Engine: Loaded 395 configs for events. 
+[21:52:20] INFO: Event Engine: Event Engine: Loaded 66 EventMaps. 
+[21:52:20] INFO: Event Engine: Reward System Loaded. 
+[21:52:21] INFO: Event Engine: Loaded 14 main event InstanceTypes. 
+[21:52:21] INFO: Event Engine: Global statistics reloaded. 
+[21:52:21] INFO: Event Engine: Global statistics engine loaded. 
+[21:52:21] INFO: Event Engine: Loaded EventWarnings engine. 
+[21:52:21] INFO: Event Engine: Gear score engine - loaded 7737 items. 
+[21:52:21] INFO: Event Engine: Loaded PlayerValue engine. 
+[21:52:21] INFO: Event Engine: Version 2.2 successfully loaded. 
+[21:52:21] INFO: -----------------------------------------=[ Sunrise Systems ] 
+[21:52:21] INFO: Vote System: Enabled. 
+[21:52:21] INFO: Premium System: Enabled. 
+[21:52:21] INFO: Aio Item On Login: Enabled. 
+[21:52:21] INFO: Pc Bang Points: Enabled. 
+[21:52:21] INFO: Security System: Enabled. 
+[21:52:21] INFO: Restart: Next restart: Thu Sep 26 04:00:00 BRT 2019 
+[21:52:21] INFO: Auto Restart: Enabled. 
+[21:52:21] INFO: Alternative Payments: Enabled. 
+[21:52:21] INFO: Announce Heros: Enabled. 
+[21:52:21] INFO: Announce Raid's: Enabled. 
+[21:52:21] INFO: Repair Command: Enabled. 
+[21:52:21] INFO: Experience Command: Enabled. 
+[21:52:21] INFO: Teleport Command System: Enabled. 
+[21:52:21] INFO: Give HellBound Map: Enabled. 
+[21:52:21] INFO: Top Lists Updater: Enabled. 
+[21:52:21] INFO: Auto Soul Shots: Enabled. 
+[21:52:21] INFO: Pvp Spree System: Enabled. 
+[21:52:21] INFO: Clan Leader Color Name: Enabled. 
+[21:52:21] INFO: Announce Castle Lords: Enabled. 
+[21:52:21] INFO: Allow Augment For Hero Items:: Enabled. 
+[21:52:21] INFO: Character Control Panel: Enabled. 
+[21:52:21] INFO: Starting Title: Enabled. 
+[21:52:21] INFO: Achievements Engine: Loaded 12 achievements from xml! 
+[21:52:21] INFO: BuffsHolder: loaded 133 buffs(s) count. 
+[21:52:21] INFO: Loaded 241 teleports for the Custom Npcs-Items. 
+[21:52:21] ERROR: ImagesCache: Path data/sunrise/images/id_by_name doesn't exist! 
+[21:52:21] INFO: ImagesCache: Loaded 0 images (data/sunrise/images/id_by_name). 
+[21:52:21] INFO: GlobalImagesCache: Loaded 7 images (data/sunrise/images). 
+[21:52:21] INFO: LeaderBoards: Enabled. 
+[21:52:21] INFO: ArenaLeaderboard: Initialized 
+[21:52:21] INFO: FishermanLeaderboard: Disabled. 
+[21:52:21] INFO: CraftLeaderboard: Initialized 
+[21:52:21] INFO: TvTLeaderboard: Disabled. 
+[21:52:21] INFO: Antibot Engine: Enabled. 
+[21:52:21] INFO: Antibot Farm Engine: Enabled. 
+[21:52:21] INFO: Antibot Enchant Engine: Disabled. 
+[21:52:21] INFO: RaidConfigsHolder: loaded 1 raid configs(s) count. 
+[21:52:21] INFO: RaidAndDropsHolder: loaded 2 raid and drops(s) count. 
+[21:52:21] INFO: RaidLocationsHolder: loaded 6 raid locations(s) count. 
+[21:52:21] INFO: RaidManager: Disabled. 
+[21:52:21] INFO: CoupleManager: Loaded: 0 couples(s) 
+[21:52:21] INFO: MailManager: Successfully loaded 0 messages. 
+[21:52:21] INFO: IdFactory: Free ObjectID's remaining: 1879000540 
+[21:52:21] INFO: OfflineTradersTable: Loaded: 0 offline trader(s) 
+[21:52:23] INFO: GameServer: Started, free memory 2071 Mb of 2731 Mb 
+[21:52:23] INFO: ArenaManager: Autotask init. 
+[21:52:23] INFO: CraftManager: Autotask init. 
+[21:52:23] INFO: Connecting to login on 127.0.0.1:9014 
+[21:52:23] INFO: Registered on login as Server 1 : Bartz 
+[21:52:23] INFO: GameServer: is now listening on: *:7777 
+[21:52:23] INFO: Maximum Numbers of Connected players: 500 
+[21:52:23] INFO: Server loaded in 37 seconds. 
+[21:52:23] INFO: ===================================================== 
+[21:52:23] INFO: Copyrights: .............: Sunrise-Team 2015-2017 
+[21:52:23] INFO: Project Owners: .........: vNeverMore 
+[21:52:23] INFO: Developers: .............: vGodFather 
+[21:52:23] INFO: Website: ................: www.L2jSunrise.com 
+[21:52:23] INFO: Website Owner-Dev: ......: vNeverMore 
+[21:52:23] INFO: Chronicle: ..............: High Five Part 5 (CT2.6) 
+[21:52:23] INFO: Sunrise Revision: .......: Final Edition 
+[21:52:23] INFO: Core Revision: ..........: 842 rev 
+[21:52:23] INFO: Data Revision: ..........: 760 rev 
+[21:52:23] INFO: +---- 
+[21:52:23] INFO: | Global Memory Informations at 21:52:23: 
+[21:52:23] INFO: |    | 
+[21:52:23] INFO: | Allowed Memory: 2731 MB 
+[21:52:23] INFO: |    |= Allocated Memory: 855 MB (31.3072%) 
+[21:52:23] INFO: |    |= Non-Allocated Memory: 1876 MB (68.6928%) 
+[21:52:23] INFO: | Allocated Memory: 855 MB 
+[21:52:23] INFO: |    |= Used Memory: 686 MB (25.1190%) 
+[21:52:23] INFO: |    |= Unused (cached) Memory: 169 MB (6.1882%) 
+[21:52:23] INFO: | Useable Memory: 2045 MB (74.8810%) 
+[21:52:23] INFO: +---- 
+[21:52:23] INFO: ===================================================== 
+[21:52:23] INFO: ----------------------------------------------------=[ UPnP ] 
+[21:52:23] INFO: Looking for UPnP Gateway Devices... 
+[21:52:32] INFO: No UPnP gateways found 
+[21:52:32] INFO: Telnet StatusServer started successfully, listening on Port: 23 
+[21:52:51] INFO: TopListsUpdater: Data reloaded in 9 ms. 
+[21:53:54] WARN: Master access level set for character Innie 
+[21:54:03] INFO: Event Engine: Loaded 84 buffs for Event Buffer. 
+[22:00:00] INFO: ItemAuctionInstance: Auction 3 has finished. There have not been any bid for instance 32322 
+[22:00:00] INFO: ItemAuctionInstance: Schedule next auction 6 on 17:00:00 02.10.19 for instance 32322 
+[22:00:40] INFO: GlobalVariablesManager: Stored 7 variables. 
+[22:02:20] INFO: Event Engine: Trying to find an event to be started: 
+[22:07:20] INFO: Olympiad System: Data updated. 
+[22:22:20] INFO: SevenSigns: Data updated successfully. 
+[22:22:21] INFO: Event Engine: Global statistics reloaded. 
+[22:22:51] INFO: TopListsUpdater: Data reloaded in 5 ms. 
+[22:32:21] INFO: Event Engine: Registration phase ended. 
+[22:32:21] INFO: Event Engine: Not enought participants. 
+[22:32:21] INFO: Event Engine: Event TvT finished clearPlayers() for instance ID 0 
+[22:32:21] INFO: Event Engine: Next event in 20 minutes. 
+[22:37:20] INFO: Olympiad System: Data updated. 
+[22:48:58] WARN: No handler registered for admin command 'admin_gm_haste' 
+[22:51:21] INFO: UPnP Service: All ports mappings deleted (0ms). 
+[22:51:21] INFO: OfflineTradersTable: Offline traders stored. 
+[22:51:21] INFO: Offline Traders Table: Offline shops stored(6ms). 
+[22:51:22] INFO: All players disconnected and saved(767ms). 
+[22:51:22] INFO: Stopping GameTimeController 
+[22:51:22] INFO: Game Time Controller: Timer stopped(1ms). 
+[22:51:26] INFO: LoginServerThread: Login terminated the connection. 
+[22:51:28] INFO: All ThreadPools are now stopped 
+[22:51:28] INFO: Thread Pool Manager: Manager has been shut down(6002ms). 
+[22:51:28] INFO: Login Server Thread: Thread interruped(1ms). 
+[22:51:28] INFO: SIGTERM received. Shutting down NOW! 
+[22:51:28] INFO: SevenSigns: Seven Signs data saved(0ms). 
+[22:51:28] INFO: SevenSigns: Seven Signs status saved(3ms). 
+[22:51:29] INFO: RaidBossSpawnManager: All raidboss info saved(1841ms). 
+[22:51:29] INFO: GrandBossManager: All Grand Boss info saved(88ms). 
+[22:51:29] INFO: Item Auction Manager: All tasks stopped(1ms). 
+[22:51:29] INFO: Olympiad System: Data saved(9ms). 
+[22:51:29] INFO: Hero System: Data saved(1ms). 
+[22:51:29] INFO: Clan System: Data saved(19ms). 
+[22:51:29] INFO: Cursed Weapons Manager: Data saved(0ms). 
+[22:51:29] INFO: Castle Manor Manager: Data saved(1ms). 
+[22:51:29] INFO: FortressOfTheDead: Sucessfully saved attackers down to database! 
+[22:51:29] INFO: DevastatedCastle: Sucessfully saved attackers down to database! 
+[22:51:29] INFO: BanditStronghold: Sucessfully saved attackers down to database! 
+[22:51:29] INFO: FortressOfResistance: Sucessfully saved attackers down to database! 
+[22:51:29] INFO: WildBeastReserve: Sucessfully saved attackers down to database! 
+[22:51:29] INFO: CHSiegeManager: Siegable hall attacker lists saved! 
+[22:51:30] INFO: Quest Manager: Data saved(9ms). 
+[22:51:30] INFO: Global Variables Manager: Variables saved(0ms). 
+[22:51:30] INFO: Bot Report Table: Successfully saved reports to database! 
+[22:51:35] INFO: Game Server: Selector thread has been shut down(0ms). 
+[22:51:35] INFO: L2Database Factory: Database connection has been shut down(2ms). 

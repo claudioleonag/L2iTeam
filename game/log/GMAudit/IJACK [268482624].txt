@@ -1,0 +1,68 @@
+19/09/2019 23:14:51>IJACK [268482624]>gmshop>no-target>
+19/09/2019 23:14:58>IJACK [268482624]>admin_html gmstore/gear/weapons.htm>no-target>
+19/09/2019 23:14:59>IJACK [268482624]>admin_buy 9980>no-target>
+19/09/2019 23:15:01>IJACK [268482624]>Buy(id: 6615 count: 1 name: Infinity Crusher objId: 268482645)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:15:12>IJACK [268482624]>sethero>IJACK>
+19/09/2019 23:15:15>IJACK [268482624]>admin_admin>IJACK>
+19/09/2019 23:15:38>IJACK [268482624]>admin>IJACK>
+19/09/2019 23:15:39>IJACK [268482624]>admin_move_to>IJACK>
+19/09/2019 23:15:40>IJACK [268482624]>admin_html teleports/TownAreas.htm>IJACK>
+19/09/2019 23:15:41>IJACK [268482624]>admin_html teleports/TownAreas/giran.htm>IJACK>
+19/09/2019 23:15:41>IJACK [268482624]>admin_move_to 82698 148638 -3473>IJACK>
+19/09/2019 23:15:57>IJACK [268482624]>admin>no-target>
+19/09/2019 23:16:14>IJACK [268482624]>Quest(id: 57 objId: 268482625 name: Adena count: 999999999)>Zeus>L2Object referencing this action is: Zeus
+19/09/2019 23:16:18>IJACK [268482624]>Quest(id: 21717 count: 1 name: Cloak of Freya objId: 268482673)>Zeus>L2Object referencing this action is: Zeus
+19/09/2019 23:17:06>IJACK [268482624]>admin>Zeus>
+19/09/2019 23:17:12>IJACK [268482624]>admin_kill_menu>iLeo>
+19/09/2019 23:17:25>IJACK [268482624]>admin_admin>iLeo>
+19/09/2019 23:17:31>IJACK [268482624]>admin_admin7>iLeo>
+19/09/2019 23:17:33>IJACK [268482624]>instant_move>iLeo>
+19/09/2019 23:18:22>IJACK [268482624]>admin>no-target>
+19/09/2019 23:18:23>IJACK [268482624]>gmshop>no-target>
+19/09/2019 23:18:26>IJACK [268482624]>admin_html gmstore/gear/weapons.htm>no-target>
+19/09/2019 23:18:28>IJACK [268482624]>admin_buy 9907>no-target>
+19/09/2019 23:18:30>IJACK [268482624]>Buy(id: 14118 count: 1 name: Vesper Cutter - Haste objId: 268482690)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:18:53>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:54>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:55>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:55>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:56>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:56>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:18:56>IJACK [268482624]>setclass  3>IJACK>
+19/09/2019 23:19:16>IJACK [268482624]>invul>IJACK>
+19/09/2019 23:19:59>IJACK [268482624]>Champion(id: 9142 count: 5 name: Apiga objId: 268482702)>Services Manager>L2Object referencing this action is: IJACK
+19/09/2019 23:20:01>IJACK [268482624]>Hero(id: 9142 objId: 268482702 name: Apiga count: 10)>Services Manager>L2Object referencing this action is: IJACK
+19/09/2019 23:20:49>IJACK [268482624]>teleportto Rao>no-target>
+19/09/2019 23:20:55>IJACK [268482624]>summon 1029020 1>no-target>
+19/09/2019 23:21:32>IJACK [268482624]>Pickup(id: 959 name: Scroll: Enchant Weapon (S-Grade))>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:33>IJACK [268482624]>Pickup(id: 1538 name: Blessed Scroll of Escape)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:34>IJACK [268482624]>Pickup(id: 3936 name: Blessed Scroll of Resurrection)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:35>IJACK [268482624]>Pickup(id: 15747 name: Sealed Vorpal Leather Breastplate)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:37>IJACK [268482624]>Pickup(id: 15551 name: Sacredium)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:37>IJACK [268482624]>Pickup(id: 15562 name: Feather Eye Blade)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:37>IJACK [268482624]>Pickup(id: 15763 name: Sealed Vorpal Ring)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:38>IJACK [268482624]>Pickup(id: 15758 name: Sealed Vorpal Shield)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:38>IJACK [268482624]>Pickup(id: 6657 name: Necklace of Valakas)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:45>IJACK [268482624]>Pickup(id: 16162 name: High-Grade Life Stone - Level 85)>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:21:52>IJACK [268482624]>Pickup(id: 8620 name: Ancient Book: Divine Inspiration (Manuscript))>no-target>L2Object referencing this action is: no-reference
+19/09/2019 23:22:16>IJACK [268482624]>force_peti Shillen You've sent a petition to the GM staff.>IJACK>
+19/09/2019 23:22:32>IJACK [268482624]>admin>IJACK>
+19/09/2019 23:22:37>IJACK [268482624]>admin_admin6>IJACK>
+19/09/2019 23:22:48>IJACK [268482624]>admin_changename iJack>IJACK>
+19/09/2019 23:22:52>IJACK [268482624]>admin>IJACK>
+19/09/2019 23:22:53>IJACK [268482624]>admin_admin6>IJACK>
+19/09/2019 23:22:59>IJACK [268482624]>admin_admin2>IJACK>
+19/09/2019 23:23:15>IJACK [268482624]>admin_pledge setlevel 1>iLeo>
+19/09/2019 23:23:19>IJACK [268482624]>admin_admin7>iLeo>
+19/09/2019 23:23:22>IJACK [268482624]>admin_ride_wyvern>iLeo>
+19/09/2019 23:23:38>IJACK [268482624]>admin>IJACK>
+19/09/2019 23:23:39>IJACK [268482624]>admin_admin7>IJACK>
+19/09/2019 23:23:41>IJACK [268482624]>admin_admin2>IJACK>
+19/09/2019 23:23:44>IJACK [268482624]>admin_admin7>IJACK>
+19/09/2019 23:23:46>IJACK [268482624]>admin_ride_wyvern>IJACK>
+19/09/2019 23:24:15>IJACK [268482624]>summon 1029001 1>Zeus>
+19/09/2019 23:24:57>IJACK [268482624]>admin_setclass>IJACK>
+19/09/2019 23:25:01>IJACK [268482624]>admin_html setclass/dark_elf_fighter.htm>IJACK>
+19/09/2019 23:25:03>IJACK [268482624]>admin_setclass 106>IJACK>
+19/09/2019 23:25:12>IJACK [268482624]>admin_edit_character>IJACK>
+19/09/2019 23:25:17>IJACK [268482624]>admin_changename iJackson>IJACK>

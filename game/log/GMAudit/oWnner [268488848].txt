@@ -1,0 +1,51 @@
+20/09/2019 19:49:35>oWnner [268488848]>admin>Black market>
+20/09/2019 19:49:36>oWnner [268488848]>admin_admin7>Black market>
+20/09/2019 19:49:37>oWnner [268488848]>admin_gmspeed_menu 4>Black market>
+20/09/2019 19:49:52>oWnner [268488848]>admin_gmspeed_menu 4>Black market>
+20/09/2019 19:50:04>oWnner [268488848]>admin>no-target>
+20/09/2019 19:50:05>oWnner [268488848]>admin_admin7>no-target>
+20/09/2019 19:50:07>oWnner [268488848]>admin_invis_menu>no-target>
+20/09/2019 19:50:31>oWnner [268488848]>admin_admin7>no-target>
+20/09/2019 19:50:53>oWnner [268488848]>gmshop>no-target>
+20/09/2019 19:50:55>oWnner [268488848]>admin_html gmstore/gear/weapons.htm>no-target>
+20/09/2019 19:50:58>oWnner [268488848]>admin_buy 9980>no-target>
+20/09/2019 19:51:06>oWnner [268488848]>Buy(id: 6619 count: 1 name: Infinity Bow objId: 268488877)>no-target>L2Object referencing this action is: no-reference
+20/09/2019 19:51:13>oWnner [268488848]>sethero>oWnner>
+20/09/2019 19:51:30>oWnner [268488848]>gmshop>oWnner>
+20/09/2019 19:51:31>oWnner [268488848]>admin_html gmstore/gear/armor.htm>oWnner>
+20/09/2019 19:51:34>oWnner [268488848]>admin_buy 9958>oWnner>
+20/09/2019 19:51:42>oWnner [268488848]>Buy(id: 15576 count: 1 name: Elegia Leather Breastplate objId: 268488880)>oWnner>L2Object referencing this action is: no-reference
+20/09/2019 19:51:42>oWnner [268488848]>Buy(id: 15579 count: 1 name: Elegia Leather Legging objId: 268488881)>oWnner>L2Object referencing this action is: no-reference
+20/09/2019 19:51:42>oWnner [268488848]>Buy(id: 15573 count: 1 name: Elegia Leather Helmet objId: 268488882)>oWnner>L2Object referencing this action is: no-reference
+20/09/2019 19:51:42>oWnner [268488848]>Buy(id: 15582 count: 1 name: Elegia Leather Gloves objId: 268488883)>oWnner>L2Object referencing this action is: no-reference
+20/09/2019 19:51:43>oWnner [268488848]>Buy(id: 15585 count: 1 name: Elegia Leather Boots objId: 268488884)>oWnner>L2Object referencing this action is: no-reference
+20/09/2019 19:52:26>oWnner [268488848]>admin>oWnner>
+20/09/2019 19:52:49>oWnner [268488848]>admin_admin6>iWings>
+20/09/2019 19:52:56>oWnner [268488848]>admin_setpk>iWings>
+20/09/2019 19:53:00>oWnner [268488848]>gmshop>iWings>
+20/09/2019 19:53:05>oWnner [268488848]>admin_html gmstore/consumables.htm>iWings>
+20/09/2019 19:53:07>oWnner [268488848]>admin_buy 9979>iWings>
+20/09/2019 19:53:27>oWnner [268488848]>Buy(id: 22071 count: 5000 name: Arrow of Light objId: 268488906)>iWings>L2Object referencing this action is: no-reference
+20/09/2019 19:53:27>oWnner [268488848]>Buy(id: 1345 count: 5000 name: Shining Arrow objId: 268488907)>iWings>L2Object referencing this action is: no-reference
+20/09/2019 19:53:36>oWnner [268488848]>null(id: 22071 objId: 268488906 name: Arrow of Light count: -1)>iWings>L2Object referencing this action is: no-reference
+20/09/2019 19:53:38>oWnner [268488848]>PvpReward(id: 57 objId: 268488849 name: Adena count: 100)>iWings>L2Object referencing this action is: oWnner
+20/09/2019 19:53:51>oWnner [268488848]>admin>iWings>
+20/09/2019 19:53:54>oWnner [268488848]>admin_spawn_monster>iWings>
+20/09/2019 19:53:55>oWnner [268488848]>admin_admin>iWings>
+20/09/2019 19:54:02>oWnner [268488848]>admin_kill_menu>iWings>
+20/09/2019 19:54:04>oWnner [268488848]>admin_admin>iWings>
+20/09/2019 19:54:08>oWnner [268488848]>admin_real_onlines>iWings>
+20/09/2019 19:54:12>oWnner [268488848]>admin>iWings>
+20/09/2019 19:54:16>oWnner [268488848]>admin_admin2>iWings>
+20/09/2019 19:54:18>oWnner [268488848]>admin_admin7>iWings>
+20/09/2019 19:54:21>oWnner [268488848]>admin_gmliston>iWings>
+20/09/2019 19:54:44>oWnner [268488848]>admin>iWings>
+20/09/2019 19:54:45>oWnner [268488848]>admin_create_item>iWings>
+20/09/2019 19:54:47>oWnner [268488848]>admin_admin>iWings>
+20/09/2019 19:56:16>oWnner [268488848]>admin>iWings>
+20/09/2019 19:56:18>oWnner [268488848]>gmshop>iWings>
+20/09/2019 19:56:25>oWnner [268488848]>admin_html gmstore/events.htm>no-target>
+20/09/2019 19:56:28>oWnner [268488848]>admin_buy 9975>no-target>
+20/09/2019 19:56:33>oWnner [268488848]>gmshop>no-target>
+20/09/2019 19:56:39>oWnner [268488848]>admin_html gmstore/gear/armor.htm>no-target>
+20/09/2019 19:56:43>oWnner [268488848]>admin_buy 10003>no-target>

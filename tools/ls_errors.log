@@ -1,0 +1,8 @@
+ERROR 1054 (42S22) at line 1: Unknown column 'access_level' in 'accounts'
+ERROR 1060 (42S21) at line 2: Duplicate column name 'pcIp'
+ERROR 1060 (42S21) at line 3: Duplicate column name 'hop1'
+ERROR 1060 (42S21) at line 4: Duplicate column name 'hop2'
+ERROR 1060 (42S21) at line 5: Duplicate column name 'hop3'
+ERROR 1060 (42S21) at line 6: Duplicate column name 'hop4'
+ERROR 1060 (42S21) at line 1: Duplicate column name 'email'
+ERROR 1060 (42S21) at line 2: Duplicate column name 'created_time'

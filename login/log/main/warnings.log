@@ -1,0 +1,128 @@
+[24.09.19 23:57:46] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:57:57] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:58:08] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:58:19] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:58:30] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:58:41] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:58:52] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:03] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:14] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:25] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:37] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:48] ERROR:GameServerTable: Error loading registered game servers!
+[24.09.19 23:59:59] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:00:10] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:00:21] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:00:32] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:00:43] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:00:54] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:01:05] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:01:16] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:01:20] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:21] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:22] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:23] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:24] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:25] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:26] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:27] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:28] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:29] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:30] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:31] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:32] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:33] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:01:34] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.09.19 00:02:28] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:03:19] ERROR:GameServerTable: Error while saving gameserver!
+[25.09.19 00:13:35] WARN:Exception while retriving account info for 'ricardoxdc'!
+java.sql.SQLSyntaxErrorException: (conn=61) Table 'l2jls.accounts' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:177)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:228)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:216)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeQuery(MariaDbPreparedStatementClient.java:164)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:227)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:173)
+	at l2r.loginserver.network.clientpackets.RequestAuthLogin.run(RequestAuthLogin.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Table 'l2jls.accounts' doesn't exist
+Query is: SELECT login, password, IF(? > value OR value IS NULL, accessLevel, -1) AS accessLevel, lastServer FROM accounts LEFT JOIN (account_data) ON (account_data.account_name=accounts.login AND account_data.var="ban_temp") WHERE login=?, parameters ['1569381215308','ricardoxdc']
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209)
+	... 10 more
+[25.09.19 00:13:38] WARN:Exception while retriving account info for 'ricardoxdc'!
+java.sql.SQLSyntaxErrorException: (conn=61) Table 'l2jls.accounts' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:177)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:228)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:216)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeQuery(MariaDbPreparedStatementClient.java:164)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:227)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:173)
+	at l2r.loginserver.network.clientpackets.RequestAuthLogin.run(RequestAuthLogin.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Table 'l2jls.accounts' doesn't exist
+Query is: SELECT login, password, IF(? > value OR value IS NULL, accessLevel, -1) AS accessLevel, lastServer FROM accounts LEFT JOIN (account_data) ON (account_data.account_name=accounts.login AND account_data.var="ban_temp") WHERE login=?, parameters ['1569381218484','ricardoxdc']
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209)
+	... 10 more
+[25.09.19 00:13:57] WARN:Exception while retriving account info for 'ricardoxdc'!
+java.sql.SQLSyntaxErrorException: (conn=61) Table 'l2jls.accounts' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:177)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:228)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:216)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeQuery(MariaDbPreparedStatementClient.java:164)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:227)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:173)
+	at l2r.loginserver.network.clientpackets.RequestAuthLogin.run(RequestAuthLogin.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Table 'l2jls.accounts' doesn't exist
+Query is: SELECT login, password, IF(? > value OR value IS NULL, accessLevel, -1) AS accessLevel, lastServer FROM accounts LEFT JOIN (account_data) ON (account_data.account_name=accounts.login AND account_data.var="ban_temp") WHERE login=?, parameters ['1569381237119','ricardoxdc']
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209)
+	... 10 more
+[25.09.19 00:14:40] WARN:Exception while retriving account info for 'ricardoxdc'!
+java.sql.SQLSyntaxErrorException: (conn=61) Table 'l2jls.accounts' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:177)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:228)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:216)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeQuery(MariaDbPreparedStatementClient.java:164)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:227)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:173)
+	at l2r.loginserver.network.clientpackets.RequestAuthLogin.run(RequestAuthLogin.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Table 'l2jls.accounts' doesn't exist
+Query is: SELECT login, password, IF(? > value OR value IS NULL, accessLevel, -1) AS accessLevel, lastServer FROM accounts LEFT JOIN (account_data) ON (account_data.account_name=accounts.login AND account_data.var="ban_temp") WHERE login=?, parameters ['1569381280746','ricardoxdc']
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209)
+	... 10 more
+[25.09.19 00:21:58] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:23:24] ERROR:GameServerTable: Error loading registered game servers!
+[25.09.19 00:25:24] ERROR:GameServerTable: Error while saving gameserver!

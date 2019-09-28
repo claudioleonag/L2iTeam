@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="false"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+
+	<!-- Dynasty Circlet -->
+	<item>
+		
+		<production id="9438" count="1" />
+	</item>
+
+	<!-- Dynasty Gloves -->
+	<item>
+		
+		<production id="9439" count="1" />
+	</item>
+
+	<!-- Dynasty Shoes -->
+	<item>
+		
+		<production id="9440" count="1" />
+	</item>
+
+	<!-- Dynasty Stockings -->
+	<item>
+		
+		<production id="9437" count="1" />
+	</item>
+
+	<!-- Dynasty Tunic -->
+	<item>
+		
+		<production id="9432" count="1" />
+	</item>
+
+	<!-- Dynasty Tunic - Summoner -->
+	<item>
+		
+		<production id="9435" count="1" />
+	</item>
+
+	<!-- Dynasty Tunic - Human Wizard -->
+	<item>
+		
+		<production id="9436" count="1" />
+	</item>
+
+	<!-- Dynasty Tunic - Healer -->
+	<item>
+		
+		<production id="9433" count="1" />
+	</item>
+
+	<!-- Dynasty Tunic - Enchanter -->
+	<item>
+		
+		<production id="9434" count="1" />
+	</item>
+
+	<!-- Dynasty sigil -->
+	<item>
+		
+		<production id="10119" count="1" />
+	</item>
+
+<!-- Cloack -->
+<item>
+		
+		<production id="13890" count="1" />
+	</item>
+
+
+</list>

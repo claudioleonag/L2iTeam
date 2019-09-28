@@ -1,0 +1,48 @@
+[00:23:24] INFO: Loading LoginController... 
+[00:23:24] INFO: Cached 10 KeyPairs for RSA communication 
+[00:23:24] INFO: Stored 20 keys for Blowfish communication 
+[00:23:24] INFO: GameServerTable: Loaded 127 server names 
+[00:23:24] ERROR: GameServerTable: Error loading registered game servers! 
+[00:23:24] INFO: GameServerTable: Loaded 0 registered Game Servers 
+[00:23:24] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication. 
+[00:23:24] INFO: Loaded 2 IP Bans. 
+[00:23:24] INFO: Scheduled LS restart after 48 hours 
+[00:23:24] INFO: Listening for GameServers on 127.0.0.1:9014 
+[00:23:24] INFO: Telnet server is currently disabled. 
+[00:23:24] INFO: L2LoginServer: is now listening on: *:2106 
+[00:23:24] INFO: Looking for UPnP Gateway Devices... 
+[00:23:33] INFO: No UPnP gateways found 
+[00:25:24] INFO: Updated Gameserver [1] Bartz IP's: 
+[00:25:24] INFO: 127.0.0.1/127.0.0.0/8 
+[00:25:24] INFO: 10.0.0.0/10.0.0.0/8 
+[00:25:24] INFO: 172.16.0.0/172.16.0.0/19 
+[00:25:24] INFO: 192.168.0.0/192.168.0.0/16 
+[00:25:24] INFO: 54.233.201.146/0.0.0.0/0 
+[00:25:24] ERROR: GameServerTable: Error while saving gameserver! 
+[04:06:14] INFO: LoginServerThread: Login terminated the connection. 
+[04:06:14] INFO: Server [1] Bartz is now set as disconnected 
+[04:06:52] INFO: Updated Gameserver [1] Bartz IP's: 
+[04:06:52] INFO: 127.0.0.1/127.0.0.0/8 
+[04:06:52] INFO: 10.0.0.0/10.0.0.0/8 
+[04:06:52] INFO: 172.16.0.0/172.16.0.0/19 
+[04:06:52] INFO: 192.168.0.0/192.168.0.0/16 
+[04:06:52] INFO: 54.233.201.146/0.0.0.0/0 
+[04:12:04] INFO: Auto created account 'nvnbruno'. 
+[07:37:21] INFO: Auto created account 'kakusoxd'. 
+[18:47:51] INFO: Auto created account 'innies'. 
+[21:44:56] INFO: LoginServerThread: Login terminated the connection. 
+[21:44:56] INFO: Server [1] Bartz is now set as disconnected 
+[21:45:42] INFO: Updated Gameserver [1] Bartz IP's: 
+[21:45:42] INFO: 127.0.0.1/127.0.0.0/8 
+[21:45:42] INFO: 10.0.0.0/10.0.0.0/8 
+[21:45:42] INFO: 172.16.0.0/172.16.0.0/19 
+[21:45:42] INFO: 192.168.0.0/192.168.0.0/16 
+[21:45:42] INFO: 54.233.201.146/0.0.0.0/0 
+[21:51:35] INFO: LoginServerThread: Login terminated the connection. 
+[21:51:35] INFO: Server [1] Bartz is now set as disconnected 
+[21:52:23] INFO: Updated Gameserver [1] Bartz IP's: 
+[21:52:23] INFO: 127.0.0.1/127.0.0.0/8 
+[21:52:23] INFO: 10.0.0.0/10.0.0.0/8 
+[21:52:23] INFO: 172.16.0.0/172.16.0.0/19 
+[21:52:23] INFO: 192.168.0.0/192.168.0.0/16 
+[21:52:23] INFO: 54.233.201.146/0.0.0.0/0 

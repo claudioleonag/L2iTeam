@@ -1,0 +1,500 @@
+19/09/2019 23:07:43>iLeo [268481875]>admin>no-target>
+19/09/2019 23:07:48>iLeo [268481875]>admin_kill_menu>CopyLeft>
+19/09/2019 23:07:52>iLeo [268481875]>admin>CopyLeft>
+19/09/2019 23:08:09>iLeo [268481875]>admin_check_bots>CopyLeft>
+19/09/2019 23:08:18>iLeo [268481875]>admin_admin>CopyLeft>
+19/09/2019 23:08:20>iLeo [268481875]>admin_premium_menu>CopyLeft>
+19/09/2019 23:08:26>iLeo [268481875]>admin_admin>CopyLeft>
+19/09/2019 23:08:34>iLeo [268481875]>admin_admin7>CopyLeft>
+19/09/2019 23:08:43>iLeo [268481875]>admin_gmspeed_menu 4>CopyLeft>
+19/09/2019 23:09:04>iLeo [268481875]>admin_invul>Innie>
+19/09/2019 23:09:14>iLeo [268481875]>admin_ride_horse>Innie>
+19/09/2019 23:09:24>iLeo [268481875]>admin>Innie>
+19/09/2019 23:09:26>iLeo [268481875]>admin_fullfood>Innie>
+19/09/2019 23:09:27>iLeo [268481875]>admin>CopyLeft>
+19/09/2019 23:09:30>iLeo [268481875]>admin_admin7>CopyLeft>
+19/09/2019 23:09:32>iLeo [268481875]>admin_ride_horse>CopyLeft>
+19/09/2019 23:09:35>iLeo [268481875]>admin>CopyLeft>
+19/09/2019 23:09:40>iLeo [268481875]>admin_admin6>iLeo>
+19/09/2019 23:09:57>iLeo [268481875]>admin_char_manage>iLeo>
+19/09/2019 23:09:59>iLeo [268481875]>admin_teleport_character_to_menu -116793 46565 368>iLeo>
+19/09/2019 23:10:01>iLeo [268481875]>admin_teleport_character_to_menu -116793 46565 368>iLeo>
+19/09/2019 23:10:04>iLeo [268481875]>admin_admin6>iLeo>
+19/09/2019 23:10:12>iLeo [268481875]>admin_admin2>iLeo>
+19/09/2019 23:10:24>iLeo [268481875]>admin_admin>iLeo>
+19/09/2019 23:10:37>iLeo [268481875]>admin_admin6>iLeo>
+19/09/2019 23:10:42>iLeo [268481875]>admin_show_characters 0>iLeo>
+19/09/2019 23:10:43>iLeo [268481875]>admin_admin6>iLeo>
+19/09/2019 23:10:45>iLeo [268481875]>admin_admin>iLeo>
+19/09/2019 23:10:46>iLeo [268481875]>admin_admin2>iLeo>
+19/09/2019 23:11:16>iLeo [268481875]>admin>iLeo>
+19/09/2019 23:11:18>iLeo [268481875]>admin_admin>iLeo>
+19/09/2019 23:11:27>iLeo [268481875]>admin_open>iLeo>
+19/09/2019 23:11:29>iLeo [268481875]>admin>iLeo>
+19/09/2019 23:11:35>iLeo [268481875]>admin_list_positions>iLeo>
+19/09/2019 23:11:37>iLeo [268481875]>admin>iLeo>
+19/09/2019 23:11:40>iLeo [268481875]>admin_create_item>iLeo>
+19/09/2019 23:11:47>iLeo [268481875]>admin_admin>Innie>
+19/09/2019 23:11:48>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:11:52>iLeo [268481875]>admin_admin2>Innie>
+19/09/2019 23:11:55>iLeo [268481875]>admin_admin7>Innie>
+19/09/2019 23:12:15>iLeo [268481875]>admin>Innie>
+19/09/2019 23:12:26>iLeo [268481875]>admin_kill_menu>Innie>
+19/09/2019 23:12:28>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:12:32>iLeo [268481875]>admin_admin>Innie>
+19/09/2019 23:12:34>iLeo [268481875]>admin_res>Innie>
+19/09/2019 23:13:11>iLeo [268481875]>admin>Innie>
+19/09/2019 23:13:12>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:13:13>iLeo [268481875]>admin_show_characters 0>Innie>
+19/09/2019 23:13:15>iLeo [268481875]>admin_character_info IJACK>Innie>
+19/09/2019 23:13:18>iLeo [268481875]>admin_recall_char_menu IJACK>no-target>
+19/09/2019 23:13:26>iLeo [268481875]>admin_admin6>IJACK>
+19/09/2019 23:13:28>iLeo [268481875]>admin_admin7>IJACK>
+19/09/2019 23:13:29>iLeo [268481875]>admin_admin>IJACK>
+19/09/2019 23:13:33>iLeo [268481875]>admin_kill_menu>IJACK>
+19/09/2019 23:13:39>iLeo [268481875]>admin_admin6>IJACK>
+19/09/2019 23:13:52>iLeo [268481875]>admin_nokarma>iLeo>
+19/09/2019 23:14:02>iLeo [268481875]>admin>CopyLeft>
+19/09/2019 23:14:04>iLeo [268481875]>admin_admin6>CopyLeft>
+19/09/2019 23:14:04>iLeo [268481875]>admin_show_characters 0>CopyLeft>
+19/09/2019 23:14:05>iLeo [268481875]>admin_character_info CopyLeft>CopyLeft>
+19/09/2019 23:14:07>iLeo [268481875]>admin_goto_char_menu CopyLeft>CopyLeft>
+19/09/2019 23:14:15>iLeo [268481875]>admin>no-target>
+19/09/2019 23:14:17>iLeo [268481875]>admin_admin6>no-target>
+19/09/2019 23:14:19>iLeo [268481875]>admin_show_characters 0>no-target>
+19/09/2019 23:14:20>iLeo [268481875]>admin_character_info Innie>no-target>
+19/09/2019 23:14:22>iLeo [268481875]>admin_goto_char_menu Innie>no-target>
+19/09/2019 23:18:09>iLeo [268481875]>admin>Premium Manager>
+19/09/2019 23:18:15>iLeo [268481875]>admin_admin6>Premium Manager>
+19/09/2019 23:18:28>iLeo [268481875]>admin_admin6>Premium Manager>
+19/09/2019 23:18:29>iLeo [268481875]>admin_admin2>Premium Manager>
+19/09/2019 23:18:44>iLeo [268481875]>admin_admin>Premium Manager>
+19/09/2019 23:18:45>iLeo [268481875]>admin_admin6>Premium Manager>
+19/09/2019 23:18:46>iLeo [268481875]>admin_admin>Premium Manager>
+19/09/2019 23:18:48>iLeo [268481875]>admin_admin2>Premium Manager>
+19/09/2019 23:18:59>iLeo [268481875]>admin_pledge create>Premium Manager>
+19/09/2019 23:19:02>iLeo [268481875]>admin_pledge create>iLeo>
+19/09/2019 23:19:13>iLeo [268481875]>admin>Innie>
+19/09/2019 23:19:18>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:19:22>iLeo [268481875]>admin_jail>Innie>
+19/09/2019 23:20:35>iLeo [268481875]>delete>Prophet>
+19/09/2019 23:22:21>iLeo [268481875]>spawn queen ant>Zeus>
+19/09/2019 23:22:33>iLeo [268481875]>admin_spawn_once queen ant>Zeus>
+19/09/2019 23:23:37>iLeo [268481875]>admin>iLeo>
+19/09/2019 23:23:39>iLeo [268481875]>admin_admin7>iLeo>
+19/09/2019 23:23:45>iLeo [268481875]>admin_ride_wyvern>iLeo>
+19/09/2019 23:24:21>iLeo [268481875]>admin_show_droplist 29001>Queen Ant>
+19/09/2019 23:24:34>iLeo [268481875]>admin_show_droplist 29001 2>no-target>
+19/09/2019 23:24:40>iLeo [268481875]>admin_show_droplist 29001 1>no-target>
+19/09/2019 23:24:48>iLeo [268481875]>admin_show_droplist 29001 2>no-target>
+19/09/2019 23:25:01>iLeo [268481875]>admin_setclass>iLeo>
+19/09/2019 23:25:03>iLeo [268481875]>admin_html setclass/kamael.htm>iLeo>
+19/09/2019 23:25:07>iLeo [268481875]>admin_setclass 134>iLeo>
+19/09/2019 23:26:37>iLeo [268481875]>spawn zaken>iLeo>
+19/09/2019 23:26:43>iLeo [268481875]>admin_show_droplist 29022>Zaken>
+19/09/2019 23:26:50>iLeo [268481875]>admin_show_droplist 29022 2>no-target>
+19/09/2019 23:26:55>iLeo [268481875]>admin_show_droplist 29022 3>no-target>
+19/09/2019 23:27:40>iLeo [268481875]>delete>Queen Ant>
+19/09/2019 23:27:50>iLeo [268481875]>admin>iLeo>
+19/09/2019 23:27:51>iLeo [268481875]>admin_admin>iLeo>
+19/09/2019 23:27:54>iLeo [268481875]>admin_admin7>iLeo>
+19/09/2019 23:27:56>iLeo [268481875]>admin_gmspeed_menu 1>iLeo>
+19/09/2019 23:28:08>iLeo [268481875]>Quest(id: 57 objId: 268481876 name: Adena count: 999999999)>Zeus>L2Object referencing this action is: Zeus
+19/09/2019 23:39:07>iLeo [268481875]>admin>iJackson>
+19/09/2019 23:39:12>iLeo [268481875]>admin_kill_menu>iJackson>
+19/09/2019 23:40:14>iLeo [268481875]>admin>iJackson>
+19/09/2019 23:40:16>iLeo [268481875]>admin_admin7>Innie>
+19/09/2019 23:40:19>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:40:20>iLeo [268481875]>admin_admin>Innie>
+19/09/2019 23:40:21>iLeo [268481875]>admin_admin6>Innie>
+19/09/2019 23:40:22>iLeo [268481875]>admin_admin>Innie>
+19/09/2019 23:40:24>iLeo [268481875]>admin_kill_menu>Innie>
+19/09/2019 23:40:26>iLeo [268481875]>admin_admin>Innie>
+19/09/2019 23:40:27>iLeo [268481875]>admin_res>Innie>
+19/09/2019 23:41:54>iLeo [268481875]>kill>Chrysocolla>
+19/09/2019 23:41:58>iLeo [268481875]>kill>Pythia>
+19/09/2019 23:41:58>iLeo [268481875]>Loot(id: 57 count: 57342 name: Adena objId: 268483045)>Pythia>L2Object referencing this action is: Pythia
+19/09/2019 23:41:58>iLeo [268481875]>Loot(id: 1895 count: 2 name: Metallic Fiber objId: 268483046)>Pythia>L2Object referencing this action is: Pythia
+19/09/2019 23:42:01>iLeo [268481875]>Pickup(id: 57 objId: 268481876 name: Adena count: 57342)>Pythia>L2Object referencing this action is: no-reference
+19/09/2019 23:42:01>iLeo [268481875]>Pickup(id: 57 count: 0 itemObjId: 268483045)>Pythia>L2Object referencing this action is: no-reference
+20/09/2019 0:29:03>iLeo [268481875]>admin>no-target>
+20/09/2019 0:29:04>iLeo [268481875]>admin_admin6>no-target>
+20/09/2019 0:29:05>iLeo [268481875]>admin_show_characters 0>no-target>
+20/09/2019 0:29:07>iLeo [268481875]>admin_character_info CopyLeft>no-target>
+20/09/2019 0:29:08>iLeo [268481875]>admin_goto_char_menu CopyLeft>no-target>
+20/09/2019 0:47:59>iLeo [268481875]>admin>no-target>
+20/09/2019 0:48:01>iLeo [268481875]>admin_move_to>no-target>
+20/09/2019 0:49:11>iLeo [268481875]>admin>no-target>
+20/09/2019 0:49:12>iLeo [268481875]>admin_admin7>no-target>
+20/09/2019 0:49:13>iLeo [268481875]>admin_gmspeed_menu 4>no-target>
+20/09/2019 0:49:55>iLeo [268481875]>admin>no-target>
+20/09/2019 0:51:17>iLeo [268481875]>admin_show_droplist 13148>no-target>
+20/09/2019 0:52:11>iLeo [268481875]>admin>no-target>
+20/09/2019 0:52:13>iLeo [268481875]>admin_admin2>no-target>
+20/09/2019 0:52:14>iLeo [268481875]>admin_admin7>no-target>
+20/09/2019 0:52:26>iLeo [268481875]>gmshop>no-target>
+20/09/2019 0:52:29>iLeo [268481875]>admin_html gmstore/gear/weapons.htm>no-target>
+20/09/2019 0:52:32>iLeo [268481875]>admin_buy 9981>no-target>
+20/09/2019 0:52:43>iLeo [268481875]>Buy(id: 16024 count: 1 name: Thorne Crossbow {PvP} - Focus objId: 268484694)>no-target>L2Object referencing this action is: no-reference
+20/09/2019 0:52:54>iLeo [268481875]>admin>no-target>
+20/09/2019 0:52:57>iLeo [268481875]>admin_admin6>iLeo>
+20/09/2019 0:53:08>iLeo [268481875]>admin_admin7>iLeo>
+20/09/2019 0:53:10>iLeo [268481875]>admin_enchant>iLeo>
+20/09/2019 0:53:17>iLeo [268481875]>admin_setew 500>iLeo>
+20/09/2019 0:53:38>iLeo [268481875]>admin>Zombie>
+20/09/2019 0:53:39>iLeo [268481875]>admin_admin7>Zombie>
+20/09/2019 0:53:49>iLeo [268481875]>gmshop>Zombie>
+20/09/2019 0:53:52>iLeo [268481875]>admin_html gmstore/consumables.htm>Zombie>
+20/09/2019 0:53:54>iLeo [268481875]>admin_buy 9979>Zombie>
+20/09/2019 0:54:04>iLeo [268481875]>Buy(id: 9637 count: 40000 name: Shining Bolt objId: 268484819)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:09>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:15>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:17>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:18>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:20>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:23>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:27>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:28>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 0:54:31>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 1:00:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:19>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:21>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:28>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:36>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:40>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:42>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:46>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:00:48>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:53>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:00:56>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:07>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:01:10>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:12>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:14>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:18>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:20>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:22>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:24>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:25>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:27>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:29>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:30>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:32>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:34>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:36>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:41>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:45>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:46>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:48>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:50>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:52>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:01:57>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:01>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:04>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:06>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:07>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:09>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:11>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:14>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:18>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:22>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:24>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:26>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:28>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:30>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:32>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:35>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:37>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:39>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:41>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:43>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:44>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:45>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:48>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:49>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:51>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:02:59>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:03:02>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:04>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:05>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:07>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:10>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:12>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:15>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:18>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:19>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:21>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:22>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:24>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:25>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:27>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:28>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:30>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:31>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:34>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:36>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:37>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:38>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:39>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:42>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:49>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:51>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:52>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:56>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:57>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:03:59>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:00>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:03>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:05>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:06>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:08>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:09>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:10>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:11>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:14>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:15>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:17>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:19>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:20>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:22>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:23>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:25>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:27>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:28>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:30>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:32>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:35>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:36>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:38>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:39>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:41>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:42>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:43>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:44>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:45>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:47>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:48>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:49>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:50>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:51>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:53>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:55>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:57>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:04:59>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:01>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:02>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:04>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:05>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:06>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:07>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:08>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:09>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:10>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:11>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:12>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:14>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:15>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:18>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:19>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:20>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:21>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:22>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:23>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:26>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:28>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:30>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:35>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:37>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:42>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:05:44>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:45>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:47>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:49>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:50>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:53>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:55>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:56>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:05:59>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:00>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:03>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:04>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:06>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:07>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:09>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:10>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:11>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:16>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:20>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:06:23>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:24>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:31>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:06:33>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:06:35>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:21>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:24>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:07:35>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:40>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:41>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:47>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:50>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:52>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:07:59>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:01>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:05>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:07>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:09>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:43>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:44>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:46>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:47>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:49>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:50>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:51>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:52>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:56>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:58>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:08:59>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:00>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:02>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:10>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:13>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:17>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:20>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:21>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:24>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:26>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:29>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:36>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:37>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:38>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:40>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:41>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:42>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:43>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:45>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:47>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:52>iLeo [268481875]>spawn rock>Rock>
+20/09/2019 1:09:54>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:09:58>iLeo [268481875]>spawn rock>no-target>
+20/09/2019 1:10:29>iLeo [268481875]>admin>no-target>
+20/09/2019 1:10:30>iLeo [268481875]>admin_admin7>no-target>
+20/09/2019 1:10:31>iLeo [268481875]>admin_gmspeed_menu 4>no-target>
+20/09/2019 1:12:00>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Zombie>L2Object referencing this action is: no-reference
+20/09/2019 1:12:02>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Spore Zombie>L2Object referencing this action is: no-reference
+20/09/2019 1:12:04>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Pirate's Zombie Captain>L2Object referencing this action is: no-reference
+20/09/2019 1:13:05>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Sharp Talon Tiger>L2Object referencing this action is: no-reference
+20/09/2019 1:13:19>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Baby White Tiger>L2Object referencing this action is: no-reference
+20/09/2019 1:13:33>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Gloomy Baby White Tiger Captain>L2Object referencing this action is: no-reference
+20/09/2019 1:13:52>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>White Tiger Captain>L2Object referencing this action is: no-reference
+20/09/2019 1:14:36>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>White Tiger Captain>L2Object referencing this action is: no-reference
+20/09/2019 1:14:48>iLeo [268481875]>admin_show_droplist 13291>White Tiger Captain>
+20/09/2019 1:15:35>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>White Tiger Captain>L2Object referencing this action is: no-reference
+20/09/2019 1:16:33>iLeo [268481875]>summon 1020556 1>no-target>
+20/09/2019 1:16:35>iLeo [268481875]>summon 1020564 1>no-target>
+20/09/2019 1:16:39>iLeo [268481875]>summon 1001513 1>no-target>
+20/09/2019 1:16:42>iLeo [268481875]>summon 1001513 1>no-target>
+20/09/2019 1:16:47>iLeo [268481875]>summon 1020392 1>no-target>
+20/09/2019 1:17:47>iLeo [268481875]>summon 1022051 1>no-target>
+20/09/2019 1:17:51>iLeo [268481875]>summon 1032862 1>no-target>
+20/09/2019 1:17:59>iLeo [268481875]>summon 1032046 1>no-target>
+20/09/2019 1:18:06>iLeo [268481875]>summon 1022057 1>no-target>
+20/09/2019 1:18:08>iLeo [268481875]>summon 1022051 1>no-target>
+20/09/2019 1:18:10>iLeo [268481875]>summon 1020175 1>no-target>
+20/09/2019 1:18:19>iLeo [268481875]>summon 1020175 1>no-target>
+20/09/2019 1:18:27>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Marsh Stakato Queen>L2Object referencing this action is: no-reference
+20/09/2019 1:18:50>iLeo [268481875]>delete>Suspicious-Looking Pile of Stones>
+20/09/2019 1:18:52>iLeo [268481875]>delete>Gruff-looking Man>
+20/09/2019 1:19:18>iLeo [268481875]>summon 1020156 1>no-target>
+20/09/2019 1:19:20>iLeo [268481875]>summon 1020223 1>no-target>
+20/09/2019 1:19:22>iLeo [268481875]>summon 1020155 1>no-target>
+20/09/2019 1:19:24>iLeo [268481875]>summon 1020154 1>no-target>
+20/09/2019 1:19:34>iLeo [268481875]>delete>Mandragora Sapling>
+20/09/2019 1:19:39>iLeo [268481875]>delete>Mandragora Sprout>
+20/09/2019 1:19:40>iLeo [268481875]>delete>Mandragora Sprout>
+20/09/2019 1:19:44>iLeo [268481875]>delete>Mandragora Blossom>
+20/09/2019 1:21:02>iLeo [268481875]>summon 1025103 1>no-target>
+20/09/2019 1:21:05>iLeo [268481875]>summon 1035067 1>no-target>
+20/09/2019 1:21:11>iLeo [268481875]>summon 1022342 1>no-target>
+20/09/2019 1:21:13>iLeo [268481875]>summon 1022111 1>no-target>
+20/09/2019 1:21:15>iLeo [268481875]>summon 1022044 1>no-target>
+20/09/2019 1:21:21>iLeo [268481875]>delete>Ragna Orc Sorcerer>
+20/09/2019 1:21:21>iLeo [268481875]>delete>Spiked Stakato Sorcerer>
+20/09/2019 1:21:22>iLeo [268481875]>delete>Darion's Enforcer>
+20/09/2019 1:21:23>iLeo [268481875]>delete>Court Sorcerer>
+20/09/2019 1:21:33>iLeo [268481875]>delete>Kasha Blade Spider>
+20/09/2019 1:21:33>iLeo [268481875]>delete>Dark Spider>
+20/09/2019 1:21:34>iLeo [268481875]>delete>Kronbe Spider>
+20/09/2019 1:21:34>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:34>iLeo [268481875]>delete>Crimson Spider>
+20/09/2019 1:21:35>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:35>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:35>iLeo [268481875]>delete>Dungeon Spider>
+20/09/2019 1:21:36>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:36>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:36>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:41>iLeo [268481875]>delete>no-target>
+20/09/2019 1:21:42>iLeo [268481875]>delete>Spelunking Spider>
+20/09/2019 1:24:52>iLeo [268481875]>summon 1020341 1>no-target>
+20/09/2019 1:24:56>iLeo [268481875]>summon 1027024 1>no-target>
+20/09/2019 1:25:01>iLeo [268481875]>summon 1020678 1>no-target>
+20/09/2019 1:25:08>iLeo [268481875]>delete>Ashakiel's Rod>
+20/09/2019 1:25:11>iLeo [268481875]>summon 1020678 1>no-target>
+20/09/2019 1:25:12>iLeo [268481875]>delete>Tortured Undead>
+20/09/2019 1:25:33>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Ashkenas>L2Object referencing this action is: no-reference
+20/09/2019 1:25:33>iLeo [268481875]>Loot(id: 57 count: 9050 name: Adena objId: 268486376)>Ashkenas>L2Object referencing this action is: Ashkenas
+20/09/2019 1:25:36>iLeo [268481875]>Pickup(id: 57 objId: 268481876 name: Adena count: 9050)>Ashkenas>L2Object referencing this action is: no-reference
+20/09/2019 1:25:36>iLeo [268481875]>Pickup(id: 57 count: 0 itemObjId: 268486376)>Ashkenas>L2Object referencing this action is: no-reference
+20/09/2019 1:26:55>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:55>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:56>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:56>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:57>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:57>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:58>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:26:58>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:01>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:01>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:02>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:02>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:03>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:03>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:04>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:04>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:05>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:05>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:05>iLeo [268481875]>kill>Giant rat>
+20/09/2019 1:27:06>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:06>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:07>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Giant rat>L2Object referencing this action is: no-reference
+20/09/2019 1:27:35>iLeo [268481875]>null(id: 9637 objId: 268484819 name: Shining Bolt count: -1)>Sephia's Salve>L2Object referencing this action is: no-reference
+20/09/2019 1:27:41>iLeo [268481875]>delete>no-target>
+20/09/2019 1:27:50>iLeo [268481875]>teleportto fanstasy>no-target>
+20/09/2019 1:30:39>iLeo [268481875]>admin>no-target>
+20/09/2019 1:30:41>iLeo [268481875]>admin_admin7>no-target>
+20/09/2019 1:30:48>iLeo [268481875]>admin_gmspeed_menu 4>no-target>
+20/09/2019 1:33:14>iLeo [268481875]>admin>no-target>
+20/09/2019 1:33:15>iLeo [268481875]>admin_admin7>no-target>
+20/09/2019 1:33:17>iLeo [268481875]>admin_ride_wyvern>iLeo>
+20/09/2019 1:34:30>iLeo [268481875]>admin>iLeo>
+20/09/2019 1:35:00>iLeo [268481875]>admin_admin7>iLeo>
+20/09/2019 1:35:02>iLeo [268481875]>admin_ride_wyvern>iLeo>
