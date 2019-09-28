@@ -7669,6 +7669,9 @@
 		<skill skillName="Braveheart" skillId="440" skillLvl="1" getLevel="78" levelUpSp="12800000" learnedByNpc="true" />
 		<skill skillName="Spoil Bomb" skillId="537" skillLvl="1" getLevel="79" levelUpSp="60000000" learnedByNpc="true" />
 		<skill skillName="Symbol of Resistance" skillId="456" skillLvl="1" getLevel="80" levelUpSp="150000000" learnedByNpc="true" />
+		<skill skillName="Focus Chance" skillId="356" skillLvl="1" getLevel="78" levelUpSp="16000000" learnedByNpc="true" />
+		<skill skillName="Focus Power" skillId="357" skillLvl="1" getLevel="78" levelUpSp="16000000" learnedByNpc="true" />
+		<skill skillName="Focus Death" skillId="355" skillLvl="1" getLevel="78" levelUpSp="16000000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Artisan -->
 	<skillTree type="classSkillTree" classId="56" parentClassId="53">
