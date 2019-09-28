@@ -1749,8 +1749,10 @@
 		</for>
 		<for>
 			<mul stat="runSpd" val="0.75">
+				<and>
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
+				</and>
 			</mul>
 			<basemul stat="pAtkSpd" val="0.75">
 					<using kind="HEAVY" />
