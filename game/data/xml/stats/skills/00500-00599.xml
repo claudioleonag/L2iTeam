@@ -1315,7 +1315,7 @@
 		<set name="targetType" val="AREA" />
 		<for>
 			<effect name="Spoil" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="spoil_bomb" />
-			<effect name="ChanceSkillTrigger" abnormalTime="10" noicon="1" val="0" triggeredId="5430" chanceType="ON_EXIT" />
+			<effect name="ChanceSkillTrigger" abnormalTime="10" val="0" triggeredId="5430" chanceType="ON_EXIT" /> <!-- noicon="1"-->
 		</for>
 	</skill>
 	<skill id="538" levels="1" name="Final Form">

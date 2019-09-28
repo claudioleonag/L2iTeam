@@ -66,7 +66,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="weapon_mastery">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="weapon_mastery">
 				<mul stat="physicalMpConsumeRate" val="0.4" />
 				<mul stat="blowRate" val="1.1" />
 			</effect>

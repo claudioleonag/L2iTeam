@@ -351,13 +351,13 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Spoil Bomb effect -->
 		<set name="affectRange" val="300" />
-		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="isMagic" val="false" /> <!-- Magic Skill -->
 		<set name="isTriggeredSkill" val="true" />
-		<set name="magicLvl" val="79" />
+		<set name="magicLvl" val="85" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
-		<set name="power" val="115" />
-		<set name="skillType" val="MDAM" />
+		<set name="power" val="5704" />
+		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="AREA" />
 	</skill>
 	<skill id="5431" levels="1" name="Slow">

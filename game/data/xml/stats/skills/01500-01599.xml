@@ -1740,6 +1740,18 @@
 					<using kind="DAGGER,DUALDAGGER" />
 				</and>
 			</basemul>
+			<basemul stat='runSpd' val='0.75'>
+				<and>
+					<using kind="HEAVY" />
+					<using kind="DAGGER,DUALDAGGER" />
+				</and>
+			</basemul>
+			<basemul stat='pAtkSpd' val='0.75'>
+					<and>
+					<using kind="HEAVY" />
+					<using kind="DAGGER,DUALDAGGER" />
+				</and>
+			</basemul>	
 			<add stat="critDmgAdd" val="#cAtkAdd">
 				<and>
 					<using kind="LIGHT" />

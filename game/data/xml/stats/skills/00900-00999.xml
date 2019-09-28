@@ -1057,7 +1057,7 @@
 			<mul stat="rShld" val="#rShld" />
 			<effect name="TriggerSkillBySkill" noicon="1" val="0">
 				<param castSkillId="997" /> <!-- Crushing Strike -->
-				<param chance="30" />
+				<param chance="80" />
 				<param skillId="6920" skillLevel="1" /> <!-- Collector's Fortune -->
 				<param targetType="SELF" />
 			</effect>
@@ -2011,7 +2011,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<using kind="SWORD,BLUNT,DAGGER,DUALDAGGER,DUALFIST,DUAL,POLE" />
-				<target mindistance="200" />
+				<target mindistance="400" />
 			</and>
 		</cond>
 		<for>
@@ -2048,7 +2048,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<using kind="SWORD,BLUNT,DAGGER,DUALDAGGER,DUALFIST,DUAL,POLE" />
-				<target mindistance="200" />
+				<target mindistance="400" />
 			</and>
 		</cond>
 		<for>

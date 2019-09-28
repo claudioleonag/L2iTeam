@@ -1483,7 +1483,7 @@
 		<set name="magicLvl" val="76" />
 		<set name="mpConsume" val="70" />
 		<set name="nextActionAttack" val="true" />
-		<set name="offensive" val="true" />
+		<set name="offensive" val="false" /> <!-- acompanhar-->
 		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="5" />
