@@ -176,7 +176,7 @@
 		<!-- High Five Skill -->
 		<!-- Triggered Skill for Collector's Experience -->
 		<set name="abnormalTime" val="10" />
-		<set name="blockedInOlympiad" val="true" />
+		<set name="blockedInOlympiad" val="false" />
 		<set name="icon" val="BranchSys2.icon.skill0952" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isTriggeredSkill" val="true" />
