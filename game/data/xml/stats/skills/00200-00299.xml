@@ -1024,7 +1024,7 @@
 			<mul stat="mAtkSpd" val="1.9">
 				<using kind="LIGHT" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.5"> <!-- teste de AS-->
 				<using kind="LIGHT" />
 			</mul>
 			<mul stat="regMp" val="1.2">
