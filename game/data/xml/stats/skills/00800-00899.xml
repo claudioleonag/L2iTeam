@@ -435,7 +435,7 @@
 		<set name="targetType" val="SUMMON" />
 		<!-- FIXME: It shouldn't affect all summons, missing condition for target race "construct" -->
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="4" abnormalType="pa_up">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="4" abnormalType="golem_up">
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
@@ -464,7 +464,7 @@
 		<set name="targetType" val="SUMMON" />
 		<!-- FIXME: It shouldn't affect all summons, missing condition for target race "construct" -->
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="4" abnormalType="pd_up">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="4" abnormalType="golemdef_up">
 				<mul stat="pDef" val="#pDef" />
 				<mul stat="maxHp" val="#maxHp" />
 			</effect>
