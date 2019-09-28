@@ -1748,10 +1748,10 @@
 			</add>
 		</for>
 		<for>
-			<basemul stat="runSpd" val="0.75">
+			<mul stat="runSpd" val="0.75">
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
-			</basemul>
+			</mul>
 			<basemul stat="pAtkSpd" val="0.75">
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
