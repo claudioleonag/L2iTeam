@@ -17041,11 +17041,11 @@
 		<skill skillName="Chant of Vampire" skillId="1310" skillLvl="4" getLevel="74" levelUpSp="1300000" learnedByNpc="true" />
 		<skill skillName="War Chant" skillId="1390" skillLvl="3" getLevel="74" levelUpSp="1300000" learnedByNpc="true" />
 		<skill skillName="Earth Chant" skillId="1391" skillLvl="3" getLevel="74" levelUpSp="1300000" learnedByNpc="true" />
+		<skill skillName="Soul Guard" skillId="1283" skillLvl="13" getLevel="74" levelUpSp="900000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Doomcryer -->
 	<skillTree type="classSkillTree" classId="116" parentClassId="52">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
-		<skill skillName="Soul Guard" skillId="1283" skillLvl="13" getLevel="77" levelUpSp="900000" learnedByNpc="true" />
+		<!-- Confirmed CT2.5 and Updated to H5 -->		
 		<skill skillName="Wisdom" skillId="328" skillLvl="1" getLevel="76" levelUpSp="8300000" learnedByNpc="true" />
 		<skill skillName="Health" skillId="329" skillLvl="1" getLevel="76" levelUpSp="8300000" learnedByNpc="true" />
 		<skill skillName="Sigil Mastery" skillId="935" skillLvl="1" getLevel="76" levelUpSp="8300000" learnedByNpc="true" />
