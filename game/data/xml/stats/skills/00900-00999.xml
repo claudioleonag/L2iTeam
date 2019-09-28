@@ -1057,7 +1057,7 @@
 			<mul stat="rShld" val="#rShld" />
 			<effect name="TriggerSkillBySkill" noicon="1" val="0">
 				<param castSkillId="997" /> <!-- Crushing Strike -->
-				<param chance="80" />
+				<param chance="100" />
 				<param skillId="6920" skillLevel="1" /> <!-- Collector's Fortune -->
 				<param targetType="SELF" />
 			</effect>

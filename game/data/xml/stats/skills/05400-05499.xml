@@ -351,11 +351,10 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Spoil Bomb effect -->
 		<set name="affectRange" val="300" />
-		<set name="isMagic" val="false" /> <!-- Magic Skill -->
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="85" />
 		<set name="offensive" val="true" />
-		<set name="operateType" val="A1" />
+		<set name="operateType" val="DA1" />
 		<set name="power" val="5704" />
 		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="AREA" />
