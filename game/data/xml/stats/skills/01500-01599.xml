@@ -1740,6 +1740,14 @@
 					<using kind="DAGGER,DUALDAGGER" />
 				</and>
 			</basemul>
+			<add stat="critDmgAdd" val="#cAtkAdd">
+				<and>
+					<using kind="LIGHT" />
+					<using kind="DAGGER,DUALDAGGER" />
+				</and>
+			</add>
+		</for>
+		<for>
 			<basemul stat="runSpd" val="0.75">
 				<and>
 					<using kind="HEAVY" />
@@ -1751,14 +1759,8 @@
 					<using kind="HEAVY" />
 					<using kind="DAGGER,DUALDAGGER" />
 				</and>
-			</basemul>	
-			<add stat="critDmgAdd" val="#cAtkAdd">
-				<and>
-					<using kind="LIGHT" />
-					<using kind="DAGGER,DUALDAGGER" />
-				</and>
-			</add>
-		</for>
+			</basemul>
+		</for>	
 	</skill>
 	<skill id="1560" levels="1" name="Lucky Blow">
 		<!-- High Five Skill -->
