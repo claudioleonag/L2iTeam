@@ -1,0 +1,6 @@
+*.log
+*.pkc
+*.l2j
+game/log/
+game/data/pathnode/
+
