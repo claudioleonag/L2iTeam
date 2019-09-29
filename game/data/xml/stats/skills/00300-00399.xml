@@ -583,13 +583,13 @@
 	</skill>
 	<skill id="315" levels="16" name="Crush of Doom" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2" enchantGroup5="2" enchantGroup6="2" enchantGroup7="2">
 		<table name="#hpConsume"> 208 212 212 217 221 225 229 233 237 240 244 248 251 255 258 261 </table>
-		<table name="#magicLvl"> 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
+		<table name="#magicLvl"> 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 85 </table>
 		<table name="#power"> 4558 4750 4944 5142 5342 5545 5751 5958 6166 6376 6586 6797 7006 7218 7427 7635 </table>
 		<table name="#ench1Power"> 7710 7779 7848 7917 7986 8055 8123 8192 8261 8330 8399 8468 8537 8605 8674 8743 8812 8881 8950 9019 9088 9156 9225 9294 9363 9432 9501 9570 9639 9707 </table>
 		<table name="#ench2HpConsume"> 259 256 252 249 245 242 239 235 232 228 225 222 218 215 211 208 205 201 198 195 191 188 184 181 178 174 171 167 164 161 </table>
 		<table name="#enchDuel"> 7768 7901 8035 8168 8302 8435 8569 8702 8836 8969 9103 9236 9370 9503 9637 9770 9903 10037 10170 10304 10437 10571 10704 10838 10971 11105 11238 11372 11505 11639 </table>
 		<table name="#enchElementPower"> 2 4 5 7 9 10 12 14 15 17 18 20 22 23 25 27 28 30 32 33 35 36 38 40 41 43 45 46 48 50 </table>
-		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="40" />
 		<set name="coolTime" val="1080" />

@@ -399,6 +399,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<add stat="pDef" val="1000" />
@@ -430,6 +431,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<sub stat="debuffVuln" val="60" />
@@ -447,6 +449,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<mul stat="regHp" val="100.0" />
@@ -465,6 +468,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" /> <!-- FIXME: This is not retail like -->
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<mul stat="pAtk" val="1.2" />
@@ -483,6 +487,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<mul stat="pAtk" val="1.2">
@@ -505,6 +510,7 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="AREA_FRIENDLY" />
+		<set name="isTriggeredSkill" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="7" val="0" abnormalLvl="1" abnormalType="combination">
 				<add stat="rEvas" val="15" />
