@@ -414,7 +414,6 @@
 		<skill skillName="Protection of Alignment" skillId="757" skillLvl="1" getLevel="82" learnedByFS="true" />
 		<skill skillName="Great Fury" skillId="1543" skillLvl="1" getLevel="83" learnedByFS="true" />
 		<skill skillName="Onslaught of Paagrio" skillId="949" skillLvl="1" getLevel="83" learnedByFS="true" />
-		<skill skillName="Soul Guard" skillId="1283" skillLvl="13" getLevel="74" levelUpSp="900000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Fortune Seeker -->
 	<skillTree type="classSkillTree" classId="117">
