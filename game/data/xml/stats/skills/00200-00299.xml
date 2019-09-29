@@ -967,7 +967,7 @@
 			<sub stat="accCombat" val="8">
 				<using kind="BOW,POLE" />
 			</sub>
-			<add stat="absorbDamMana" val="10" />
+			<add stat="absorbDamMana" val="50" />
 		</for>
 	</skill>
 	<skill id="251" levels="45" name="Robe Mastery" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
