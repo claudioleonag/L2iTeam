@@ -610,7 +610,7 @@
 			<using kind="SWORD,BLUNT,DUAL,DUALFIST,DAGGER,DUALDAGGER,POLE,ANCIENTSWORD,RAPIER" />
 		</cond>
 		<for>
-			<effect count="10" name="DamOverTime" val="#dot" abnormalLvl="#abnormalLvls" abnormalType="dot_attr" abnormalVisualEffect="flame" effectPower="50" />
+			<effect count="10" name="DamOverTime" val="#dot" abnormalLvl="#abnormalLvls" abnormalType="dot_attr" abnormalVisualEffect="flame" effectPower="-1" />
 		</for>
 	</skill>
 	<skill id="928" levels="1" name="Dual Blow">
