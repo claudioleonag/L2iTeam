@@ -1343,7 +1343,7 @@
 		<for>
 			<effect name="TriggerSkillBySkill" noicon="1" val="0">
 				<param castSkillId="927" /> <!-- Burning Chop -->
-				<param chance="100" />
+				<param chance="90" />
 				<param skillId="6060" skillLevel="1" /> <!-- Great Fury -->
 				<param targetType="PARTY" />
 			</effect>
