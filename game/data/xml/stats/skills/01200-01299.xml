@@ -745,7 +745,7 @@
 		<set name="affectRange" val="1000" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="hitTime" val="5000" />
-		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<!--<set name="isMagic" val="1" />  Magic Skill -->
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
