@@ -727,7 +727,7 @@
 			<player canSummon="true" />
 		</cond>
 	</skill>
-	<skill id="1229" levels="18" name="Chant of Life" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1229" levels="18" name="Chant of Life" enchantGroup1="2" ><!-- enchantGroup2="2"-->
 		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 </table>
 		<table name="#aggroPoints"> 204 243 285 331 379 418 457 495 532 549 566 582 597 611 624 635 646 655 </table>
 		<table name="#hot"> 12 15 18 23 27 31 35 39 43 45 46 58 50 52 53 55 56 58 </table>
@@ -740,18 +740,18 @@
 		<table name="#ench2mpInitialConsume"> 47 46 46 45 45 45 44 44 43 43 42 42 41 41 40 40 40 39 39 38 38 37 37 36 36 36 35 35 34 34 </table>
 		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="life_force_orc" />
 		<set name="affectRange" val="1000" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="hitTime" val="5000" />
-		<!--<set name="isMagic" val="1" />  Magic Skill -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="5000" />
-		<set name="isTriggeredSkill" val="true" />
+		<set name="reuseDelay" val="5000" />		
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="PARTY" />
 		<enchant1 name="magicLvl" val="#enchMagicLvl" />
