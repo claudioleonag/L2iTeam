@@ -696,6 +696,20 @@
 				<using kind="LIGHT" />
 			</add>
 		</for>
+		<for>
+			<mul stat="runSpd" val="0.6">
+				<and>
+					<using kind="HEAVY" />
+					<using kind="DUALFIST" />
+				</and>
+			</mul>
+			<mul stat="pAtkSpd" val="0.6">
+				<and>
+					<using kind="HEAVY" />
+					<using kind="DUALFIST" />
+				</and>
+			</mul>
+		</for>
 		<enchant1for>
 			<add stat="runSpd" val="#ench1runSpd">
 				<using kind="LIGHT" />
@@ -1418,7 +1432,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="1500" />
 		<set name="hpConsume" val="50" />
-		<set name="magicLvl" val="78" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="5" />
 		<set name="nextActionAttack" val="true" />
 		<set name="offensive" val="true" />

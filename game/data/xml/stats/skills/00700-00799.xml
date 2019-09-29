@@ -1745,7 +1745,7 @@
 		<set name="icon" val="icon.skill0776" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="81" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="37" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A2" />
@@ -1764,7 +1764,7 @@
 				<param power="4500" />
 				<param criticalChance="20" />
 			</effect>
-			<effect count="20" name="DamOverTime" abnormalTime="1" val="80" abnormalLvl="10" abnormalType="force_of_destruction" effectPower="90" abnormalVisualEffect="poison" />
+			<effect count="20" name="DamOverTime" abnormalTime="1" val="80" abnormalLvl="10" abnormalType="force_of_destruction" effectPower="-1" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="777" levels="1" name="Demolition Impact">
