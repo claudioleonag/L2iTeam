@@ -751,7 +751,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="15000" />		
+		<set name="reuseDelay" val="5000" />		
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="PARTY" />
 		<set name="staticReuse" val="true" /> 
@@ -760,13 +760,18 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<for>
-			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" /><!-- abnormalLvl="#abnormalLvls"-->
 			<effect name="Heal" noicon="1" val="1350" />
+				<and> 
+					<player active_skill_id_lvl="18" />
+				</and>
+		</for>
+		<for>
+			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" /><!-- abnormalLvl="#abnormalLvls"-->
 		</for>
 		<enchant1for>
 			<effect count="15" name="HealOverTime" val="#ench1hot" abnormalLvl="#ench1abnormalLvl" abnormalType="life_force_orc" />
-			<effect name="Heal" noicon="1" val="1350" />
 		</enchant1for>
+
 	</skill>
 	<skill id="1230" levels="28" name="Prominence" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
 		<!-- Confirmed CT2.5 -->
