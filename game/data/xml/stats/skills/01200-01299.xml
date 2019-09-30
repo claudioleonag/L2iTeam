@@ -761,9 +761,9 @@
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<for>
 			<effect name="Heal" noicon="1" val="1350" />
-				<and> 
+				<cond> 
 					<player active_skill_id_lvl="18" />
-				</and>
+				</cond>
 		</for>
 		<for>
 			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" /><!-- abnormalLvl="#abnormalLvls"-->
