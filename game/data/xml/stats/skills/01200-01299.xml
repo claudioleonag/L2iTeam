@@ -761,11 +761,11 @@
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<for>
 			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" />
-			<effect name="Heal" noicon="1" val="#1300" />
+			<effect name="Heal" noicon="1" val="1300" />
 		</for>
 		<enchant1for>
 			<effect count="15" name="HealOverTime" val="#ench1hot" abnormalLvl="#ench1abnormalLvl" abnormalType="life_force_orc" />
-			<effect name="Heal" noicon="1" val="#1300" />
+			<effect name="Heal" noicon="1" val="1300" />
 		</enchant1for>
 	</skill>
 	<skill id="1230" levels="28" name="Prominence" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
