@@ -729,7 +729,6 @@
 	</skill>
 	<skill id="1229" levels="18" name="Chant of Life" enchantGroup1="2" enchantGroup2="2">
 		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 </table>
-		<table name="#healPower"> 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1100 </table>
 		<table name="#aggroPoints"> 204 243 285 331 379 418 457 495 532 549 566 582 597 611 624 635 646 655 </table>
 		<table name="#hot"> 12 15 18 23 27 31 35 39 43 45 46 58 50 52 53 55 56 58 </table>
 		<table name="#magicLvl"> 20 25 30 35 40 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
@@ -761,12 +760,12 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<for>
-			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" /><!-- abnormalLvl="#abnormalLvls"-->
-			<effect name="Heal" noicon="1" val="#healPower" />
+			<effect count="15" name="HealOverTime" val="#hot" abnormalLvl="#abnormalLvls" abnormalType="life_force_orc" />
+			<effect name="Heal" noicon="1" val="#1300" />
 		</for>
 		<enchant1for>
 			<effect count="15" name="HealOverTime" val="#ench1hot" abnormalLvl="#ench1abnormalLvl" abnormalType="life_force_orc" />
-			<effect name="Heal" noicon="1" val="#healPower" />
+			<effect name="Heal" noicon="1" val="#1300" />
 		</enchant1for>
 	</skill>
 	<skill id="1230" levels="28" name="Prominence" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
