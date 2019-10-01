@@ -2343,11 +2343,6 @@
 			<using kind="DUAL" />
 		</cond>
 		<for>
-			<effect name="Hide" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="hide">
-				<mul stat="runSpd" val="0.7" />
-			</effect>
-		</for>
-		<!--<for>
 			<effect name="SilentMove" abnormalTime="120" abnormalVisualEffect="stealth" val="0" abnormalLvl="1" abnormalType="dance_of_shadow">
 				<mul stat="runSpd" val="0.5" />
 			</effect>
@@ -2356,7 +2351,7 @@
 			<effect name="SilentMove" abnormalTime="#ench1Time" abnormalVisualEffect="stealth" val="0" abnormalLvl="1" abnormalType="dance_of_shadow">
 				<mul stat="runSpd" val="0.5" />
 			</effect>
-		</enchant1for>-->
+		</enchant1for>
 	</skill>
 	<skill id="367" levels="1" name="Dance of Medusa" enchantGroup1="5" enchantGroup2="5">
 		<!-- Confirmed CT2.5 and Updated to H5 -->
