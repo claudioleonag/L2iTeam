@@ -766,6 +766,7 @@
 		</for>
 		<enchant1for>
 			<effect count="15" name="HealOverTime" val="#ench1hot" abnormalLvl="#ench1abnormalLvl" abnormalType="life_force_orc" />
+			<effect name="Heal" noicon="1" val="#healPower" />
 		</enchant1for>
 
 	</skill>
