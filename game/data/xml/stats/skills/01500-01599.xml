@@ -263,7 +263,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="44" />
 		<set name="mpInitialConsume" val="11" />
 		<set name="operateType" val="A2" />
