@@ -2351,11 +2351,11 @@
 		</enchant1for>
 	</skill>
 	<skill id="1366" levels="1" name="Seal of Despair" enchantGroup1="5" enchantGroup2="5">
-		<table name="#ench1Power"> 42 45 48 50 53 56 58 61 64 66 69 72 74 77 80 </table>
+		<table name="#ench1Power"> 42 45 48 50 53 56 58 61 64 66 69 72 74 77 85 </table>
 		<table name="#ench2mpConsume"> 82 78 77 74 70 68 65 62 58 57 54 50 48 45 42 </table>
 		<table name="#ench2mpInitialConsume"> 20 20 19 18 18 17 16 15 15 14 13 13 12 11 10 </table>
 		<table name="#ench2Power"> 41 42 44 45 46 48 49 50 52 53 54 56 57 58 60 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="ultimate_debuff" />
@@ -2365,7 +2365,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="78" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="85" />
 		<set name="mpInitialConsume" val="22" />
 		<set name="operateType" val="A2" />
@@ -2396,11 +2396,11 @@
 	</skill>
 	<skill id="1367" levels="1" name="Seal of Disease" enchantGroup1="5" enchantGroup2="5">
 		<!-- FIXME: SHOULD AFFECT ONLY ENEMY CLAN -->
-		<table name="#ench1Power"> 42 45 48 50 53 56 58 61 64 66 69 72 74 77 80 </table>
+		<table name="#ench1Power"> 42 45 48 50 53 56 58 61 64 66 69 72 74 77 85 </table>
 		<table name="#ench2mpConsume"> 80 77 75 72 69 66 63 60 57 55 52 49 46 43 40 </table>
 		<table name="#ench2mpInitialConsume"> 20 19 19 18 17 17 16 15 14 14 13 12 12 11 10 </table>
-		<table name="#ench2Power"> 41 42 44 45 46 48 49 50 52 53 54 56 57 58 60 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#ench2Power"> 71 72 74 75 76 78 79 80 82 83 84 86 87 88 90 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="120" />
 		<set name="abnormalType" val="heal_effect_down" />
@@ -2411,11 +2411,11 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="76" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="84" />
 		<set name="mpInitialConsume" val="21" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
+		<set name="power" val="70" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="15000" />
 		<set name="basicProperty" val="MEN" />

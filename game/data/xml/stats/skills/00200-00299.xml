@@ -1087,7 +1087,7 @@
 			<mul stat="mAtkSpd" val="1.71">
 				<using kind="HEAVY" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.5">
 				<using kind="HEAVY" />
 			</mul>
 		</enchant1for>

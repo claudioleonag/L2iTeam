@@ -2030,7 +2030,7 @@
 	<skill id="1096" levels="16" name="Seal of Chaos" enchantGroup1="1" enchantGroup2="1">
 		<table name="#abnormalLvls"> 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </table>
 		<table name="#Acc"> 9 9 12 12 12 12 12 12 12 12 12 12 12 12 12 12 </table>
-		<table name="#magicLvl"> 30 35 40 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
+		<table name="#magicLvl"> 30 35 40 44 48 52 56 58 60 62 64 66 68 70 72 85 </table>
 		<table name="#mpConsume"> 16 18 42 47 52 56 61 64 66 69 71 74 76 78 80 82 </table>
 		<table name="#mpInitialConsume"> 4 5 11 12 13 14 16 16 17 18 18 19 19 20 20 21 </table>
 		<table name="#ench1power"> 61 62 64 65 66 68 69 70 72 73 74 76 77 78 80 81 82 84 85 86 88 89 90 92 93 94 96 97 98 100 </table>
@@ -2038,7 +2038,7 @@
 		<table name="#ench2mpConsume"> 80 78 77 76 74 73 72 70 69 68 66 65 64 62 61 60 58 57 54 54 53 50 50 49 46 46 44 42 42 40 </table>
 		<table name="#ench2mpInitialConsume"> 20 20 19 19 19 18 18 18 17 17 16 16 16 15 15 15 14 14 14 13 13 13 12 12 12 11 11 11 10 10 </table>
 		<table name="#ench2time"> 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 </table>
-		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="hit_down" />
@@ -2120,7 +2120,7 @@
 	</skill>
 	<skill id="1099" levels="15" name="Seal of Slow" enchantGroup1="1" enchantGroup2="1">
 		<table name="#abnormalLvls"> 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </table>
-		<table name="#magicLvl"> 35 40 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
+		<table name="#magicLvl"> 35 40 44 48 52 56 58 60 62 64 66 68 70 72 85 </table>
 		<table name="#mpConsume"> 36 42 47 52 56 61 64 66 69 71 74 76 78 80 82 </table>
 		<table name="#mpInitialConsume"> 9 11 12 13 14 16 16 17 18 18 19 19 20 20 21 </table>
 		<table name="#runSpd"> 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 </table>
@@ -2128,7 +2128,7 @@
 		<table name="#ench2mpConsume"> 80 78 77 76 74 73 72 70 69 68 66 65 64 62 61 60 58 57 54 54 53 50 50 49 46 46 44 42 42 40 </table>
 		<table name="#ench2mpInitialConsume"> 20 20 19 19 19 18 18 18 17 17 16 16 16 15 15 15 14 14 14 13 13 13 12 12 12 11 11 11 10 10 </table>
 		<table name="#ench2power"> 41 42 42 43 44 44 45 46 46 47 47 48 49 49 50 51 51 52 53 53 54 54 55 56 56 57 58 58 59 60 </table>
-		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="speed_down" />
@@ -2142,7 +2142,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
+		<set name="power" val="60" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="5000" />
 		<set name="basicProperty" val="MEN" />
