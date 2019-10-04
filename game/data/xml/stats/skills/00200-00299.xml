@@ -335,7 +335,6 @@
 				<using kind="BOW" />
 			</sub>
 		</for>
-		</for>
 		<enchant1for>
 			<add stat="pAtk" val="#ench1pAtk">
 				<using kind="SWORD,BLUNT" />
