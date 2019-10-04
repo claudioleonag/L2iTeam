@@ -328,10 +328,13 @@
 			<add stat="aggression" val="#hate">
 				<using kind="SWORD,BLUNT" />
 			</add>			
-			<add stat="pAtkSpd" val="0.5">
+			<mul stat="pAtkSpd" val="0.5">
 				<using kind="BOW" />
-			</add>
-			<sub stat="pAtkRange" val="300">
+			</mul>
+			<mul stat="mAtkSpd" val="0.5">
+				<using kind="BOW" />
+			</mul>
+			<sub stat="pAtkRange" val="450">
 				<using kind="BOW" />
 			</sub>
 		</for>

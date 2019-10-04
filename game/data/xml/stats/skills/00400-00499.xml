@@ -463,7 +463,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="AURA" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="all_speed_down" effectPower="-1" >
+			<effect name="Debuff" abnormalTime="15" val="0" abnormalLvl="#abnormalLvls" abnormalType="all_speed_down" effectPower="-1" >
 				<mul stat="runSpd" val="#debuff" />
 				<mul stat="pAtkSpd" val="#debuff" />
 				<mul stat="mAtkSpd" val="#debuff" />

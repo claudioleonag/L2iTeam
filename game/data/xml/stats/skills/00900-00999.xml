@@ -312,7 +312,7 @@
 		<set name="affectRange" val="1000" />
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
-		<set name="isTriggeredSkill" val="true" />
+		<set name="isMagic" val="4" />
 		<set name="magicLvl" val="83" />
 		<set name="maxNegated" val="3" />
 		<set name="mpConsume" val="60" />
