@@ -315,7 +315,7 @@
 		<set name="isMagic" val="4" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="83" />
-		<set name="maxNegated" val="3" />
+		<set name="maxNegated" val="9" />
 		<set name="mpConsume" val="60" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="240000" />
@@ -325,7 +325,7 @@
 			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="song_of_purification">					
 				<set stat="debuffImmunity" val="1" />	
 			</effect>			
-			<effect name="CancelDebuff" noicon="1" val="0" effectPower="-1" />
+			<effect name="CancelDebuff" noicon="1" val="0" effectPower="100" />
 			<effect name="HealPercent" noicon="1" val="30" />			
 		</for>
 	</skill>
