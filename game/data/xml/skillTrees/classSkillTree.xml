@@ -3455,6 +3455,9 @@
 		<skill skillName="Song of Vengeance" skillId="305" skillLvl="1" getLevel="74" levelUpSp="2900000" learnedByNpc="true" />
 		<skill skillName="Arrest" skillId="402" skillLvl="10" getLevel="74" levelUpSp="2900000" learnedByNpc="true" />
 		<skill skillName="Psycho Symphony" skillId="407" skillLvl="10" getLevel="74" levelUpSp="2900000" learnedByNpc="true" />
+		<skill skillName="Deflect Arrow" skillId="112" skillLvl="3" getLevel="43" levelUpSp="38000" learnedByNpc="true" />
+		<skill skillName="Deflect Arrow" skillId="112" skillLvl="4" getLevel="49" levelUpSp="54000" learnedByNpc="true" />
+		<skill skillName="Ultimate Defense" skillId="110" skillLvl="2" getLevel="46" levelUpSp="38000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Sword Muse -->
 	<skillTree type="classSkillTree" classId="100" parentClassId="21">

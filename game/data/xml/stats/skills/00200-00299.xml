@@ -327,7 +327,14 @@
 			<!-- TODO: It probably will require a proper effect -->
 			<add stat="aggression" val="#hate">
 				<using kind="SWORD,BLUNT" />
+			</add>			
+			<add stat="pAtkSpd" val="0.5">
+				<using kind="BOW" />
 			</add>
+			<sub stat="pAtkRange" val="300">
+				<using kind="BOW" />
+			</add>
+		</for>
 		</for>
 		<enchant1for>
 			<add stat="pAtk" val="#ench1pAtk">
