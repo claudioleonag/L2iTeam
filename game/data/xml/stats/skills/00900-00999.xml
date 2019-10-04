@@ -328,6 +328,7 @@
 			</effect>
 			<effect name="CancelDebuff" noicon="1" val="0" effectPower="-1" />
 			<effect name="HealPercent" noicon="1" val="20" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="915" levels="1" name="Dance of Berserker">

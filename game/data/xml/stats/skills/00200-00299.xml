@@ -333,7 +333,7 @@
 			</add>
 			<sub stat="pAtkRange" val="300">
 				<using kind="BOW" />
-			</add>
+			</sub>
 		</for>
 		</for>
 		<enchant1for>
