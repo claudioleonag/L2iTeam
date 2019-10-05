@@ -1727,7 +1727,7 @@
 		<for>
 			<effect name="TriggerSkillByDamage" noicon="1" val="0">
 				<param attackerType="L2Character" minAttackerLevel="1" maxAttackerLevel="99" />
-				<param minDamage="1" />
+				<param minDamage="150" />
 				<param chance="10" />
 				<param skillId="6687" skillLevel="1" /> <!-- Patience -->
 				<param targetType="SELF" />
@@ -1756,7 +1756,7 @@
 			<using kind="SHIELD" />
 		</cond>
 		<for>
-			<effect name="GetAgro" noicon="1" val="0" />
+			<effect name="TargetMe" val="0" abnormalLvl="1" abnormalType="target_lock" />
 		</for>
 	</skill>
 	<skill id="985" levels="1" name="Challenge for Fate">

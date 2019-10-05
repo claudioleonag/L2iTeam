@@ -375,12 +375,12 @@
 		<enchant1 name="magicLvl" val="#enchMagicLvl" />
 		<for>
 			<effect name="SummonCubic" noicon="1" val="0">
-				<param cubicId="1" cubicDelay="10" cubicDuration="900" cubicMaxCount="30" cubicSkillChance="12" cubicPower="#cubicPower" />
+				<param cubicId="1" cubicDelay="10" cubicDuration="9999" cubicMaxCount="30" cubicSkillChance="12" cubicPower="#cubicPower" />
 			</effect>
 		</for>
 		<enchant1for>
 			<effect name="SummonCubic" noicon="1" val="0">
-				<param cubicId="1" cubicDelay="10" cubicDuration="900" cubicMaxCount="30" cubicSkillChance="12" cubicPower="#ench1Power" />
+				<param cubicId="1" cubicDelay="10" cubicDuration="9999" cubicMaxCount="30" cubicSkillChance="12" cubicPower="#ench1Power" />
 			</effect>
 		</enchant1for>
 	</skill>
@@ -601,12 +601,12 @@
 			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="lock" />
 		</for>
 		<enchant2for>
-			<effect name="TargetMe" abnormalTime="6" val="0" abnormalLvl="1" abnormalType="lock">
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="lock">
 				<mul stat="pDef" val="#enchpDefAtk" />
 			</effect>
 		</enchant2for>
 		<enchant3for>
-			<effect name="TargetMe" abnormalTime="6" val="0" abnormalLvl="1" abnormalType="lock">
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="lock">
 				<mul stat="pAtk" val="#enchpDefAtk" />
 			</effect>
 		</enchant3for>
@@ -1520,7 +1520,7 @@
 		<enchant1 name="magicLvl" val="#enchMagicLvl" />
 		<for>
 			<effect name="SummonCubic" noicon="1" val="0">
-				<param cubicId="3" cubicDelay="13" cubicDuration="900" cubicMaxCount="20" cubicSkillChance="0" />
+				<param cubicId="3" cubicDelay="13" cubicDuration="9999" cubicMaxCount="20" cubicSkillChance="0" />
 				<param cubicSkill1Chance="33" cubicSkill2Chance="33" cubicSkill3Chance="33" />
 			</effect>
 		</for>

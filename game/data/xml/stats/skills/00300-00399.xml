@@ -1608,7 +1608,7 @@
 	<skill id="352" levels="1" name="Shield Bash" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6" enchantGroup4="6" enchantGroup5="6">
 		<table name="#ench-Res"> 7 10 13 15 18 21 23 26 29 31 34 37 39 42 45 </table>
 		<table name="#ench1Power"> 81 82 82 83 84 84 85 86 86 87 87 88 89 89 90 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="2" />
 		<set name="abnormalType" val="stun" />
@@ -1617,7 +1617,7 @@
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="77" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="18" />
 		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="A2" />

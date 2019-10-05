@@ -98,7 +98,6 @@
 		<!-- High Five Skill -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="15" />
-		<set name="blockedInOlympiad" val="true" />
 		<set name="icon" val="icon.skill0985" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isTriggeredSkill" val="true" />

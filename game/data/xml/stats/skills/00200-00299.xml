@@ -334,7 +334,7 @@
 			<mul stat="mAtkSpd" val="0.5">
 				<using kind="BOW" />
 			</mul>
-			<sub stat="pAtkRange" val="450">
+			<sub stat="pAtkRange" val="350">
 				<using kind="BOW" />
 			</sub>
 		</for>
