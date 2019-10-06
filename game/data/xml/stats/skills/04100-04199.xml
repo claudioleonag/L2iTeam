@@ -1290,7 +1290,7 @@
 		<!-- Confirmed CT2.5 -->
 		<table name="#abnormalLvls"> 5 5 5 6 6 7 7 8 8 8 8 8 8 8 8 8 8 </table>
 		<table name="#dot"> 102 102 102 125 125 144 144 157 157 157 157 164 164 164 164 164 164 </table>
-		<table name="#magicLvl"> 40 44 48 52 56 62 66 70 74 76 78 80 81 82 83 84 85 </table>
+		<table name="#magicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="dot_attr" />
@@ -1301,7 +1301,7 @@
 		<set name="lvlBonusRate" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="power" val="90" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="basicProperty" val="MEN" />
 		<set name="skillType" val="DOT" />
