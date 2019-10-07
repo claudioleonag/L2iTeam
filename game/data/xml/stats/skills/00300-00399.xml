@@ -1224,6 +1224,7 @@
 		<set name="effectRange" val="400" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="elementPower" val="20" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="hitTime" val="1800" />
 		<set name="hpConsume" val="1215" />
 		<set name="magicLvl" val="78" />

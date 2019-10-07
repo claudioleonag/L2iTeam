@@ -453,7 +453,10 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<add stat="rEvas" val="#evas">
-				<player running="true"/>
+				<and>
+					<player running="true"/>
+					<player moving="true"/>
+				</and>	
 			</add>
 		</for>
 	</skill>

@@ -577,6 +577,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="mpConsume" val="80" />
 		<set name="mpInitialConsume" val="20" />
@@ -614,6 +615,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" />
+		<set name="isTriggeredSkill" val="true" />		
 		<set name="magicLvl" val="1" />
 		<set name="mpConsume" val="80" />
 		<set name="mpInitialConsume" val="20" />
