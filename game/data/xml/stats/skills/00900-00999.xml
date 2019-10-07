@@ -300,7 +300,8 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="dd_resist">
-				<mul stat="pvpMagicalDef" val="1.2" />
+				<mul stat="magicSuccRes" val="30" />
+				<!-- <mul stat="pvpMagicalDef" val="1.1" />-->
 			</effect>
 		</for>
 	</skill>
