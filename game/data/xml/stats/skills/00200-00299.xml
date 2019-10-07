@@ -454,7 +454,6 @@
 		<for>
 			<add stat="rEvas" val="#evas">
 				<and>
-					<player running="true"/>
 					<player moving="true"/>
 				</and>	
 			</add>
