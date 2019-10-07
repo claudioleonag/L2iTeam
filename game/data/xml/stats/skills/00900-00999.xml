@@ -370,6 +370,7 @@
 		<set name="abnormalTime" val="8" />
 		<set name="abnormalType" val="reflect_magic_dd" />
 		<set name="aggroPoints" val="204" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="hitTime" val="500" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />

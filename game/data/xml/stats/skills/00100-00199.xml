@@ -1065,7 +1065,7 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<add stat="mDef" val="#mDef" />
-			<mul stat="magicSuccRes" val="#magicSuccRes" />
+			<mul stat="magicSuccRes" val="2" />
 		</for>
 		<enchant1for>
 			<add stat="mDef" val="#ench1mDef" />

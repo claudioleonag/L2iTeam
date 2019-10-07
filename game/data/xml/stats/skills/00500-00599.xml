@@ -1079,6 +1079,7 @@
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="transfer_damage" />
 		<set name="affectRange" val="1000" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="hitTime" val="1000" />
 		<set name="mpConsume" val="43" />
 		<set name="operateType" val="A2" />
