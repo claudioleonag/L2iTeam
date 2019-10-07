@@ -119,7 +119,7 @@
 		<set name="abnormalType" val="speed_down" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="1100" />
-		<set name="hitTime" val="2800" />
+		<set name="hitTime" val="3000" />
 		<set name="isDebuff" val="true" />
 		<set name="staticHitTime" val="true"/>
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -1069,7 +1069,7 @@
 		</for>
 		<enchant1for>
 			<add stat="mDef" val="#ench1mDef" />
-			<mul stat="magicSuccRes" val="1.2" />
+			<mul stat="magicSuccRes" val="2" />
 		</enchant1for>
 	</skill>
 	<skill id="148" levels="8" name="Vital Force">

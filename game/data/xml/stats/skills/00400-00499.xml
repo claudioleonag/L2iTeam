@@ -19,6 +19,8 @@
 		<set name="castRange" val="40" />
 		<set name="coolTime" val="700" />
 		<set name="effectRange" val="400" />
+		<set name="element" val="4" /> <!-- Holy -->
+		<set name="elementPower" val="20" />
 		<set name="hitTime" val="1300" />
 		<set name="lvlBonusRate" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
