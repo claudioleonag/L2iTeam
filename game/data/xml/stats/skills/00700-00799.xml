@@ -1629,13 +1629,13 @@
 		<set name="coolTime" val="1000" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="160" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="7043" />
-		<set name="reuseDelay" val="75000" />
+		<set name="reuseDelay" val="30000" />
 		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="AREA" />
 		<cond msgId="113" addName="1">

@@ -1319,13 +1319,13 @@
 		<table name="#ench2mpConsume"> 148 143 138 133 128 123 118 113 108 103 98 93 88 83 79 </table>
 		<table name="#ench7Duel"> 7905 8113 8321 8528 8736 8944 9151 9359 9567 9774 9982 10190 10397 10605 10813 </table>
 		<table name="#enchelementPower"> 3 6 10 13 16 20 23 26 30 33 36 40 43 46 50 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
-		<set name="halfKillRate" val="10" />
+		<set name="halfKillRate" val="30" />
 		<set name="hitTime" val="4000" />
-		<set name="magicLvl" val="76" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="153" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
@@ -1732,8 +1732,8 @@
 	</skill>
 	<skill id="354" levels="1" name="Hamstring Shot" enchantGroup1="6" enchantGroup2="6">
 		<table name="#ench1Power"> 2168 2179 2190 2201 2212 2223 2234 2245 2256 2267 2278 2289 2300 2311 2322 </table>
-		<table name="#ench2effectPower"> 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#ench2effectPower"> 41 43 45 47 48 50 51 53 54 55 56 57 58 59 60 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="3" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="speed_down" />
@@ -1742,7 +1742,7 @@
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4000" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="77" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="78" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A2" />
@@ -2447,9 +2447,10 @@
 		<table name="#enchDuel"> 2077 2134 2191 2248 2305 2362 2419 2476 2533 2590 2647 2704 2761 2818 2875 </table>
 		<table name="#enchelementPower"> 3 6 10 13 16 20 23 26 30 33 36 40 43 46 50 </table>
 		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="speed_up_special" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4000" />

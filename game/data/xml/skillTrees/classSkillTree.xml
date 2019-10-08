@@ -2649,6 +2649,7 @@
 		<skill skillName="Pain of Sagittarius" skillId="417" skillLvl="5" getLevel="74" levelUpSp="1900000" learnedByNpc="true" />
 		<skill skillName="Quiver of Holding" skillId="418" skillLvl="3" getLevel="74" levelUpSp="1900000" learnedByNpc="true" />
 		<skill skillName="Detection" skillId="933" skillLvl="1" getLevel="74" levelUpSp="1900000" learnedByNpc="true" />
+		<skill skillName="Ultimate Evasion" skillId="111" skillLvl="2" getLevel="55" levelUpSp="147000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Sagittarius -->
 	<skillTree type="classSkillTree" classId="92" parentClassId="9">
@@ -4311,6 +4312,7 @@
 		<skill skillName="Spirit of Sagittarius" skillId="415" skillLvl="3" getLevel="74" levelUpSp="1860000" learnedByNpc="true" />
 		<skill skillName="Blessing of Sagittarius" skillId="416" skillLvl="3" getLevel="74" levelUpSp="1860000" learnedByNpc="true" />
 		<skill skillName="Detection" skillId="933" skillLvl="1" getLevel="74" levelUpSp="1860000" learnedByNpc="true" />
+		<skill skillName="Ultimate Evasion" skillId="111" skillLvl="2" getLevel="55" levelUpSp="147000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Moonlight Sentinel -->
 	<skillTree type="classSkillTree" classId="102" parentClassId="24">
@@ -6186,6 +6188,7 @@
 		<skill skillName="Spirit of Sagittarius" skillId="415" skillLvl="3" getLevel="74" levelUpSp="1440000" learnedByNpc="true" />
 		<skill skillName="Pain of Sagittarius" skillId="417" skillLvl="5" getLevel="74" levelUpSp="1440000" learnedByNpc="true" />
 		<skill skillName="Detection" skillId="933" skillLvl="1" getLevel="74" levelUpSp="1440000" learnedByNpc="true" />
+		<skill skillName="Ultimate Evasion" skillId="111" skillLvl="2" getLevel="55" levelUpSp="147000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Ghost Sentinel -->
 	<skillTree type="classSkillTree" classId="109" parentClassId="37">

@@ -702,7 +702,7 @@
 		<table name="#ench2AbnormalTimes"> 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 </table>
 		<table name="#ench2Time"> 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalTime" val="120" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="snipe" />
 		<set name="hitTime" val="2000" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -716,7 +716,7 @@
 			<using kind="BOW" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="snipe">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvls" abnormalType="snipe">
 				<add stat="pAtk" val="#pAtk">
 					<using kind="BOW" />
 				</add>
