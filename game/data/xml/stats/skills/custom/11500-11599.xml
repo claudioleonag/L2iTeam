@@ -151,7 +151,6 @@
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_speed_avoid_up">
 				<add stat="accCombat" val="5" />
 				<add stat="rEvas" val="5" />
-				<add stat="mEvas" val="5" />
 				<add stat="runSpd" val="34" />
 				<mul stat="defCritDamage" val="1.30" />
 			</effect>
