@@ -102,7 +102,7 @@
 	<skill id="11520" levels="1" name="Guitar Melody">
 		<!-- For 30 minutes, party members' P. Critical Rate + 32%, P. Critical Damage + 35%, M. Critical Rate + 20 , and MP Consumption - 20% for physical skills and - 10% for magic skills. Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="br_event_buf4" />
+		<set name="abnormalType" val="br_event_buf11" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="icon" val="icon.skill11520" />
