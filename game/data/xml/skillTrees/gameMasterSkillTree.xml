@@ -48,12 +48,12 @@
 		<skill skillName="Master's Blessing - Arcane Protection" skillId="23248" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Call" skillId="23249" skillLvl="1" getLevel="1" />
 
-		<skill skillName="Horn Melody" skillId="11517" skillLvl="4" getLevel="1" />
-		<skill skillName="Drum Melody" skillId="11518" skillLvl="4" getLevel="1" />
-		<skill skillName="Pipe Organ Melody" skillId="11519" skillLvl="4" getLevel="1" />
-		<skill skillName="Guitar Melody" skillId="11520" skillLvl="4" getLevel="1" />
-		<skill skillName="Harp Melody" skillId="11521" skillLvl="4" getLevel="1" />
-		<skill skillName="Lute Melody" skillId="11522" skillLvl="4" getLevel="1" />
+		<skill skillName="Horn Melody" skillId="11517" skillLvl="1" getLevel="1" />
+		<skill skillName="Drum Melody" skillId="11518" skillLvl="1" getLevel="1" />
+		<skill skillName="Pipe Organ Melody" skillId="11519" skillLvl="1" getLevel="1" />
+		<skill skillName="Guitar Melody" skillId="11520" skillLvl="1" getLevel="1" />
+		<skill skillName="Harp Melody" skillId="11521" skillLvl="1" getLevel="1" />
+		<skill skillName="Lute Melody" skillId="11522" skillLvl="1" getLevel="1" />
 		<skill skillName="Knight's Harmony" skillId="11523" skillLvl="1" getLevel="1" />
 		<skill skillName="Warrior's Harmony" skillId="11524" skillLvl="1" getLevel="1" />
 		<skill skillName="Wizard's Harmony" skillId="11525" skillLvl="1" getLevel="1" />
