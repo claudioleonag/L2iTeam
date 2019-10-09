@@ -47,7 +47,6 @@
 		<skill skillName="Master's Blessing - Counter Critical" skillId="23294" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Elemental Protection" skillId="23295" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Arcane Protection" skillId="23296" skillLvl="1" getLevel="1" />
-
 		<skill skillName="Horn Melody" skillId="11517" skillLvl="1" getLevel="1" />
 		<skill skillName="Drum Melody" skillId="11518" skillLvl="1" getLevel="1" />
 		<skill skillName="Pipe Organ Melody" skillId="11519" skillLvl="1" getLevel="1" />
