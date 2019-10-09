@@ -23,7 +23,7 @@
 				<mul stat="mDef" val="1.30" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="PA_UP,9;PD_UP,9;MA_UP,9;MD_UP,9;improve_ma_md_up,1;"/>
+				<param dispel="PA_UP,9;PD_UP,9;MA_UP,9;MD_UP,9;improve_ma_md_up,9;"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="1800" noicon="1" val="0">
 				<param slot="PA_UP;PD_UP;MA_UP;MD_UP;improve_ma_md_up;" />
@@ -62,7 +62,7 @@
 				<mul stat="defCritDamage" val="1.30" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="HP_REGEN_UP,3;MAGIC_CRITICAL_UP,6;PA_UP,9;PD_UP,9;ATTACK_TIME_DOWN,2;MA_UP,9;MD_UP,9;CASTING_TIME_DOWN,1;SPEED_UP,9;IMPROVE_PA_PD_UP,1;COUNTER_CRITICAL,1"/>
+				<param dispel="HP_REGEN_UP,9;MAGIC_CRITICAL_UP,9;PA_UP,9;PD_UP,9;ATTACK_TIME_DOWN,9;MA_UP,9;MD_UP,9;CASTING_TIME_DOWN,9;SPEED_UP,9;IMPROVE_PA_PD_UP,9;COUNTER_CRITICAL,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="1800" noicon="1" val="0">
 				<param slot="HP_REGEN_UP;MAGIC_CRITICAL_UP;PA_UP;PD_UP;ATTACK_TIME_DOWN;MA_UP;MD_UP;CASTING_TIME_DOWN;SPEED_UP;IMPROVE_PA_PD_UP;COUNTER_CRITICAL" />
@@ -92,7 +92,7 @@
 				<mul stat="regHp" val="1.20" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="MAX_MP_UP,9;HP_REGEN_UP,3;IMPROVE_HP_MP_UP,1"/>
+				<param dispel="MAX_MP_UP,9;HP_REGEN_UP,9;IMPROVE_HP_MP_UP,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="1800" noicon="1" val="0">
 				<param slot="MAX_MP_UP;HP_REGEN_UP;IMPROVE_HP_MP_UP" />
@@ -321,7 +321,7 @@
 				<sub stat="cancel" val="50" /> <!-- Guess -->
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="ATTACK_TIME_DOWN,1;MP_REGEN_UP,9"/>
+				<param dispel="ATTACK_TIME_DOWN,9;MP_REGEN_UP,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
 				<param slot="ATTACK_TIME_DOWN;MP_REGEN_UP" />
@@ -356,7 +356,7 @@
 				<add stat="absorbDam" val="8" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="PA_UP,9;MA_UP,9;CASTING_TIME_DOWN,2;PD_UP,9;MD_UP,9;AVOID_UP,9;"/>
+				<param dispel="PA_UP,9;MA_UP,9;CASTING_TIME_DOWN,9;PD_UP,9;MD_UP,9;AVOID_UP,9;"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
 				<param slot="PA_UP;MA_UP;CASTING_TIME_DOWN;PD_UP;MD_UP;AVOID_UP;" />
@@ -389,7 +389,7 @@
 				<mul stat="pReuse" val="0.90" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="HP_REGEN_UP,9;HIT_UP,9;AVOID_UP,9;SPEED_UP,9;MP_COST_DOWN,2;REUSE_DELAY_DOWN,9"/>
+				<param dispel="HP_REGEN_UP,9;HIT_UP,9;AVOID_UP,9;SPEED_UP,9;MP_COST_DOWN,9;REUSE_DELAY_DOWN,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
 				<param slot="HP_REGEN_UP;HIT_UP;AVOID_UP;SPEED_UP;MP_COST_DOWN;REUSE_DELAY_DOWN" />
