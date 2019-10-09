@@ -4,7 +4,7 @@
 		<!-- For 30 minutes, all party members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
 		<set name="abnormalLvl" val="9" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="melody_horn" />
+		<set name="abnormalType" val="PA_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -16,7 +16,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="melody_horn">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="PA_UP">
 				<mul stat="pAtk" val="1.17" />
 				<mul stat="pDef" val="1.15" />
 				<mul stat="mAtk" val="1.79" />
@@ -33,7 +33,7 @@
 	<skill id="11518" levels="1" name="Drum Melody">
 		<!-- For 30 minutes, party members' Max MP + 20%, HP Recovery Bonus + 20%, M. Critical Rate + 20, Critical Damage during a normal attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk. + 20%, M. Def. + 20%, Casting Spd. + 20%, Debuff Resistance + 10%, damage received from critical attacks - 30% and Speed - 15%. Party members equipped with melee weapons/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
 		<set name="abnormalLvl" val="9" />
-		<set name="abnormalType" val="improve_pa_pd_up" />
+		<set name="abnormalType" val="PD_UP" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -46,7 +46,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_pa_pd_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="PD_UP">
 				<mul stat="maxMp" val="1.20" />
 				<mul stat="regHp" val="1.20" />
 				<add stat="mCritRate" val="20" />
@@ -72,7 +72,7 @@
 	<skill id="11519" levels="1" name="Pipe Organ Melody">
 		<!-- For 30 minutes, party members' Max HP + 37%, Max MP + 37%, Max CP + 37%, and HP Recovery Bonus + 20%. -->
 		<set name="abnormalLvl" val="9" />
-		<set name="abnormalType" val="improve_hp_mp_up" />
+		<set name="abnormalType" val="MAX_MP_UP" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -85,7 +85,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_hp_mp_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="MAX_MP_UP">
 				<mul stat="maxHp" val="1.37" />
 				<mul stat="maxMp" val="1.37" />
 				<mul stat="maxCp" val="1.37" />
@@ -102,7 +102,7 @@
 	<skill id="11520" levels="1" name="Guitar Melody">
 		<!-- For 30 minutes, party members' P. Critical Rate + 32%, P. Critical Damage + 35%, M. Critical Rate + 20 , and MP Consumption - 20% for physical skills and - 10% for magic skills. Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
 		<set name="abnormalLvl" val="9" />
-		<set name="abnormalType" val="improve_hit_defence_crt_rate_up" />
+		<set name="abnormalType" val="MAX_HP_UP" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="icon" val="icon.skill11520" />
@@ -118,7 +118,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_hit_defence_crt_rate_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="MAX_HP_UP">
 				<mul stat="critRate" val="1.32" />
 				<mul stat="critDmg" val="1.35" />
 				<add stat="mCritRate" val="20" />
@@ -134,7 +134,7 @@
 	<skill id="11521" levels="4" name="Harp Melody">
 		<!-- For 30 minutes, party members' P. Accuracy + 5, P. and M. Evasion + 5, Speed + 34 and received Critical Damage - 30%. -->
 		<set name="abnormalLvl" val="9" />
-		<set name="abnormalType" val="improve_speed_avoid_up" />
+		<set name="abnormalType" val="CRITICAL_DMG_UP" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -148,7 +148,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_speed_avoid_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="CRITICAL_DMG_UP">
 				<add stat="accCombat" val="5" />
 				<add stat="rEvas" val="5" />
 				<add stat="runSpd" val="34" />
@@ -165,7 +165,7 @@
 	<skill id="11522" levels="1" name="Lute Melody">
 		<!-- For 30 minutes, party members' Atk. Spd. + 34% and Casting Spd. + 31%. Also has a chance of triggering a 9% Vampiric Rage effect during a normal attack. -->
 		<set name="abnormalLvl" val="9" />
-		<set name="abnormalType" val="improve_vampiric_haste" />
+		<set name="abnormalType" val="AVOID_UP" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="skillType" val="BUFF" />
@@ -179,7 +179,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_vampiric_haste">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="AVOID_UP">
 				<mul stat="pAtkSpd" val="1.34" />
 				<mul stat="mAtkSpd" val="1.31" />
 				<add stat="absorbDam" val="9" />
@@ -196,7 +196,7 @@
 		<!-- For 30 minutes, the selected party member's P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30% and Shield Defense + 50%. -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="improve_shield_rate_defence_up" />
+		<set name="abnormalType" val="VAMPIRIC_ATTACK" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -209,7 +209,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_shield_rate_defence_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="VAMPIRIC_ATTACK">
 				<mul stat="pAtk" val="1.12" />
 				<mul stat="pDef" val="1.45" />
 				<mul stat="rShld" val="1.30" />
@@ -229,7 +229,7 @@
 		<!-- For 30 minutes, the selected party member's P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8% and Speed + 8. -->
 		<set name="abnormalLvl" val="9" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="improve_shield_rate_defence_up" />
+		<set name="abnormalType" val="VAMPIRIC_ATTACK" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -242,7 +242,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_shield_rate_defence_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="VAMPIRIC_ATTACK">
 				<mul stat="pAtk" val="1.35" />
 				<mul stat="critDmg" val="1.35" />
 				<mul stat="critRate" val="2.00" />
@@ -263,7 +263,7 @@
 		<!-- For 30 minutes, the selected party member's M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Speed + 8, M. Def. + 14%, MP Recovery Bonus + 20%, MP Consumption for magic skills - 15% and physical skills -5%, and Cooldown - 20%. -->
 		<set name="abnormalLvl" val="9" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="improve_shield_rate_defence_up" />
+		<set name="abnormalType" val="VAMPIRIC_ATTACK" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -276,7 +276,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_shield_rate_defence_up">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="VAMPIRIC_ATTACK">
 				<mul stat="mAtk" val="1.40" />
 				<mul stat="pAtk" val="1.08" />
 				<mul stat="mAtkSpd" val="1.08" />
