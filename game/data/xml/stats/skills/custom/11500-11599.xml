@@ -12,11 +12,9 @@
 		<set name="mpConsume" val="140" />
 		<set name="mpInitialConsume" val="28"/>
 		<set name="hitTime" val="700" />
-		<set name="coolTime" val="300" />
 		<set name="isMagic" val="1" />
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
-		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<for>
 			<effect name="Buff">
 				<mul stat="pAtk" val="1.17" />
