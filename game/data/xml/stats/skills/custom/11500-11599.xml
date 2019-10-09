@@ -122,8 +122,6 @@
 				<mul stat="critRate" val="1.32" />
 				<mul stat="critDmg" val="1.35" />
 				<add stat="mCritRate" val="20" />
-				<mul stat="MagicalMpConsumeRate" val="0.90" />
-				<mul stat="PhysicalMpConsumeRate" val="0.90" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
 				<param dispel="CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;MAGIC_CRITICAL_UP,9;CHEAP_MAGIC,9;IMPROVE_HIT_DEFENCE_CRT_RATE_UP,9;IMPROVE_CRT_RATE_DMG_UP,9"/>
@@ -288,8 +286,6 @@
 				<mul stat="mCritRate" val="2.00" />
 				<mul stat="regMp" val="1.20" />
 				<mul stat="runSpd" val="1.08" />
-				<mul stat="MagicalMpConsumeRate" val="0.85" />
-				<mul stat="PhysicalMpConsumeRate" val="0.95" />
 				<mul stat="mReuse" val="0.80" />
 				<mul stat="pReuse" val="0.80" />
 				<mul stat="dReuse" val="0.80" />
@@ -324,7 +320,6 @@
 				<mul stat="mAtkSpd" val="1.30" />
 				<mul stat="maxHp" val="1.30" />
 				<mul stat="regMp" val="1.20" />
-				<mul stat="MagicalMpConsumeRate" val="0.90" />
 				<sub stat="cancel" val="50" /> <!-- Guess -->
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
@@ -392,8 +387,6 @@
 				<add stat="accCombat" val="4" />
 				<add stat="rEvas" val="3" />
 				<add stat="runSpd" val="20" />
-				<mul stat="PhysicalMpConsumeRate" val="0.80" />
-				<mul stat="MagicalMpConsumeRate" val="0.80" />
 				<mul stat="mReuse" val="0.90" />
 				<mul stat="pReuse" val="0.90" />
 			</effect>
