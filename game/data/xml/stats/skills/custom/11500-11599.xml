@@ -119,7 +119,7 @@
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<for>
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_hit_defence_crt_rate_up">
-				<mul stat="rCrit" val="1.32" />
+				<mul stat="critRate" val="1.32" />
 				<mul stat="critDmg" val="1.35" />
 				<add stat="mCritRate" val="20" />
 				<mul stat="MagicalMpConsumeRate" val="0.90" />
@@ -218,7 +218,7 @@
 				<mul stat="rShld" val="1.30" />
 				<mul stat="sDef" val="1.50" />
 				<mul stat="critDmg" val="1.35" />
-				<mul stat="rCrit" val="2" />
+				<mul stat="critRate" val="2" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
 				<param dispel="PA_UP,9;PD_UP,9;SHIELD_DEFENCE_UP,9;SHIELD_PROB_UP,9;CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;IMPROVE_PA_PD_UP,9;IMPROVE_CRT_RATE_DMG_UP,9;IMPROVE_SHIELD_RATE_DEFENCE_UP,9"/>
@@ -248,7 +248,7 @@
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="9" abnormalType="improve_shield_rate_defence_up">
 				<mul stat="pAtk" val="1.35" />
 				<mul stat="critDmg" val="1.35" />
-				<mul stat="rCrit" val="2.00" />
+				<mul stat="critRate" val="2.00" />
 				<mul stat="pAtkSpd" val="1.08" />
 				<mul stat="mAtk" val="1.16" />
 				<mul stat="mAtkSpd" val="1.08" />
