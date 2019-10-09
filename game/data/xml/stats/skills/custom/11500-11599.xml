@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skills.xsd">
 	<skill id="11517" levels="1" name="Horn Melody">
 		<!-- For 30 minutes, all party members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
 		<set name="abnormalLvl" val="9" />
