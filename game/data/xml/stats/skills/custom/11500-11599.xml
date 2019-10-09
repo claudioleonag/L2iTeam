@@ -287,7 +287,6 @@
 				<mul stat="runSpd" val="1.08" />
 				<mul stat="mReuse" val="0.80" />
 				<mul stat="pReuse" val="0.80" />
-				<mul stat="dReuse" val="0.80" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
 				<param dispel="MA_UP,9;PA_UP,9;CASTING_TIME_DOWN,9;ATTACK_TIME_DOWN,9;MD_UP,9;MAGIC_CRITICAL_UP,9;MP_REGEN_UP,9;SPEED_UP,9;MP_COST_DOWN,9;REUSE_DELAY_DOWN,9"/>
