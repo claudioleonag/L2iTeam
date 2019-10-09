@@ -300,7 +300,7 @@
 		<!-- Increases party members' Atk. Spd. by 15%, Casting Spd. by 30%, Max HP by 30%, MP recovery bonus by 20% and decreases MP Consumption for magic skill by 10% and the magic cancel rate for 5 minutes. -->
 		<set name="affectRange" val="1000" />
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="wp_event_buf1" />
+		<set name="abnormalType" val="multi_buff" />
 		<set name="abnormalTime" val="300" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -313,7 +313,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="wp_event_buf1">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="multi_buff">
 				<mul stat="pAtkSpd" val="1.15" />
 				<mul stat="mAtkSpd" val="1.30" />
 				<mul stat="maxHp" val="1.30" />
