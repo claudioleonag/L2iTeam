@@ -185,10 +185,10 @@
 				<add stat="absorbDam" val="9" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="ATTACK_TIME_DOWN,9;CASTING_TIME_DOWN,9;IMPROVE_VAMPIRIC_HASTE,9"/>
+				<param dispel="CASTING_TIME_DOWN,9;IMPROVE_VAMPIRIC_HASTE,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="1800" noicon="1" val="0">
-				<param dispel="ATTACK_TIME_DOWN;CASTING_TIME_DOWN;IMPROVE_VAMPIRIC_HASTE" />
+				<param dispel="CASTING_TIME_DOWN;IMPROVE_VAMPIRIC_HASTE" />
 			</effect>
 		</for>
 	</skill>
@@ -356,10 +356,10 @@
 				<add stat="absorbDam" val="8" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="PA_UP,9;MA_UP,9;CASTING_TIME_DOWN,2;PD_UP,9;MD_UP,9;AVOID_UP,9;VAMPIRIC_ATTACK,9"/>
+				<param dispel="PA_UP,9;MA_UP,9;CASTING_TIME_DOWN,2;PD_UP,9;MD_UP,9;AVOID_UP,9;"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
-				<param slot="PA_UP;MA_UP;CASTING_TIME_DOWN;PD_UP;MD_UP;AVOID_UP;VAMPIRIC_ATTACK" />
+				<param slot="PA_UP;MA_UP;CASTING_TIME_DOWN;PD_UP;MD_UP;AVOID_UP;" />
 			</effect>
 		</for>
 	</skill>
