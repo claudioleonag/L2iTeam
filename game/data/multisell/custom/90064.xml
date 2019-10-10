@@ -6,34 +6,30 @@
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 
 
-	<item>
-		<ingredient id="40002" count="80" />
-		<production id="16172" count="1" />
-	</item>
 
 
 	<item>
-		<ingredient id="40002" count="80" />
+		<ingredient id="9142" count="100" />
 		<production id="15593" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="40002" count="80" />
+		<ingredient id="9142" count="100" />
 		<production id="15590" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="40002" count="80" />
+		<ingredient id="9142" count="100" />
 		<production id="15596" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="40002" count="80" />
+		<ingredient id="9142" count="100" />
 		<production id="15599" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="40002" count="80" />
+		<ingredient id="9142" count="100" />
 		<production id="15602" count="1" />
 	</item>
 
