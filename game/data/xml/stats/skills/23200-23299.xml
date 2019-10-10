@@ -1694,14 +1694,14 @@
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="83" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="50" />
+		<set name="power" val="-1" />
 		<set name="offensive" val="true" />
 		<set name="basicProperty" val="MEN" />
 		<set name="skillType" val="DOT" />
 		<set name="targetType" val="ONE" />
 		<for>
 			<!-- 300HP * 1 Sec during 10 seconds -->
-			<effect count="10" name="DamOverTime" val="300" />
+			<effect count="10" name="DamOverTime" val="150" />
 		</for>
 	</skill>
 </list>

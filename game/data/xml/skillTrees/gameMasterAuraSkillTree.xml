@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skillTrees.xsd">
 	<skillTree type="gameMasterAuraSkillTree">
-		<skill skillName="Super Haste" skillId="7029" skillLvl="1" getLevel="1" />
+		<skill skillName="Super Haste" skillId="7029" skillLvl="4" getLevel="1" />
 		<skill skillName="Master's Call" skillId="23249" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Focus" skillId="23253" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Death Whisper" skillId="23254" skillLvl="1" getLevel="1" />
@@ -47,5 +47,17 @@
 		<skill skillName="Master's Blessing - Counter Critical" skillId="23294" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Elemental Protection" skillId="23295" skillLvl="1" getLevel="1" />
 		<skill skillName="Master's Blessing - Arcane Protection" skillId="23296" skillLvl="1" getLevel="1" />
+		<skill skillName="Horn Melody" skillId="11517" skillLvl="1" getLevel="1" />
+		<skill skillName="Drum Melody" skillId="11518" skillLvl="1" getLevel="1" />
+		<skill skillName="Pipe Organ Melody" skillId="11519" skillLvl="1" getLevel="1" />
+		<skill skillName="Guitar Melody" skillId="11520" skillLvl="1" getLevel="1" />
+		<skill skillName="Harp Melody" skillId="11521" skillLvl="1" getLevel="1" />
+		<skill skillName="Lute Melody" skillId="11522" skillLvl="1" getLevel="1" />
+		<skill skillName="Knight's Harmony" skillId="11523" skillLvl="1" getLevel="1" />
+		<skill skillName="Warrior's Harmony" skillId="11524" skillLvl="1" getLevel="1" />
+		<skill skillName="Wizard's Harmony" skillId="11525" skillLvl="1" getLevel="1" />
+		<skill skillName="Prevailing Sonata" skillId="11529" skillLvl="1" getLevel="1" />
+		<skill skillName="Daring Sonata" skillId="11530" skillLvl="1" getLevel="1" />
+		<skill skillName="Refreshing Sonata" skillId="11531" skillLvl="1" getLevel="1" />
 	</skillTree>
 </list>

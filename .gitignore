@@ -4,4 +4,5 @@
 *.csv
 game/log/
 game/data/pathnode/
+game/data/geodata/
 

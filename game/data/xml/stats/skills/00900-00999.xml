@@ -300,7 +300,8 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="dd_resist">
-				<mul stat="magicSuccRes" val="2" />
+				<mul stat="magicSuccRes" val="10" />
+				<!-- <mul stat="pvpMagicalDef" val="1.1" />-->
 			</effect>
 		</for>
 	</skill>
@@ -312,20 +313,21 @@
 		<set name="affectRange" val="1000" />
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
-		<set name="isMagic" val="3" /> <!-- Dance Skill -->
+		<set name="isMagic" val="4" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="83" />
-		<set name="maxNegated" val="3" />
+		<set name="maxNegated" val="9" />
 		<set name="mpConsume" val="60" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="240000" />
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="PARTY" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="song_of_purification">
-				<sub stat="debuffVuln" val="30" />
-				<mul stat="healEffect" val="1.3" />
-			</effect>
-			<effect name="CancelDebuff" noicon="1" val="0" effectPower="80" />
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="song_of_purification">					
+				<set stat="debuffImmunity" val="1" />	
+			</effect>			
+			<effect name="CancelDebuff" noicon="1" val="0" effectPower="100" />
+			<effect name="HealPercent" noicon="1" val="30" />			
 		</for>
 	</skill>
 	<skill id="915" levels="1" name="Dance of Berserker">
@@ -368,6 +370,7 @@
 		<set name="abnormalTime" val="8" />
 		<set name="abnormalType" val="reflect_magic_dd" />
 		<set name="aggroPoints" val="204" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="hitTime" val="500" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -538,7 +541,7 @@
 		<set name="offensive" val="true" />
 		<set name="operateType" val="CA1" />
 		<set name="power" val="11440" />
-		<set name="reuseDelay" val="300000" />
+		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="PDAM" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="ONE" />
@@ -1726,7 +1729,7 @@
 		<for>
 			<effect name="TriggerSkillByDamage" noicon="1" val="0">
 				<param attackerType="L2Character" minAttackerLevel="1" maxAttackerLevel="99" />
-				<param minDamage="1" />
+				<param minDamage="150" />
 				<param chance="10" />
 				<param skillId="6687" skillLevel="1" /> <!-- Patience -->
 				<param targetType="SELF" />
@@ -1755,7 +1758,7 @@
 			<using kind="SHIELD" />
 		</cond>
 		<for>
-			<effect name="GetAgro" noicon="1" val="0" />
+			<effect name="TargetMe" val="0" abnormalLvl="1" abnormalType="target_lock" />
 		</for>
 	</skill>
 	<skill id="985" levels="1" name="Challenge for Fate">
@@ -1795,7 +1798,7 @@
 		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="#power" />
-		<set name="reuseDelay" val="5000" />
+		<set name="reuseDelay" val="4000" />
 		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="ONE" />
 		<cond msgId="113" addName="1">
@@ -1806,13 +1809,13 @@
 		<!-- Confirmed High Five -->
 		<set name="affectLimit" val="5-12" />
 		<set name="affectRange" val="900" />
-		<set name="baseCritRate" val="15" />
+		<set name="baseCritRate" val="5" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1100" />
 		<set name="fanRange" val="0,0,900,45" />
 		<set name="hitTime" val="3000" />
 		<set name="icon" val="icon.skill0987" />
-		<set name="magicLvl" val="82" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="162" />
 		<set name="nextActionAttack" val="true" />
 		<set name="offensive" val="true" />
@@ -1833,7 +1836,7 @@
 		<table name="#magicLvl"> 46 52 60 </table>
 		<table name="#pAtk"> 1.05 1.1 1.15 </table>
 		<set name="abnormalLvl" val="#abnormalLvl" />
-		<set name="abnormalTime" val="120" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="song_battle_whisper" />
 		<!-- <set name="affectRange" val="1000" /> -->
 		<set name="aggroPoints" val="454" />
@@ -1847,7 +1850,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="song_battle_whisper">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="song_battle_whisper">
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="critDmg" val="#amount" />
 				<mul stat="pAtkSpd" val="#amount" />
@@ -1882,11 +1885,11 @@
 	</skill>
 	<skill id="990" levels="1" name="Death Shot">
 		<!-- Confirmed High Five -->
-		<set name="baseCritRate" val="15" />
+		<set name="baseCritRate" val="5" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="3500" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="165" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />

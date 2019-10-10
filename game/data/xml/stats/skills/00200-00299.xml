@@ -327,7 +327,16 @@
 			<!-- TODO: It probably will require a proper effect -->
 			<add stat="aggression" val="#hate">
 				<using kind="SWORD,BLUNT" />
-			</add>
+			</add>			
+			<mul stat="pAtkSpd" val="0.5">
+				<using kind="BOW" />
+			</mul>
+			<mul stat="mAtkSpd" val="0.5">
+				<using kind="BOW" />
+			</mul>
+			<sub stat="pAtkRange" val="350">
+				<using kind="BOW" />
+			</sub>
 		</for>
 		<enchant1for>
 			<add stat="pAtk" val="#ench1pAtk">
@@ -444,7 +453,7 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<add stat="rEvas" val="#evas">
-				<player running="true"/>
+					<player moving="true"/>
 			</add>
 		</for>
 	</skill>
@@ -1087,7 +1096,7 @@
 			<mul stat="mAtkSpd" val="1.71">
 				<using kind="HEAVY" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.5">
 				<using kind="HEAVY" />
 			</mul>
 		</enchant1for>

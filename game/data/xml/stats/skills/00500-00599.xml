@@ -1062,8 +1062,8 @@
 		<for>
 			<effect name="TriggerSkillByDamage" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="iron_shield">
 				<param attackerType="L2Character" minAttackerLevel="1" maxAttackerLevel="99" />
-				<param minDamage="100" />
-				<param chance="30" />
+				<param minDamage="150" />
+				<param chance="10" />
 				<param skillId="5425" skillLevel="1" /> <!-- Iron Shield -->
 				<param targetType="SELF" />
 			</effect>
@@ -1079,6 +1079,7 @@
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="transfer_damage" />
 		<set name="affectRange" val="1000" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="hitTime" val="1000" />
 		<set name="mpConsume" val="43" />
 		<set name="operateType" val="A2" />

@@ -246,7 +246,7 @@
 	<skill id="5115" levels="12" name="Cubic Hate">
 		<!-- Summon Attractive Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 62 66 70 74 76 78 80 81 82 83 84 85 </table>
+		<table name="#magicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
@@ -254,13 +254,13 @@
 		<set name="skillType" val="AGGDAMAGE" />
 		<set name="targetType" val="ONE" />
 		<for>
-			<effect name="TargetMe" val="0" abnormalLvl="1" abnormalType="target_lock" />
+			<effect name="TargetMe" noicon="1" val="0" abnormalLvl="1" abnormalType="target_lock" />
 		</for>
 	</skill>
 	<skill id="5116" levels="12" name="Hold">
 		<!-- Summon Attractive Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 62 66 70 74 76 78 80 81 82 83 84 85 </table>
+		<table name="#magicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="root_magically" />
