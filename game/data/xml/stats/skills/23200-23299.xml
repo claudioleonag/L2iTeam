@@ -1692,9 +1692,9 @@
 		<set name="element" val="2" /> <!-- Wind -->
 		<set name="elementPower" val="20" />
 		<set name="isTriggeredSkill" val="true" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="-1" />
+		<set name="power" val="150" />
 		<set name="offensive" val="true" />
 		<set name="basicProperty" val="MEN" />
 		<set name="skillType" val="DOT" />

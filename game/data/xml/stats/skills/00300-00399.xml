@@ -776,6 +776,7 @@
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="speed_up_special" />
 		<set name="blowChance" val="25" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="castRange" val="40" />
 		<set name="condition" val="16" /> <!-- Crit -->
 		<set name="coolTime" val="720" />
@@ -804,7 +805,7 @@
 				<add stat="runSpd" val="40" />
 			</effect>
 			<effect name="Bluff" val="0">
-				<param chance="80" />
+				<param chance="200" />
 			</effect>
 		</for>
 	</skill>
@@ -1967,7 +1968,7 @@
 	<skill id="358" levels="1" name="Bluff" enchantGroup1="6">
 		<!-- Confirmed CT2.5 -->
 		<table name="#ench1ActivateRates"> 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="9" />
 		<set name="abnormalType" val="stun" />
@@ -1977,7 +1978,7 @@
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="77" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="35" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="40" /> <!-- Base Land Rate -->
@@ -2001,7 +2002,7 @@
 			<effect name="DeleteHateOfMe" noicon="1" val="0">
 				<param chance="80" />
 			</effect>
-			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="4" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
 		<enchant1for>
 			<effect name="Bluff" noicon="1" val="0">
@@ -2013,7 +2014,7 @@
 			<effect name="DeleteHateOfMe" noicon="1" val="0">
 				<param chance="80" />
 			</effect>
-			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="4" val="0" abnormalLvl="1" abnormalType="stun" />
 		</enchant1for>
 	</skill>
 	<skill id="359" levels="1" name="Eye of Hunter" enchantGroup1="5" enchantGroup2="5">

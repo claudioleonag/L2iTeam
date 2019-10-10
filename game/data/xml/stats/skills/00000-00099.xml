@@ -423,9 +423,10 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="operateType" val="A1" />
-		<set name="power" val="80" /> <!-- Base Land Rate -->
+		<set name="power" val="-1" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
-		<set name="reuseDelay" val="3000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="staticReuse" val="true" />
 		<set name="mustIncludeBasicProperty" val="false" />
 		<set name="targetType" val="ONE" />
 		<set name="trait" val="DERANGEMENT" />
@@ -2257,12 +2258,12 @@
 	<skill id="96" levels="6" name="Bleed" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#abnormalLvls"> 3 4 5 6 7 8 </table>
 		<table name="#dot"> 75 102 132 156 186 201 </table>
-		<table name="#magicLvl"> 24 32 49 58 66 70 </table>
+		<table name="#magicLvl"> 24 32 49 58 66 85 </table>
 		<table name="#mpConsume"> 28 37 60 73 83 89 </table>
 		<table name="#ench1MpConsume"> 88 86 85 83 82 80 79 77 76 74 73 71 70 68 67 65 64 62 61 59 58 56 55 53 52 50 49 47 46 44 </table>
 		<table name="#ench2Sap"> 24 49 74 99 124 148 173 198 223 248 273 297 322 347 372 397 422 446 471 496 521 546 570 595 620 645 670 695 719 744 </table>
 		<table name="#ench3dot"> 207 210 213 216 222 225 228 231 237 240 243 246 249 255 258 261 264 270 273 276 279 285 288 291 294 300 303 306 309 315 </table>
-		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="20" />
 		<set name="abnormalType" val="bleeding" />
