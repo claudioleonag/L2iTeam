@@ -39,7 +39,6 @@
 		<table name="#maxMp"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#regHp"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#mCritRate"> 20 20 20 20 </table>
-		<table name="#cAtk"> 20 20 20 20 </table>
 		<table name="#pAtk"> 1.10 1.10 1.10 1.10 </table>
 		<table name="#pDef"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#pAtkSpd"> 1.20 1.20 1.20 1.20 </table>
@@ -67,7 +66,6 @@
 				<mul stat="maxMp" val="#maxMp" />
 				<mul stat="regHp" val="#regHp" />
 				<add stat="mCritRate" val="#mCritRate" />
-				<add stat="critDmg" val="#cAtk" />
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="pDef" val="#pDef" />
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
