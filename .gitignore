@@ -2,7 +2,8 @@
 *.pkc
 *.l2j
 *.csv
-game/log/
+game/log/*
 game/data/pathnode/
 game/data/geodata/
 
+game/core.jar.bkp

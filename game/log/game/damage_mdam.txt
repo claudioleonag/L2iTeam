@@ -1,9 +1,0 @@
-[18.06.06 15:27:56] '---': Hardeath(268481224) 85 lvl did damage 304373 with skill Ice Vortex(1340) to Services Manager(268477424) 80 lvl
-[18.06.06 15:28:00] '---': Hardeath(268481224) 85 lvl did damage 292778 with skill Hydro Blast(1235) to Services Manager(268477424) 80 lvl
-[18.06.06 15:28:09] '---': Hardeath(268481224) 85 lvl did damage 778166 with skill Aura Cannon(1555) to Services Manager(268477424) 80 lvl
-[18.06.06 15:28:18] '---': Hardeath(268481224) 85 lvl did damage 139142 with skill Ice Dagger(1237) to Services Manager(268477424) 80 lvl
-[18.06.06 15:28:20] '---': Hardeath(268481224) 85 lvl did damage 184932 with skill Frost Bolt(1236) to Services Manager(268477424) 80 lvl
-[19.09.22 23:02:18] '---': Magnus the Unicorn(268484565) 80 lvl Owner:Sammy(268483841) did damage 21792 with skill Tidal Wave(5139) to iJackson(268482624) 85 lvl
-[19.09.22 23:35:08] '---': Tester(268484144) 85 lvl did damage 6896 with skill Hurricane(1239) to Innie(268481918) 85 lvl
-[19.09.25 18:53:04] '---': Tester(268484144) 85 lvl did damage 7070 with skill Wind Vortex(1341) to Innie(268481918) 85 lvl
-[19.09.25 18:53:09] '---': Tester(268484144) 85 lvl did damage 10129 with skill Wind Vortex Slug(1456) to Innie(268481918) 85 lvl
