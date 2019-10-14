@@ -1507,13 +1507,6 @@
 				<add stat="fireRes" val="10" />
 			</effect>
 		</enchant2for>
-		<enchant3for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="armor_debuff_water">
-				<sub stat="waterRes" val="20" />
-				<add stat="fireRes" val="10" />
-				<sub stat="waterPower" val="#enchElementPower" />
-			</effect>
-		</enchant3for>
 	</skill>
 	<skill id="1072" levels="5" name="Sleeping Cloud" enchantGroup1="1" enchantGroup2="1">
 		<table name="#magicLvl"> 44 56 62 66 70 </table>
