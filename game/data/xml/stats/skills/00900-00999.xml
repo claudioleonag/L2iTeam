@@ -634,7 +634,7 @@
 		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="11234" />
-		<set name="reuseDelay" val="12000" />
+		<set name="reuseDelay" val="8000" />
 		<set name="staticReuse" val="true" />
 		<set name="skillType" val="BLOW" />
 		<set name="targetType" val="ONE" />
