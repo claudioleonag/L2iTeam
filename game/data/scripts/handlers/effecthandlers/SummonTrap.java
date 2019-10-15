@@ -79,7 +79,7 @@ public class SummonTrap extends L2Effect
 			return false;
 		}
 		
-		if (player.getTrapsCount() >= 5)
+		if (player.getTrapsCount() >= 1)
 		{
 			player.destroyFirstTrap();
 		}
