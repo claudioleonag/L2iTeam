@@ -36,7 +36,7 @@ public class SummonTrap extends L2Effect
 	public SummonTrap(Env env, EffectTemplate template)
 	{
 		super(env, template);
-		_despawnTime = template.getParameters().getInt("despawnTime", 0);
+		_despawnTime = 300000;
 		_npcId = template.getParameters().getInt("npcId", 0);
 	}
 	
