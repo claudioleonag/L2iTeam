@@ -1469,7 +1469,7 @@
 		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="4" />
 		<set name="abnormalTime" val="30" />
-		<set name="abnormalType" val="NONE" />
+		<set name="abnormalType" val="none" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="1" /> <!-- Water -->
@@ -1496,19 +1496,19 @@
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<enchant3 name="magicLvl" val="#enchMagicLvl" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="NONE">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="none">
 				<sub stat="waterRes" val="50" />
 				<add stat="fireRes" val="10" />
 			</effect>
 		</for>
 		<enchant2for>
-			<effect name="Debuff" abnormalTime="#ench2time" val="0" abnormalLvl="4" abnormalType="NONE">
+			<effect name="Debuff" abnormalTime="#ench2time" val="0" abnormalLvl="4" abnormalType="none">
 				<sub stat="waterRes" val="50" />
 				<add stat="fireRes" val="10" />
 			</effect>
 		</enchant2for>
 		<enchant3for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="NONE">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="none">
 				<sub stat="waterRes" val="#enchElementPower" />
 				<add stat="fireRes" val="10" />
 			</effect>
