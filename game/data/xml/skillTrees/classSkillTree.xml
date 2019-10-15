@@ -14436,6 +14436,49 @@
 		<skill skillName="Major Heal" skillId="1401" skillLvl="11" getLevel="74" levelUpSp="1050000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="32" getLevel="74" levelUpSp="520000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="33" getLevel="74" levelUpSp="520000" learnedByNpc="true" />
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="1" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="2" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="3" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="4" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="5" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="6" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="7" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="8" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="9" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="10" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="11" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="12" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="13" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="14" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="15" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="16" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="17" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="18" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="19" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="20" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="21" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="22" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="23" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="24" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="25" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="26" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="27" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="28" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="29" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="30" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="31" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="32" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="33" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="34" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="35" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="36" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="37" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="38" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="39" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="40" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="41" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="42" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		
 	</skillTree>
 	<!-- Eva's Saint -->
 	<skillTree type="classSkillTree" classId="105" parentClassId="30">
