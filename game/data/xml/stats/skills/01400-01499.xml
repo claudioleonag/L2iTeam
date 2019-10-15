@@ -1843,7 +1843,7 @@
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="speed_down" />
 		<set name="affectLimit" val="6-12" />
-		<set name="affectRange" val="150" />
+		<set name="affectRange" val="250" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
@@ -1866,7 +1866,7 @@
 		<enchant3 name="elementPower" val="#ench3elementPower" />
 		<enchant3 name="magicLvl" val="#enchMagicLvl" />
 		<for>
-			<effect name="Debuff" abnormalTime="15" val="0" effectPower="-1" abnormalLvl="3" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="15" val="0" effectPower="120" abnormalLvl="3" abnormalType="speed_down">
 				<mul stat="runSpd" val="0.6" />
 			</effect>
 		</for>

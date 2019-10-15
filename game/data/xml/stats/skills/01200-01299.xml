@@ -2915,7 +2915,7 @@
 		<table name="#ench2mpConsume"> 196 193 190 186 182 180 176 173 170 166 162 160 156 153 150 146 142 140 136 133 130 126 122 120 116 113 110 106 102 100 </table>
 		<table name="#ench2mpInitialConsume"> 49 48 47 46 46 45 44 43 42 41 41 40 39 38 37 36 36 35 34 33 32 31 31 30 29 28 27 26 26 25 </table>
 		<table name="#enchElementPower"> 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 </table>
-		<table name="#enchMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="3" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="speed_down" />
@@ -2926,7 +2926,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="70" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="200" />
 		<set name="mpInitialConsume" val="50" />
 		<set name="offensive" val="true" />
@@ -2944,7 +2944,7 @@
 		<enchant3 name="elementPower" val="#enchElementPower" />
 		<enchant3 name="magicLvl" val="#enchMagicLvl" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" effectPower="40" abnormalLvl="3" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" effectPower="50" abnormalLvl="3" abnormalType="speed_down">
 				<mul stat="runSpd" val="0.5" />
 			</effect>
 		</for>
