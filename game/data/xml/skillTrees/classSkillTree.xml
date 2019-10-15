@@ -14452,6 +14452,7 @@
 		<skill skillName="Prophecy of Water" skillId="1355" skillLvl="1" getLevel="78" levelUpSp="21000000" learnedByNpc="true" />
 		<skill skillName="Mana Gain" skillId="1460" skillLvl="1" getLevel="79" levelUpSp="60000000" learnedByNpc="true" />
 		<skill skillName="Mass Recharge" skillId="1428" skillLvl="1" getLevel="80" levelUpSp="150000000" learnedByNpc="true" />
+		<skill skillName="Divine Punishment" skillId="1523" skillLvl="42" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
 	</skillTree>
 	<!-- Dark Mystic -->
 	<skillTree type="classSkillTree" classId="38">
