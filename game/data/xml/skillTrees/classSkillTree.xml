@@ -11996,7 +11996,6 @@
 		<skill skillName="Resurrection" skillId="1016" skillLvl="3" getLevel="40" levelUpSp="33000" learnedByNpc="true" />
 		<skill skillName="Mass Resurrection" skillId="1254" skillLvl="1" getLevel="40" levelUpSp="33000" learnedByNpc="true" />
 		<skill skillName="Requiem" skillId="1049" skillLvl="1" getLevel="40" levelUpSp="33000" learnedByNpc="true" />
-		<skill skillName="Inquisitor" skillId="1520" skillLvl="1" getLevel="40" levelUpSp="33000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="13" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="14" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="15" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
@@ -14014,7 +14013,6 @@
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="1" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="2" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="3" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
-		<skill skillName="Inquisitor" skillId="1521" skillLvl="1" getLevel="40" levelUpSp="30000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="13" getLevel="44" levelUpSp="13000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="14" getLevel="44" levelUpSp="13000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="15" getLevel="44" levelUpSp="13000" learnedByNpc="true" />
@@ -14478,6 +14476,90 @@
 		<skill skillName="Divine Punishment" skillId="1523" skillLvl="40" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
 		<skill skillName="Divine Punishment" skillId="1523" skillLvl="41" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
 		<skill skillName="Divine Punishment" skillId="1523" skillLvl="42" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Punishment -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="1" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="2" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="3" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="4" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="5" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="6" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="7" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="8" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="9" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="10" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="11" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="12" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="13" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="14" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="15" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="16" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="17" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="18" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="19" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="20" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="21" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="22" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="23" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="24" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="25" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="26" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="27" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="28" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="29" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="30" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="31" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="32" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="33" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="34" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="35" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="36" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="37" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="38" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="39" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="40" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="41" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Surrender to the Divine" skillId="1524" skillLvl="42" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Surrender to the Divine -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="1" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="2" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="3" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="4" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="5" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="6" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="7" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="8" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="9" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="10" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="11" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="12" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="13" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="14" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="15" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="16" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="17" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="18" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="19" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="20" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="21" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="22" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="23" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="24" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="25" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="26" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="27" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="28" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="29" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="30" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="31" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="32" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="33" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="34" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="35" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="36" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="37" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="38" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="39" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="40" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="41" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
+		<skill skillName="Divine Curse" skillId="1525" skillLvl="42" getLevel="80" levelUpSp="150000000" learnedByNpc="true" /> <!-- Divine Curse -->
 		
 	</skillTree>
 	<!-- Eva's Saint -->
@@ -15700,7 +15782,6 @@
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="1" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="2" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
 		<skill skillName="Greater Heal" skillId="1217" skillLvl="3" getLevel="40" levelUpSp="10000" learnedByNpc="true" />
-		<skill skillName="Inquisitor" skillId="1522" skillLvl="1" getLevel="40" levelUpSp="30000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="13" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="14" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="15" getLevel="44" levelUpSp="14000" learnedByNpc="true" />
