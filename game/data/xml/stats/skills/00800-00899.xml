@@ -384,11 +384,12 @@
 		<set name="mpConsume" val="50" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="75000" />
+		<set name="reuseDelay" val="55000" />
+		<set name="staticReuse" val="true" />
 		<set name="targetType" val="ONE" />
 		<for>
 			<effect name="TeleportToTarget" noicon="1" val="0" />
-			<effect name="RemoveTarget" effectPower="100" noicon="1" val="0" />
+			<effect name="RemoveTarget" effectPower="-1" noicon="1" val="0" />
 		</for>
 	</skill>
 	<skill id="822" levels="3" name="Repair Golem">

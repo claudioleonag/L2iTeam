@@ -8,7 +8,7 @@
 		<table name="#mDef"> 1.30 1.30 1.30 1.30 </table>
 		<set name="abnormalLvl" val="15" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="MELODY_HORN" />
+		<set name="abnormalType" val="dance_defence_motion1" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -20,7 +20,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="MELODY_HORN">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="dance_defence_motion1">
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="pDef" val="#pDef" />
 				<mul stat="mAtk" val="#mAtk" />
@@ -39,7 +39,7 @@
 		<table name="#maxMp"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#regHp"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#mCritRate"> 20 20 20 20 </table>
-		<table name="#cAtk"> 20 20 20 20 </table>
+		<table name="#cAtk"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#pAtk"> 1.10 1.10 1.10 1.10 </table>
 		<table name="#pDef"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#pAtkSpd"> 1.20 1.20 1.20 1.20 </table>
@@ -50,7 +50,7 @@
 		<table name="#defCritDamage"> 1.30 1.30 1.30 1.30 </table>
 		<table name="#runSpd"> 0.85 0.90 0.95 1.0 </table>
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="MELODY_DRUM" />
+		<set name="abnormalType" val="dance_of_alignment" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -63,11 +63,11 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="MELODY_DRUM">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="dance_of_alignment">
 				<mul stat="maxMp" val="#maxMp" />
 				<mul stat="regHp" val="#regHp" />
 				<add stat="mCritRate" val="#mCritRate" />
-				<add stat="critDmg" val="#cAtk" />
+				<mul stat="critDmg" val="#cAtk" />
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="pDef" val="#pDef" />
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
@@ -93,7 +93,7 @@
 		<table name="#maxCp"> 1.37 1.39 1.41 1.43 </table>
 		<table name="#regHp"> 1.20 1.20 1.20 1.20 </table>
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="MELODY_PIPE" />
+		<set name="abnormalType" val="dance_of_aqua_guard" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -106,7 +106,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="MELODY_PIPE">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="dance_of_aqua_guard">
 				<mul stat="maxHp" val="#maxHp" />
 				<mul stat="maxMp" val="#maxMp" />
 				<mul stat="maxCp" val="#maxCp" />
@@ -128,7 +128,7 @@
 		<table name="#magicMpConsumeRate"> 0.90 0.90 0.90 0.90 </table>
 		<table name="#physMpConsumeRate"> 0.80 0.80 0.80 0.80 </table>
 		<set name="abnormalLvl" val="99" />
-		<set name="abnormalType" val="MELODY_GUITAR" />
+		<set name="abnormalType" val="dance_of_berserker" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="icon" val="icon.skill11520" />
@@ -144,7 +144,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="99" abnormalType="MELODY_GUITAR">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="99" abnormalType="dance_of_berserker">
 				<mul stat="critRate" val="#rCrit" />
 				<mul stat="critDmg" val="#cAtk" />
 				<add stat="mCritRate" val="#mCritRate" />
@@ -166,7 +166,7 @@
 		<table name="#runSpd"> 34 35 36 37 </table>
 		<table name="#defCritDamage"> 1.30 1.30 1.30 1.30 </table>
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="MELODY_HARP" />
+		<set name="abnormalType" val="dance_of_bladestorm" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="operateType" val="A2" />
@@ -180,7 +180,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="MELODY_HARP">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="dance_of_bladestorm">
 				<add stat="accCombat" val="#accCombat" />
 				<add stat="rEvas" val="#rEvas" />
 				<add stat="runSpd" val="#runSpd" />
@@ -199,7 +199,7 @@
 		<table name="#pAtkSpd"> 1.34 1.35 1.36 1.37 </table>
 		<table name="#mAtkSpd"> 1.31 1.32 1.33 1.34 </table>
 		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="MELODY_LUTE" />
+		<set name="abnormalType" val="dance_of_concentration" />
 		<set name="abnormalTime" val="1800" />
 		<set name="affectRange" val="1000" />
 		<set name="skillType" val="BUFF" />
@@ -213,7 +213,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="reuseDelay" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="MELODY_LUTE">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="dance_of_concentration">
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
 				<mul stat="mAtkSpd" val="#mAtkSpd" />
 				<add stat="absorbDam" val="9" />
@@ -230,7 +230,7 @@
 		<!-- For 30 minutes, the selected party member's P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30% and Shield Defense + 50%. -->
 		<set name="abnormalLvl" val="15" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="HARMONY" />
+		<set name="abnormalType" val="dance_of_earth_guard" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -243,7 +243,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="HARMONY">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="dance_of_earth_guard">
 				<mul stat="pAtk" val="1.12" />
 				<mul stat="pDef" val="1.45" />
 				<mul stat="rShld" val="1.30" />
@@ -252,10 +252,10 @@
 				<mul stat="critRate" val="2" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="PA_UP,9;PD_UP,9;SHIELD_DEFENCE_UP,9;SHIELD_PROB_UP,9;CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;IMPROVE_PA_PD_UP,9;IMPROVE_CRT_RATE_DMG_UP,9;IMPROVE_SHIELD_RATE_DEFENCE_UP,9"/>
+				<param dispel="PA_UP,9;PD_UP,9;SHIELD_DEFENCE_UP,9;SHIELD_PROB_UP,9;CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;IMPROVE_PA_PD_UP,9;IMPROVE_CRT_RATE_DMG_UP,9;IMPROVE_SHIELD_RATE_DEFENCE_UP,9;MULTI_BUFF,9;SONG_OF_HUNTER,9;SONG_OF_CHAMPION,9;SONG_OF_EARTH,9;SONG_OF_LIFE,9;SONG_OF_WATER,9;SONG_OF_WARDING,9;SONG_OF_WIND,9;SONG_OF_HUNTER,9;SONG_OF_INVOCATION,9;SONG_OF_VITALITY,9;SONG_OF_VENGEANCE,9;SONG_OF_FLAME_GUARD,9;SONG_OF_STORM_GUARD,9;SONG_OF_RENEWAL,9;SONG_OF_MEDITATION,9;SONG_OF_CHAMPION,9;SONG_OF_ELEMENTAL,9;DANCE_OF_WARRIOR,9;DANCE_OF_INSPIRATION,9;DANCE_OF_MYSTIC,9;DANCE_OF_VAMPIRE,9;DANCE_OF_PROTECTION,9;DANCE_OF_SIREN,9;DANCE_OF_SHADOW,9;DANCE_OF_LIGHT,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
-				<param slot="PA_UP;PD_UP;SHIELD_DEFENCE_UP;SHIELD_PROB_UP;CRITICAL_DMG_UP;CRITICAL_PROB_UP;IMPROVE_PA_PD_UP;IMPROVE_CRT_RATE_DMG_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP" />
+				<param slot="PA_UP;PD_UP;SHIELD_DEFENCE_UP;SHIELD_PROB_UP;CRITICAL_DMG_UP;CRITICAL_PROB_UP;IMPROVE_PA_PD_UP;IMPROVE_CRT_RATE_DMG_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;MULTI_BUFF;SONG_OF_HUNTER;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_LIFE;SONG_OF_WATER;SONG_OF_WARDING;SONG_OF_WIND;SONG_OF_HUNTER;SONG_OF_INVOCATION;SONG_OF_VITALITY;SONG_OF_VENGEANCE;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_RENEWAL;SONG_OF_MEDITATION;SONG_OF_CHAMPION;SONG_OF_ELEMENTAL;DANCE_OF_WARRIOR;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_VAMPIRE;DANCE_OF_PROTECTION;DANCE_OF_SIREN;DANCE_OF_SHADOW;DANCE_OF_LIGHT" />
 			</effect>
 		</for>
 	</skill>
@@ -263,7 +263,7 @@
 		<!-- For 30 minutes, the selected party member's P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8% and Speed + 8. -->
 		<set name="abnormalLvl" val="15" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="HARMONY" />
+		<set name="abnormalType" val="dance_of_earth_guard" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -276,7 +276,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="HARMONY">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="dance_of_earth_guard">
 				<mul stat="pAtk" val="1.35" />
 				<mul stat="critDmg" val="1.35" />
 				<mul stat="critRate" val="2.00" />
@@ -286,10 +286,10 @@
 				<add stat="runSpd" val="8" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="PA_UP,9;PD_UP,9;CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;ATTACK_TIME_DOWN,9;MA_UP,9;CASTING_TIME_DOWN,9;SPEED_UP,9"/>
+				<param dispel="PA_UP,9;PD_UP,9;CRITICAL_DMG_UP,9;CRITICAL_PROB_UP,9;ATTACK_TIME_DOWN,9;MA_UP,9;CASTING_TIME_DOWN,9;SPEED_UP,9;MULTI_BUFF,9;SONG_OF_HUNTER,9;SONG_OF_CHAMPION,9;SONG_OF_EARTH,9;SONG_OF_LIFE,9;SONG_OF_WATER,9;SONG_OF_WARDING,9;SONG_OF_WIND,9;SONG_OF_HUNTER,9;SONG_OF_INVOCATION,9;SONG_OF_VITALITY,9;SONG_OF_VENGEANCE,9;SONG_OF_FLAME_GUARD,9;SONG_OF_STORM_GUARD,9;SONG_OF_RENEWAL,9;SONG_OF_MEDITATION,9;SONG_OF_CHAMPION,9;SONG_OF_ELEMENTAL,9;DANCE_OF_WARRIOR,9;DANCE_OF_INSPIRATION,9;DANCE_OF_MYSTIC,9;DANCE_OF_VAMPIRE,9;DANCE_OF_PROTECTION,9;DANCE_OF_SIREN,9;DANCE_OF_SHADOW,9;DANCE_OF_LIGHT,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
-				<param slot="PA_UP;PD_UP;CRITICAL_DMG_UP;CRITICAL_PROB_UP;ATTACK_TIME_DOWN;MA_UP;CASTING_TIME_DOWN;SPEED_UP" />
+				<param slot="PA_UP;PD_UP;CRITICAL_DMG_UP;CRITICAL_PROB_UP;ATTACK_TIME_DOWN;MA_UP;CASTING_TIME_DOWN;SPEED_UP;MULTI_BUFF;SONG_OF_HUNTER;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_LIFE;SONG_OF_WATER;SONG_OF_WARDING;SONG_OF_WIND;SONG_OF_HUNTER;SONG_OF_INVOCATION;SONG_OF_VITALITY;SONG_OF_VENGEANCE;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_RENEWAL;SONG_OF_MEDITATION;SONG_OF_CHAMPION;SONG_OF_ELEMENTAL;DANCE_OF_WARRIOR;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_VAMPIRE;DANCE_OF_PROTECTION;DANCE_OF_SIREN;DANCE_OF_SHADOW;DANCE_OF_LIGHT" />
 			</effect>
 		</for>
 	</skill>
@@ -297,7 +297,7 @@
 		<!-- For 30 minutes, the selected party member's M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Speed + 8, M. Def. + 14%, MP Recovery Bonus + 20%, MP Consumption for magic skills - 15% and physical skills -5%, and Cooldown - 20%. -->
 		<set name="abnormalLvl" val="15" />
 		<set name="abnormalTime" val="1800" />
-		<set name="abnormalType" val="HARMONY" />
+		<set name="abnormalType" val="dance_of_earth_guard" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_MEMBER" />
@@ -310,7 +310,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="HARMONY">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="15" abnormalType="dance_of_earth_guard">
 				<mul stat="mAtk" val="1.40" />
 				<mul stat="pAtk" val="1.08" />
 				<mul stat="mAtkSpd" val="1.08" />
@@ -325,10 +325,10 @@
 				<mul stat="pReuse" val="0.80" />
 			</effect>
 			<effect name="DispelBySlot" noicon="1" val="0">
-				<param dispel="MA_UP,9;PA_UP,9;CASTING_TIME_DOWN,9;ATTACK_TIME_DOWN,9;MD_UP,9;MAGIC_CRITICAL_UP,9;MP_REGEN_UP,9;SPEED_UP,9;MP_COST_DOWN,9;REUSE_DELAY_DOWN,9"/>
+				<param dispel="MA_UP,9;PA_UP,9;CASTING_TIME_DOWN,9;ATTACK_TIME_DOWN,9;MD_UP,9;MAGIC_CRITICAL_UP,9;MP_REGEN_UP,9;SPEED_UP,9;MP_COST_DOWN,9;REUSE_DELAY_DOWN,9;MULTI_BUFF,9;SONG_OF_HUNTER,9;SONG_OF_CHAMPION,9;SONG_OF_EARTH,9;SONG_OF_LIFE,9;SONG_OF_WATER,9;SONG_OF_WARDING,9;SONG_OF_WIND,9;SONG_OF_HUNTER,9;SONG_OF_INVOCATION,9;SONG_OF_VITALITY,9;SONG_OF_VENGEANCE,9;SONG_OF_FLAME_GUARD,9;SONG_OF_STORM_GUARD,9;SONG_OF_RENEWAL,9;SONG_OF_MEDITATION,9;SONG_OF_CHAMPION,9;SONG_OF_ELEMENTAL,9;DANCE_OF_WARRIOR,9;DANCE_OF_INSPIRATION,9;DANCE_OF_MYSTIC,9;DANCE_OF_VAMPIRE,9;DANCE_OF_PROTECTION,9;DANCE_OF_SIREN,9;DANCE_OF_SHADOW,9;DANCE_OF_LIGHT,9"/>
 			</effect>
 			<effect name="BlockBuffSlot" abnormalTime="300" noicon="1" val="0">
-				<param slot="MA_UP;PA_UP;CASTING_TIME_DOWN;ATTACK_TIME_DOWN;MD_UP;MAGIC_CRITICAL_UP;MP_REGEN_UP;SPEED_UP;MP_COST_DOWN;REUSE_DELAY_DOWN" />
+				<param slot="MA_UP;PA_UP;CASTING_TIME_DOWN;ATTACK_TIME_DOWN;MD_UP;MAGIC_CRITICAL_UP;MP_REGEN_UP;SPEED_UP;MP_COST_DOWN;REUSE_DELAY_DOWN;MULTI_BUFF;SONG_OF_HUNTER;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_LIFE;SONG_OF_WATER;SONG_OF_WARDING;SONG_OF_WIND;SONG_OF_HUNTER;SONG_OF_INVOCATION;SONG_OF_VITALITY;SONG_OF_VENGEANCE;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_RENEWAL;SONG_OF_MEDITATION;SONG_OF_CHAMPION;SONG_OF_ELEMENTAL;DANCE_OF_WARRIOR;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_VAMPIRE;DANCE_OF_PROTECTION;DANCE_OF_SIREN;DANCE_OF_SHADOW;DANCE_OF_LIGHT" />
 			</effect>
 		</for>
 	</skill>
@@ -336,11 +336,7 @@
 		<!-- Increases party members' Atk. Spd. by 15%, Casting Spd. by 30%, Max HP by 30%, MP recovery bonus by 20% and decreases MP Consumption for magic skill by 10% and the magic cancel rate for 5 minutes. -->
 		<set name="affectRange" val="1000" />
 		<set name="abnormalLvl" val="15" />
-<<<<<<< HEAD
-		<set name="abnormalType" val="PREV_SONATA" />
-=======
-		<set name="abnormalType" val="wp_event_buf1" />
->>>>>>> parent of 5fac456f... Ultimas correções do buff God
+		<set name="abnormalType" val="song_battle_whisper" />
 		<set name="abnormalTime" val="300" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -353,11 +349,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-<<<<<<< HEAD
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="PREV_SONATA">
-=======
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="wp_event_buf1">
->>>>>>> parent of 5fac456f... Ultimas correções do buff God
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="song_battle_whisper">
 				<mul stat="pAtkSpd" val="1.15" />
 				<mul stat="mAtkSpd" val="1.30" />
 				<mul stat="maxHp" val="1.30" />
@@ -377,7 +369,7 @@
 		<!-- Increases party members' P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. and Casting Spd. by 8% and decreases P. Def. by 3%, M. Def. by 11% and P. Evasion by 4 for 5 minutes. Also bestows an 8% Vampiric Rage effect and a chance of reflecting 10% of the damage received. -->
 		<set name="affectRange" val="1000" />
 		<set name="abnormalLvl" val="27" />
-		<set name="abnormalType" val="DARING_SONATA" />
+		<set name="abnormalType" val="dance_of_fire" />
 		<set name="abnormalTime" val="300" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -390,7 +382,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="27" abnormalType="DARING_SONATA">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="27" abnormalType="dance_of_fire">
 				<mul stat="pAtk" val="1.08" />
 				<mul stat="mAtk" val="1.16" />
 				<mul stat="pAtkSpd" val="1.08" />
@@ -412,7 +404,7 @@
 		<!-- Increases party members' HP Recovery Bonus by 20%, P.ﾠAccuracy by 4, P.ﾠEvasion by 3, Speed by 20, and decreases MP Consumption for skills by 20% and skill Cooldown by 10% for 5 minutes. -->
 		<set name="affectRange" val="1000" />
 		<set name="abnormalLvl" val="15" />
-		<set name="abnormalType" val="REF_SONATA" />
+		<set name="abnormalType" val="dance_of_fury" />
 		<set name="abnormalTime" val="300" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -425,7 +417,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill-->
 		<set name="magicLvl" val="85" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="REF_SONATA">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="15" abnormalType="dance_of_fury">
 				<mul stat="regHp" val="1.20" />
 				<add stat="accCombat" val="4" />
 				<add stat="rEvas" val="3" />

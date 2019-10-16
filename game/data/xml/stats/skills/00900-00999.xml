@@ -543,7 +543,7 @@
 		<set name="power" val="11440" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="PDAM" />
-		<set name="staticReuse" val="true" />
+		<set name="staticReuse" val="false" />
 		<set name="targetType" val="ONE" />
 		<cond msgId="113" addName="1">
 			<using kind="BOW" />
@@ -627,7 +627,7 @@
 		<set name="halfKillRate" val="8" />
 		<set name="lethalStrikeRate" val="0.1" />
 		<set name="hitTime" val="1800" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="82" />
 		<set name="nextActionAttack" val="true" />
 		<set name="offensive" val="true" />
@@ -635,6 +635,7 @@
 		<set name="overHit" val="true" />
 		<set name="power" val="11234" />
 		<set name="reuseDelay" val="8000" />
+		<set name="staticReuse" val="true" />
 		<set name="skillType" val="BLOW" />
 		<set name="targetType" val="ONE" />
 		<set name="trait" val="DEATH" />
@@ -1914,7 +1915,7 @@
 		<set name="effectRange" val="500" />
 		<set name="hitTime" val="1080" />
 		<set name="lvlBonusRate" val="1" />
- 		<set name="magicLvl" val="80" />
+ 		<set name="magicLvl" val="85" />
  		<set name="mpConsume" val="82" />
 		<set name="nextActionAttack" val="true" />
 		<set name="offensive" val="true" />

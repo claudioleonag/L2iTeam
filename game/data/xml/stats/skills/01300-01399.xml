@@ -998,7 +998,7 @@
 		<table name="#ench2Count"> 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 </table>
 		<table name="#ench2mpConsume"> 56 55 54 54 52 51 50 50 48 47 46 46 44 43 43 </table>
 		<table name="#ench2mpInitialConsume"> 14 14 14 13 13 13 13 12 12 12 12 11 11 11 11 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="multi_debuff" />
@@ -1008,7 +1008,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="78" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="57" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
@@ -1103,7 +1103,7 @@
 		<table name="#ench2mpInitialConsume"> 20 19 19 18 17 17 16 15 14 14 13 12 12 11 10 </table>
 		<table name="#ench3effectPower"> 82 83 84 86 87 88 90 91 92 94 95 96 97 99 100 </table>
 		<table name="#ench4elementPower"> 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="multi_debuff_water" />
@@ -1114,7 +1114,7 @@
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="77" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="84" />
 		<set name="mpInitialConsume" val="21" />
 		<set name="offensive" val="true" />
@@ -1211,7 +1211,7 @@
 		<table name="#ench2mpInitialConsume"> 20 19 19 18 17 17 16 15 14 14 13 12 12 11 10 </table>
 		<table name="#ench3effectPower"> 82 83 84 86 87 88 90 91 92 94 95 96 97 99 100 </table>
 		<table name="#ench4elementPower"> 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 </table>
-		<table name="#enchMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
+		<table name="#enchMagicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="multi_debuff_holy" />
@@ -1222,7 +1222,7 @@
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="76" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="84" />
 		<set name="mpInitialConsume" val="21" />
 		<set name="offensive" val="true" />

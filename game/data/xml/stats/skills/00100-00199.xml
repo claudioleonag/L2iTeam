@@ -1048,11 +1048,11 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<add stat="mDef" val="#mDef" />
-			<mul stat="magicSuccRes" val="#magicSuccRes" />
+			<mul stat="magicSuccRes" val="3" />
 		</for>
 		<enchant1for>
 			<add stat="mDef" val="#ench1mDef" />
-			<mul stat="magicSuccRes" val="1.3" />
+			<mul stat="magicSuccRes" val="3" />
 		</enchant1for>
 	</skill>
 	<skill id="147" levels="51" name="Magic Resistance" enchantGroup1="1">
