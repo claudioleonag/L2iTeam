@@ -815,7 +815,7 @@
 			<mul stat="mAtkSpd" val="1.91">
 				<using kind="LIGHT" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.50">
 				<using kind="LIGHT" />
 			</mul>
 			<mul stat="regMp" val="1.2">
@@ -829,7 +829,7 @@
 			<mul stat="mAtkSpd" val="1.91">
 				<using kind="LIGHT" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.50">
 				<using kind="LIGHT" />
 			</mul>
 			<mul stat="regMp" val="1.2">
@@ -843,7 +843,7 @@
 			<mul stat="mAtkSpd" val="1.91">
 				<using kind="LIGHT" />
 			</mul>
-			<mul stat="pAtkSpd" val="1.25">
+			<mul stat="pAtkSpd" val="1.50">
 				<using kind="LIGHT" />
 			</mul>
 			<mul stat="regMp" val="#ench2regMp">
