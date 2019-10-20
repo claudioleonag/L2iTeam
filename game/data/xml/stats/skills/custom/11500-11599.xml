@@ -38,7 +38,7 @@
 		<!-- For 30 minutes, party members' Max MP + 20%, HP Recovery Bonus + 20%, M. Critical Rate + 20, Critical Damage during a normal attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk. + 20%, M. Def. + 20%, Casting Spd. + 20%, Debuff Resistance + 10%, damage received from critical attacks - 30% and Speed - 15%. Party members equipped with melee weapons/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
 		<table name="#maxMp"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#regHp"> 1.20 1.20 1.20 1.20 </table>
-		<table name="#mCritRate"> 20 20 20 20 </table>
+		<table name="#mCritRate"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#cAtk"> 1.20 1.20 1.20 1.20 </table>
 		<table name="#pAtk"> 1.10 1.10 1.10 1.10 </table>
 		<table name="#pDef"> 1.20 1.20 1.20 1.20 </table>
@@ -66,7 +66,7 @@
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="4" abnormalType="dance_of_alignment">
 				<mul stat="maxMp" val="#maxMp" />
 				<mul stat="regHp" val="#regHp" />
-				<add stat="mCritRate" val="#mCritRate" />
+				<mul stat="mCritRate" val="#mCritRate" />
 				<mul stat="critDmg" val="#cAtk" />
 				<mul stat="pAtk" val="#pAtk" />
 				<mul stat="pDef" val="#pDef" />
