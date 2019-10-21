@@ -288,10 +288,10 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<for>
-			<effect name="ManaHealByLevel" noicon="1" val="#amount" />
+			<effect name="ManaHeal" noicon="1" val="#amount" />
 		</for>
 		<enchant1for>
-			<effect name="ManaHealByLevel" noicon="1" val="#ench1amount" />
+			<effect name="ManaHeal" noicon="1" val="#ench1amount" />
 		</enchant1for>
 	</skill>
 	<skill id="1127" levels="45" name="Servitor Heal" enchantGroup1="2" enchantGroup2="2">

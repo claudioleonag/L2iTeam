@@ -1605,7 +1605,8 @@
 		<set name="mpInitialConsume" val="38" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="30"/>
-		<set name="reuseDelay" val="5000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="staticReuse" val="true" />
 		<set name="skillType" val="CHAIN_HEAL" />
 		<set name="targetType" val="AREA_FRIENDLY" />
 	</skill>
