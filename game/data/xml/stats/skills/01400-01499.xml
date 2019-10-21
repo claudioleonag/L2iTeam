@@ -889,7 +889,7 @@
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="73" />
 		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="3600000" />
+		<set name="reuseDelay" val="1800000" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="PARTY" />
 		<for>
