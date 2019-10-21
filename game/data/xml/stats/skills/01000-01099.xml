@@ -461,10 +461,10 @@
 			</not>
 		</cond>
 		<for>
-			<effect name="ManaHealByLevel" noicon="1" val="#amount" />
+			<effect name="ManaHeal" noicon="1" val="#amount" />
 		</for>
 		<enchant1for>
-			<effect name="ManaHealByLevel" noicon="1" val="#ench1amount" />
+			<effect name="ManaHeal" noicon="1" val="#ench1amount" />
 		</enchant1for>
 	</skill>
 	<skill id="1015" levels="15" name="Battle Heal">
