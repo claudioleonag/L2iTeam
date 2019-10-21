@@ -1573,7 +1573,8 @@
 		<set name="targetType" val="ONE" />
 		<for>
 			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="attack_time_up">
-
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="1351" levels="1" name="Mage Bane">
