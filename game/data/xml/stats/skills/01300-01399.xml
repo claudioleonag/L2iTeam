@@ -1565,10 +1565,11 @@
 		<set name="mpConsume" val="56" />
 		<set name="power" val="80" />
 		<set name="mpInitialConsume" val="14" />
-		<set name="operateType" val="A1" />
+		<set name="operateType" val="A2" />
 		<set name="basicProperty" val="MEN" />
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="offensive" val="true" />
 		<set name="targetType" val="ONE" />
 		<for>
