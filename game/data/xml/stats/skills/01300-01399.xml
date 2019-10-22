@@ -1554,28 +1554,23 @@
 	<skill id="1350" levels="1" name="Warrior Bane">
 		<!-- Confirmed CT2.5 -->		
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="8" />
-		<set name="abnormalType" val="turn_flee" />
-		<set name="affectLimit" val="10-10" />
-		<set name="affectRange" val="200" />
-		<set name="hitTime" val="1000" />
+		<set name="abnormalTime" val="20" />
+		<set name="abnormalType" val="attack_time_up" />
+		<set name="hitTime" val="4000" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="83" />
+		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="87" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="80" />
+		<set name="power" val="-1" />
 		<set name="offensive" val="true" />
-		<set name="reuseDelay" val="75000" />
-		<set name="basicProperty" val="MEN" />
-		<set name="skillType" val="FEAR" />
-		<set name="targetType" val="AURA" />
-		<set name="trait" val="DERANGEMENT" />
+		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="targetType" val="ONE" />
 		<for>
-			<effect count="4" name="Fear" abnormalTime="2" val="0" abnormalLvl="1" abnormalType="turn_flee">
-				<mul stat="mDef" val="0.7" />
-				<mul stat="pDef" val="0.7" />
-				<mul stat="runSpd" val="0.7" />
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="attack_time_up">
+				<mul stat="pAtkSpd" val="0.77" />
+				<sub stat="runSpd" val="33"/>
 			</effect>
 		</for>
 
