@@ -1552,23 +1552,33 @@
 		</enchant1for>
 	</skill>
 	<skill id="1350" levels="1" name="Warrior Bane">
-		<!-- Confirmed CT2.5 -->
-		<set name="castRange" val="600" />
-		<set name="effectRange" val="1100" />
-		<set name="hitTime" val="4000" />
+		<!-- Confirmed CT2.5 -->		
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="8" />
+		<set name="abnormalType" val="turn_flee" />
+		<set name="affectLimit" val="10-10" />
+		<set name="affectRange" val="200" />
+		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
-		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="76" />
-		<set name="mpConsume" val="56" />
-		<set name="mpInitialConsume" val="14" />
-		<set name="negateAbnormals" val="attack_time_down;speed_up;improve_speed_avoid_up;improve_vampiric_haste" />
-		<set name="operateType" val="A1" />
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="83" />
+		<set name="mpConsume" val="87" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="80" />
 		<set name="offensive" val="true" />
-		<set name="reuseDelay" val="3000" />
-		<set name="targetType" val="ONE" />
+		<set name="reuseDelay" val="75000" />
+		<set name="basicProperty" val="MEN" />
+		<set name="skillType" val="FEAR" />
+		<set name="targetType" val="AURA" />
+		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect name="Cancel" noicon="1" val="0" effectPower="80" />
+			<effect count="4" name="Fear" abnormalTime="2" val="0" abnormalLvl="1" abnormalType="turn_flee">
+				<mul stat="mDef" val="0.7" />
+				<mul stat="pDef" val="0.7" />
+				<mul stat="runSpd" val="0.7" />
+			</effect>
 		</for>
+
 	</skill>
 	<skill id="1351" levels="1" name="Mage Bane">
 		<!-- Confirmed CT2.5 -->
