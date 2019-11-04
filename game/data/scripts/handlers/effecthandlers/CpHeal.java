@@ -58,12 +58,12 @@ public class CpHeal extends L2Effect
 		}
 		
 		// vGodFather: herb effect must override invul check
-		if (target.isInvul() && !getSkill().isHerb())
+		if ((target.isInvul() || target.isHpBlocked()) && !getSkill().isHerb())
 		{
 			return false;
 		}
 		
-		double amount = calc();
+		double amount = getValue();
 		
 		// Prevents overheal and negative amount
 		amount = Math.max(Math.min(amount, target.getMaxRecoverableCp() - target.getCurrentCp()), 0);

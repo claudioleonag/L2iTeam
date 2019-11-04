@@ -1,25 +1,6 @@
-/*
- * Copyright (C) 2004-2015 L2J DataPack
- *
- * This file is part of L2J DataPack.
- *
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package handlers;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import gr.sr.handler.ABLoader;
 
 import quests.Q00001_LettersOfLove.Q00001_LettersOfLove;
 import quests.Q00002_WhatWomenWant.Q00002_WhatWomenWant;
@@ -241,6 +222,7 @@ import quests.Q00250_WatchWhatYouEat.Q00250_WatchWhatYouEat;
 import quests.Q00251_NoSecrets.Q00251_NoSecrets;
 import quests.Q00252_ItSmellsDelicious.Q00252_ItSmellsDelicious;
 import quests.Q00254_LegendaryTales.Q00254_LegendaryTales;
+import quests.Q00255_Tutorial.Q00255_Tutorial;
 import quests.Q00257_TheGuardIsBusy.Q00257_TheGuardIsBusy;
 import quests.Q00258_BringWolfPelts.Q00258_BringWolfPelts;
 import quests.Q00259_RequestFromTheFarmOwner.Q00259_RequestFromTheFarmOwner;
@@ -526,15 +508,15 @@ import quests.Q10502_FreyaEmbroideredSoulCloak.Q10502_FreyaEmbroideredSoulCloak;
 import quests.Q10503_FrintezzaEmbroideredSoulCloak.Q10503_FrintezzaEmbroideredSoulCloak;
 import quests.Q10504_JewelOfAntharas.Q10504_JewelOfAntharas;
 import quests.Q10505_JewelOfValakas.Q10505_JewelOfValakas;
+import quests.TerritoryWarScripts.TerritoryWarSuperClass;
 
 /**
- * @author Nos
+ * @author L2jSunrise Team
+ * @Website www.l2jsunrise.com
  */
-public class QuestLoader
+public class QuestLoader extends ABLoader
 {
-	private static final Logger _log = LoggerFactory.getLogger(QuestLoader.class);
-	
-	private static final Class<?>[] QUESTS =
+	private final Class<?>[] SCRIPTS =
 	{
 		Q00001_LettersOfLove.class,
 		Q00002_WhatWomenWant.class,
@@ -758,6 +740,7 @@ public class QuestLoader
 		Q00251_NoSecrets.class,
 		Q00252_ItSmellsDelicious.class,
 		Q00254_LegendaryTales.class,
+		Q00255_Tutorial.class,
 		Q00257_TheGuardIsBusy.class,
 		Q00258_BringWolfPelts.class,
 		Q00259_RequestFromTheFarmOwner.class,
@@ -1042,22 +1025,18 @@ public class QuestLoader
 		Q10502_FreyaEmbroideredSoulCloak.class,
 		Q10503_FrintezzaEmbroideredSoulCloak.class,
 		Q10504_JewelOfAntharas.class,
-		Q10505_JewelOfValakas.class
+		Q10505_JewelOfValakas.class,
+		TerritoryWarSuperClass.class,
 	};
 	
 	public QuestLoader()
 	{
-		_log.info(QuestLoader.class.getSimpleName() + ": Loading related scripts.");
-		for (Class<?> quest : QUESTS)
-		{
-			try
-			{
-				quest.newInstance();
-			}
-			catch (Exception e)
-			{
-				_log.error(QuestLoader.class.getSimpleName() + ": Failed loading " + quest.getSimpleName() + ":", e);
-			}
-		}
+		loadScripts();
+	}
+	
+	@Override
+	public Class<?>[] getScripts()
+	{
+		return SCRIPTS;
 	}
 }

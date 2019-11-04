@@ -59,13 +59,13 @@ public class HealPercent extends L2Effect
 		}
 		
 		// vGodFather: herb effect must override invul check
-		if (target.isInvul() && !getSkill().isHerb())
+		if ((target.isInvul() || target.isHpBlocked()) && !getSkill().isHerb())
 		{
 			return false;
 		}
 		
 		double amount = 0;
-		double power = calc();
+		double power = getValue();
 		boolean full = (power == 100.0);
 		
 		amount = full ? target.getMaxHp() : (target.getMaxHp() * power) / 100.0;

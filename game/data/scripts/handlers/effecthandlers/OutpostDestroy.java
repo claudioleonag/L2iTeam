@@ -46,7 +46,7 @@ public class OutpostDestroy extends L2Effect
 	public boolean onStart()
 	{
 		final L2PcInstance player = getEffector().getActingPlayer();
-		if (!player.isClanLeader())
+		if (!player.isClanLeader() || (player.getClan().getCastleId() <= 0))
 		{
 			return false;
 		}
@@ -58,7 +58,7 @@ public class OutpostDestroy extends L2Effect
 			{
 				flag.deleteMe();
 			}
-			TerritoryWarManager.getInstance().setHQForClan(player.getClan(), null);
+			TerritoryWarManager.getInstance().removeHQForClan(player.getClan());
 		}
 		return true;
 	}

@@ -250,55 +250,48 @@ public final class PrimevalIsle extends AbstractNpcAI
 		{
 			if (creature.isPlayer())
 			{
-				try
-				{
-					final L2Attackable mob = (L2Attackable) npc;
-					final int ag_type = npc.getTemplate().getParameters().getInt("ag_type", 0);
-					final int probPhysicalSpecial1 = npc.getTemplate().getParameters().getInt("ProbPhysicalSpecial1", 0);
-					final int probPhysicalSpecial2 = npc.getTemplate().getParameters().getInt("ProbPhysicalSpecial2", 0);
-					final SkillHolder physicalSpecial1 = npc.getTemplate().getParameters().getObject("PhysicalSpecial1", SkillHolder.class);
-					final SkillHolder physicalSpecial2 = npc.getTemplate().getParameters().getObject("PhysicalSpecial2", SkillHolder.class);
-					
-					if (((getRandom(100) < 30) && (npc.getId() == DEINO)) || ((npc.getId() == ORNIT) && npc.isScriptValue(0)))
-					{
-						mob.clearAggroList();
-						npc.setScriptValue(1);
-						npc.setRunning();
-						
-						final int distance = 3000;
-						final int heading = Util.calculateHeadingFrom(creature, npc);
-						final double angle = Util.convertHeadingToDegree(heading);
-						final double radian = Math.toRadians(angle);
-						final double sin = Math.sin(radian);
-						final double cos = Math.cos(radian);
-						final int newX = (int) (npc.getX() + (cos * distance));
-						final int newY = (int) (npc.getY() + (sin * distance));
-						final Location loc = GeoData.getInstance().moveCheck(npc.getX(), npc.getY(), npc.getZ(), newX, newY, npc.getZ(), npc.getInstanceId());
-						npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, loc, 0);
-					}
-					else if (ag_type == 1)
-					{
-						if (getRandom(100) <= (probPhysicalSpecial1 * npc.getVariables().getInt("SKILL_MULTIPLER")))
-						{
-							if (!npc.isSkillDisabled(physicalSpecial1.getSkillId()))
-							{
-								npc.setTarget(creature);
-								npc.doCast(physicalSpecial1.getSkill());
-							}
-						}
-						else if (getRandom(100) <= (probPhysicalSpecial2 * npc.getVariables().getInt("SKILL_MULTIPLER")))
-						{
-							if (!npc.isSkillDisabled(physicalSpecial2.getSkill()))
-							{
-								npc.setTarget(creature);
-								npc.doCast(physicalSpecial2.getSkill());
-							}
-						}
-					}
-				}
-				catch (Exception e)
-				{
+				final L2Attackable mob = (L2Attackable) npc;
+				final int ag_type = npc.getTemplate().getParameters().getInt("ag_type", 0);
+				final int probPhysicalSpecial1 = npc.getTemplate().getParameters().getInt("ProbPhysicalSpecial1", 0);
+				final int probPhysicalSpecial2 = npc.getTemplate().getParameters().getInt("ProbPhysicalSpecial2", 0);
+				final SkillHolder physicalSpecial1 = npc.getTemplate().getParameters().getObject("PhysicalSpecial1", SkillHolder.class);
+				final SkillHolder physicalSpecial2 = npc.getTemplate().getParameters().getObject("PhysicalSpecial2", SkillHolder.class);
 				
+				if (((getRandom(100) < 30) && (npc.getId() == DEINO)) || ((npc.getId() == ORNIT) && npc.isScriptValue(0)))
+				{
+					mob.clearAggroList();
+					npc.setScriptValue(1);
+					npc.setRunning();
+					
+					final int distance = 3000;
+					final int heading = Util.calculateHeadingFrom(creature, npc);
+					final double angle = Util.convertHeadingToDegree(heading);
+					final double radian = Math.toRadians(angle);
+					final double sin = Math.sin(radian);
+					final double cos = Math.cos(radian);
+					final int newX = (int) (npc.getX() + (cos * distance));
+					final int newY = (int) (npc.getY() + (sin * distance));
+					final Location loc = GeoData.getInstance().moveCheck(npc.getX(), npc.getY(), npc.getZ(), newX, newY, npc.getZ(), npc.getInstanceId());
+					npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, loc, 0);
+				}
+				else if (ag_type == 1)
+				{
+					if (getRandom(100) <= (probPhysicalSpecial1 * npc.getVariables().getInt("SKILL_MULTIPLER")))
+					{
+						if (!npc.isSkillDisabled(physicalSpecial1.getSkillId()))
+						{
+							npc.setTarget(creature);
+							npc.doCast(physicalSpecial1.getSkill());
+						}
+					}
+					else if (getRandom(100) <= (probPhysicalSpecial2 * npc.getVariables().getInt("SKILL_MULTIPLER")))
+					{
+						if (!npc.isSkillDisabled(physicalSpecial2.getSkill()))
+						{
+							npc.setTarget(creature);
+							npc.doCast(physicalSpecial2.getSkill());
+						}
+					}
 				}
 			}
 		}
@@ -459,7 +452,7 @@ public final class PrimevalIsle extends AbstractNpcAI
 			}
 			catch (Exception e)
 			{
-			
+				// FIXME
 			}
 		}
 		return super.onAttack(npc, attacker, damage, isSummon);
@@ -515,7 +508,7 @@ public final class PrimevalIsle extends AbstractNpcAI
 			}
 			catch (Exception e)
 			{
-			
+				// FIXME
 			}
 		}
 		else

@@ -1,26 +1,7 @@
-/*
- * Copyright (C) 2004-2013 L2J DataPack
- *
- * This file is part of L2J DataPack.
- *
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package handlers;
 
-import java.lang.reflect.Method;
-
 import l2r.gameserver.handler.EffectHandler;
+import l2r.gameserver.model.effects.L2Effect;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,15 +10,13 @@ import handlers.effecthandlers.*;
 
 /**
  * Effect Master handler.
- * @author BiggBoss
+ * @author vGodFather
  */
 public final class EffectMasterHandler
 {
-	private static Logger _log = LoggerFactory.getLogger(EffectMasterHandler.class);
+	private static final Logger _log = LoggerFactory.getLogger(EffectMasterHandler.class);
 	
-	private static final Class<?> _loadInstances = EffectHandler.class;
-	
-	private static final Class<?>[] _effects =
+	private static final Class<?>[] SCRIPTS =
 	{
 		AddHate.class,
 		RebalanceHP.class,
@@ -83,6 +62,7 @@ public final class EffectMasterHandler
 		Detection.class,
 		Disarm.class,
 		DispelAll.class,
+		DispelByCategory.class,
 		DispelBySlot.class,
 		DispelBySlotProbability.class,
 		DispelOne.class,
@@ -94,6 +74,8 @@ public final class EffectMasterHandler
 		Flag.class,
 		Fear.class,
 		Fishing.class,
+		FocusEnergy.class,
+		FocusMaxEnergy.class,
 		FocusSouls.class,
 		Fusion.class,
 		GetAgro.class,
@@ -108,8 +90,8 @@ public final class EffectMasterHandler
 		Hide.class,
 		HpByLevel.class,
 		ImmobileBuff.class,
-		IncreaseCharges.class,
 		ImmobilePetBuff.class,
+		ImmobileUntilAttacked.class,
 		Invincible.class,
 		Lucky.class,
 		MagicalAttackMp.class,
@@ -142,8 +124,10 @@ public final class EffectMasterHandler
 		Reeling.class,
 		RefuelAirship.class,
 		Relax.class,
-		ResistSkill.class,
+		RemoveSouls.class,
 		RemoveTarget.class,
+		ResistSkill.class,
+		Restoration.class,
 		RestorationRandom.class,
 		Resurrection.class,
 		ResurrectionSpecial.class,
@@ -190,58 +174,14 @@ public final class EffectMasterHandler
 		VitalityPointUp.class,
 	};
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
-		Object loadInstance = null;
-		Method method = null;
-		
-		try
+		final long startCache = System.currentTimeMillis();
+		for (Class<?> c : SCRIPTS)
 		{
-			method = _loadInstances.getMethod("getInstance");
-			loadInstance = method.invoke(_loadInstances);
+			EffectHandler.getInstance().registerHandler((Class<? extends L2Effect>) c);
 		}
-		catch (Exception e)
-		{
-			_log.warn("Failed invoking getInstance method for handler: " + _loadInstances.getSimpleName(), e);
-			return;
-		}
-		
-		method = null; // Releasing variable for next method
-		
-		for (Class<?> c : _effects)
-		{
-			if (c == null)
-			{
-				continue; // Disabled handler
-			}
-			
-			try
-			{
-				if (method == null)
-				{
-					method = loadInstance.getClass().getMethod("registerHandler", Class.class);
-				}
-				
-				method.invoke(loadInstance, c);
-				
-			}
-			catch (Exception e)
-			{
-				_log.warn("Failed loading effect handler: " + c.getSimpleName(), e);
-				continue;
-			}
-		}
-		
-		// And lets try get size
-		try
-		{
-			method = loadInstance.getClass().getMethod("size");
-			Object returnVal = method.invoke(loadInstance);
-			_log.info(loadInstance.getClass().getSimpleName() + ": Loaded " + returnVal + " Handlers");
-		}
-		catch (Exception e)
-		{
-			_log.warn("Failed invoking size method for handler: " + loadInstance.getClass().getSimpleName(), e);
-		}
+		_log.info(EffectMasterHandler.class.getSimpleName() + ": Loaded " + EffectHandler.getInstance().size() + " handlers. (GenTime: {} ms) ", (System.currentTimeMillis() - startCache));
 	}
 }

@@ -66,6 +66,7 @@ public class RemoveTarget extends L2Effect
 			((L2Attackable) getEffected()).stopHating(getEffector());
 			((L2Attackable) getEffected()).setFindTargetDelay(Rnd.get(1000, 2000));
 		}
+		
 		getEffected().setTarget(null);
 		getEffected().abortAttack();
 		getEffected().abortCast();

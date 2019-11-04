@@ -1314,7 +1314,7 @@
 	<skill id="4166" levels="18" name="Stuns">
 		<!-- Cubic skill -->
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 40 44 48 52 56 60 64 68 72 74 76 78 80 81 82 83 84 85 </table>
+		<table name="#magicLvl"> 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="9" />
 		<set name="abnormalType" val="stun" />

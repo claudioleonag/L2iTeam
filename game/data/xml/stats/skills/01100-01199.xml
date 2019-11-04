@@ -1295,11 +1295,11 @@
 		<enchant3 name="magicLvl" val="#enchMagicLvl" />
 	</skill>
 	<skill id="1175" levels="8" name="Aqua Swirl">
-		<table name="#magicLvl"> 17 20 23 25 28 30 33 35 </table>
-		<table name="#mpConsume"> 14 16 17 18 20 21 23 24 </table>
-		<table name="#mpInitialConsume"> 4 4 5 5 5 6 6 6 </table>
-		<table name="#power"> 23 26 29 32 35 38 42 44 </table>
-		<set name="castRange" val="750" />
+		<table name="#magicLvl"> 17 20 23 25 28 30 33 85 </table>
+		<table name="#mpConsume"> 14 16 17 18 20 21 23 99 </table>
+		<table name="#mpInitialConsume"> 4 4 5 5 5 6 6 33 </table>
+		<table name="#power"> 23 26 29 32 35 38 42 101 </table>
+		<set name="castRange" val="600" />
 		<set name="effectRange" val="1250" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="elementPower" val="20" />
@@ -1311,7 +1311,7 @@
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="#power" />
-		<set name="reuseDelay" val="1000" />
+		<set name="reuseDelay" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="targetType" val="ONE" />
 	</skill>

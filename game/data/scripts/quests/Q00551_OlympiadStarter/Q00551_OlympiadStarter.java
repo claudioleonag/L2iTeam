@@ -21,8 +21,8 @@ package quests.Q00551_OlympiadStarter;
 import l2r.gameserver.enums.QuestType;
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
-import l2r.gameserver.model.entity.olympiad.CompetitionType;
 import l2r.gameserver.model.entity.olympiad.Participant;
+import l2r.gameserver.model.entity.olympiad.enums.CompetitionType;
 import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.quest.State;
@@ -98,6 +98,7 @@ public class Q00551_OlympiadStarter extends Quest
 			{
 				st.giveItems(OLY_CHEST, 2);
 				st.giveItems(MEDAL_OF_GLORY, 3);
+				st.exitQuest(QuestType.DAILY, true);
 			}
 			else
 			{

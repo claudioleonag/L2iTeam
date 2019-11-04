@@ -64,12 +64,12 @@ public class Heal extends L2Effect
 		}
 		
 		// vGodFather: herb effect must override invul check
-		if (target.isInvul() && !getSkill().isHerb())
+		if ((target.isInvul() || target.isHpBlocked()) && !getSkill().isHerb())
 		{
 			return false;
 		}
 		
-		double amount = calc();
+		double amount = getValue();
 		double staticShotBonus = 0;
 		int mAtkMul = 1;
 		boolean sps = getSkill().isMagic() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);

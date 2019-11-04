@@ -12989,7 +12989,6 @@
 		<skill skillName="Fast HP Recovery" skillId="212" skillLvl="1" getLevel="35" levelUpSp="19500" learnedByNpc="true" />
 		<skill skillName="Fast Mana Recovery" skillId="229" skillLvl="2" getLevel="35" levelUpSp="19500" learnedByNpc="true" />
 		<skill skillName="Aqua Swirl" skillId="1175" skillLvl="7" getLevel="35" levelUpSp="9700" learnedByNpc="true" />
-		<skill skillName="Aqua Swirl" skillId="1175" skillLvl="8" getLevel="35" levelUpSp="9700" learnedByNpc="true" />
 		<skill skillName="Aura Burn" skillId="1172" skillLvl="7" getLevel="35" levelUpSp="9700" learnedByNpc="true" />
 		<skill skillName="Aura Burn" skillId="1172" skillLvl="8" getLevel="35" levelUpSp="9700" learnedByNpc="true" />
 		<skill skillName="Servitor Heal" skillId="1127" skillLvl="10" getLevel="35" levelUpSp="6500" learnedByNpc="true" />
@@ -13478,6 +13477,7 @@
 		<skill skillName="Divine Inspiration" skillId="1405" skillLvl="4" getLevel="76" learnedByNpc="true">
 			<item id="8621" count="1" />
 		</skill>
+		<skill skillName="Aqua Swirl" skillId="1175" skillLvl="8" getLevel="40" levelUpSp="9700" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="10" getLevel="40" levelUpSp="9500" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="11" getLevel="40" levelUpSp="9500" learnedByNpc="true" />
 		<skill skillName="Weapon Mastery" skillId="249" skillLvl="12" getLevel="40" levelUpSp="9500" learnedByNpc="true" />

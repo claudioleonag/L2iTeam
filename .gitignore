@@ -3,7 +3,6 @@
 *.l2j
 *.csv
 game/log/*
-game/data/pathnode/
-game/data/geodata/
-
 game/core.jar.bkp
+game_backup/*
+.gitignore

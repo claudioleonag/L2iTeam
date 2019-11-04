@@ -105,14 +105,7 @@ public class QuestLink implements IBypassHandler
 			if ((qs == null) || qs.isCreated())
 			{
 				state = quest.isCustomQuest() ? "" : "01";
-				if (quest.canStartQuest(player))
-				{
-					color = "bbaa88";
-				}
-				else
-				{
-					color = "a62f31";
-				}
+				color = quest.canStartQuest(player) ? "bbaa88" : "a62f31";
 			}
 			else if (qs.isStarted())
 			{
@@ -202,7 +195,7 @@ public class QuestLink implements IBypassHandler
 					if (player.getAllActiveQuests().size() >= MAX_QUEST_COUNT)
 					{
 						final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
-						html.setFile(player.getHtmlPrefix(), "data/html/fullquest.html");
+						html.setFile(player, player.getHtmlPrefix(), "data/html/fullquest.html");
 						player.sendPacket(html);
 						return;
 					}
