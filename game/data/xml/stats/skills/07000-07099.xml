@@ -225,7 +225,7 @@
 		<!-- GM Skill -->
 		<table name="#amount"> 1 1 1 2 </table>
 		<table name="#mAtkSpd"> 2 3 3 4 </table>
-		<table name="#pAtk"> 1 1 10000 10000 </table>
+		<table name="#pAtk"> 1 1 1 1 </table>
 		<table name="#pAtkSpd"> 2 3 3 4 </table>
 		<table name="#reuse"> 0.01 0.01 0.01 0.01 </table>
 		<table name="#runSpd"> 2 3 3 4 </table>
