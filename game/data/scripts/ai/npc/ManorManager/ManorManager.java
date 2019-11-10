@@ -93,13 +93,14 @@ public final class ManorManager extends AbstractNpcAI
 	{
 		if (Config.ALLOW_MANOR)
 		{
-			if (!player.canOverrideCond(PcCondOverride.CASTLE_CONDITIONS) && (npc.getCastle() != null) && (npc.getCastle().getResidenceId() > 0) && player.isClanLeader() && (npc.getCastle().getOwnerId() == player.getClanId()))
+			final int castleId = npc.getTemplate().getParameters().getInt("manor_id", -1);
+			if (!player.canOverrideCond(PcCondOverride.CASTLE_CONDITIONS) && player.isClanLeader() && (castleId == player.getClan().getCastleId()))
 			{
 				return "manager-lord.htm";
 			}
 			return "manager.htm";
 		}
-		return getHtm(player.getHtmlPrefix(), "data/html/npcdefault.htm");
+		return getHtm(player, player.getHtmlPrefix(), "data/html/npcdefault.htm");
 	}
 	
 	// @formatter:off
@@ -117,7 +118,7 @@ public final class ManorManager extends AbstractNpcAI
 		}
 		
 		final L2Npc npc = evt.getTarget();
-		final int templateId = npc.getCastle().getResidenceId();
+		final int templateId = npc.getTemplate().getParameters().getInt("manor_id", -1);
 		final int castleId = (evt.getManorId() == -1) ? templateId : evt.getManorId();
 		switch (evt.getRequest())
 		{

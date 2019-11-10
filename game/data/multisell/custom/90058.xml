@@ -7,39 +7,39 @@
 
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="16176" count="1" />
 	</item>
 
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="15611" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="15608" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="15614" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="15617" count="1" />
 	</item>
 
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="15620" count="1" />
 	</item>
 
 	<!-- Moirai Sigil -->
 	<item>
-		<ingredient id="9142" count="25" />
+		<ingredient id="40002" count="60" />
 		<production id="16305" count="1" />
 	</item>
 

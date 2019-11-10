@@ -23,7 +23,9 @@ import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.L2Playable;
+import l2r.gameserver.model.actor.instance.L2MonsterInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.holders.MinionHolder;
 import l2r.gameserver.model.holders.SkillHolder;
 import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.network.NpcStringId;
@@ -88,7 +90,7 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, String text)
 	{
-		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getIdTemplate(), text));
+		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), text));
 	}
 	
 	/**
@@ -99,7 +101,7 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId)
 	{
-		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getIdTemplate(), stringId));
+		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId));
 	}
 	
 	/**
@@ -111,7 +113,7 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId, String... parameters)
 	{
-		final NpcSay say = new NpcSay(npc.getObjectId(), type, npc.getTemplate().getIdTemplate(), stringId);
+		final NpcSay say = new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId);
 		if (parameters != null)
 		{
 			for (String parameter : parameters)
@@ -131,7 +133,7 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, String text, int radius)
 	{
-		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getIdTemplate(), text), radius);
+		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), text), radius);
 	}
 	
 	/**
@@ -143,7 +145,7 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId, int radius)
 	{
-		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getIdTemplate(), stringId), radius);
+		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId), radius);
 	}
 	
 	/**
@@ -208,5 +210,13 @@ public abstract class AbstractNpcAI extends Quest
 		}
 		npc.setTarget(target);
 		npc.getAI().setIntention(CtrlIntention.AI_INTENTION_CAST, skill.getSkill(), target);
+	}
+	
+	public void spawnMinions(final L2Npc npc, final String spawnName)
+	{
+		for (MinionHolder is : npc.getTemplate().getParameters().getMinionList(spawnName))
+		{
+			addMinion((L2MonsterInstance) npc, is.getId());
+		}
 	}
 }

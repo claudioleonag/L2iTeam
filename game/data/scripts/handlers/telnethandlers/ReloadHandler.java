@@ -75,7 +75,7 @@ public class ReloadHandler implements ITelnetHandler
 				else if (type.equals("npc"))
 				{
 					_print.print("Reloading npc templates... ");
-					NpcTable.getInstance().reloadAllNpc();
+					NpcTable.getInstance().load();
 					QuestManager.getInstance().reloadAllScripts();
 					_print.println("done");
 				}
@@ -109,7 +109,7 @@ public class ReloadHandler implements ITelnetHandler
 					RaidBossSpawnManager.getInstance().cleanUp();
 					DayNightSpawnManager.getInstance().cleanUp();
 					L2World.getInstance().deleteVisibleNpcSpawns();
-					NpcTable.getInstance().reloadAllNpc();
+					NpcTable.getInstance().load();
 					SpawnTable.getInstance().load();
 					RaidBossSpawnManager.getInstance().load();
 					_print.println("done\n");

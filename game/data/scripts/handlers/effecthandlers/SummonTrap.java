@@ -36,7 +36,7 @@ public class SummonTrap extends L2Effect
 	public SummonTrap(Env env, EffectTemplate template)
 	{
 		super(env, template);
-		_despawnTime = 300000;
+		_despawnTime = template.getParameters().getInt("despawnTime", 0);
 		_npcId = template.getParameters().getInt("npcId", 0);
 	}
 	
@@ -79,7 +79,7 @@ public class SummonTrap extends L2Effect
 			return false;
 		}
 		
-		if (player.getTrapsCount() >= 1)
+		if (player.getTrapsCount() >= 5)
 		{
 			player.destroyFirstTrap();
 		}

@@ -101,7 +101,7 @@ public final class Beleth extends AbstractNpcAI
 	
 	public Beleth()
 	{
-		super(Beleth.class.getSimpleName(), "ai/individual");
+		super(Beleth.class.getSimpleName(), "ai/grandboss");
 		addEnterZoneId(ZONE.getId());
 		registerMobs(REAL_BELETH, FAKE_BELETH);
 		addStartNpc(STONE_COFFIN);
@@ -709,7 +709,7 @@ public final class Beleth extends AbstractNpcAI
 			html = "32470b.htm";
 		}
 		
-		return HtmCache.getInstance().getHtm(player.getHtmlPrefix(), "data/html/default/" + html);
+		return HtmCache.getInstance().getHtm(player, player.getHtmlPrefix(), "data/html/default/" + html);
 	}
 	
 	@Override

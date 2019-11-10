@@ -18,6 +18,8 @@
  */
 package handlers.effecthandlers;
 
+import java.util.Collection;
+
 import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.effects.EffectTemplate;
@@ -69,29 +71,27 @@ public class Sweeper extends L2Effect
 			return false;
 		}
 		
-		ItemHolder[] items = monster.takeSweep();
-		if ((items == null) || (items.length == 0))
+		final Collection<ItemHolder> items = monster.takeSweep();
+		if (items != null)
 		{
-			return false;
-		}
-		
-		for (ItemHolder item : items)
-		{
-			if (player.isInParty())
+			for (ItemHolder item : items)
 			{
-				player.getParty().distributeItem(player, item, true, monster);
-			}
-			else
-			{
-				int itemId = item.getId();
-				long itemCount = item.getCount();
-				
-				if (player.isPremium())
+				if (player.isInParty())
 				{
-					itemCount *= player.calcPremiumDropMultipliers(itemId);
+					player.getParty().distributeItem(player, item, true, monster);
 				}
-				
-				player.addItem("Sweeper", itemId, itemCount, getEffected(), true);
+				else
+				{
+					int itemId = item.getId();
+					long itemCount = item.getCount();
+					
+					if (player.isPremium())
+					{
+						itemCount *= player.calcPremiumDropMultipliers(itemId);
+					}
+					
+					player.addItem("Sweeper", itemId, itemCount, getEffected(), true);
+				}
 			}
 		}
 		return true;

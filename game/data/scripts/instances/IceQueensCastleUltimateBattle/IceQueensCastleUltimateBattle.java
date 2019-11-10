@@ -411,7 +411,7 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 					{
 						for (L2PcInstance players : world.playersInside)
 						{
-							if ((players != null) && (players.getInstanceId() == world.getInstanceId()))
+							if (players != null)
 							{
 								players.setIsInvul(false);
 							}
@@ -595,12 +595,25 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 					}
 					case "ATTACK_FREYA":
 					{
-						// TODO Implement me
-						/**
-						 * final SkillHolder skill = npc.getTemplate().getParameters().getObject("Skill01_ID", SkillHolder.class); if (npc.isInsideRadius(world.freya, 100, true, false)) { if (npc.checkDoCastConditions(skill.getSkill()) && !npc.isCastingNow()) { npc.setTarget(world.freya);
-						 * npc.doCast(skill.getSkill()); startQuestTimer("ATTACK_FREYA", 20000, npc, null); } else { startQuestTimer("ATTACK_FREYA", 5000, npc, null); } } else { npc.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, world.freya); startQuestTimer("ATTACK_FREYA", 5000, npc,
-						 * null); }
-						 */
+						final SkillHolder skill = npc.getTemplate().getParameters().getObject("Skill01_ID", SkillHolder.class);
+						if (npc.isInsideRadius(world.freya, 100, true, false))
+						{
+							if (npc.checkDoCastConditions(skill.getSkill()) && !npc.isCastingNow())
+							{
+								npc.setTarget(world.freya);
+								npc.doCast(skill.getSkill());
+								startQuestTimer("ATTACK_FREYA", 20000, npc, null);
+							}
+							else
+							{
+								startQuestTimer("ATTACK_FREYA", 5000, npc, null);
+							}
+						}
+						else
+						{
+							npc.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, world.freya);
+							startQuestTimer("ATTACK_FREYA", 5000, npc, null);
+						}
 						break;
 					}
 					case "FINISH_WORLD":

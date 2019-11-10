@@ -1,25 +1,6 @@
-/*
- * Copyright (C) 2004-2015 L2J DataPack
- * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package handlers;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import gr.sr.handler.ABLoader;
 
 import ai.individual.Anais;
 import ai.individual.Ballista;
@@ -31,7 +12,11 @@ import ai.individual.Epidos;
 import ai.individual.EvasGiftBox;
 import ai.individual.FrightenedRagnaOrc;
 import ai.individual.Gordon;
+import ai.individual.GraveRobbers;
 import ai.individual.QueenShyeed;
+import ai.individual.RagnaOrcCommander;
+import ai.individual.RagnaOrcHero;
+import ai.individual.RagnaOrcSeer;
 import ai.individual.SinEater;
 import ai.individual.SinWardens;
 import ai.individual.Venom.Venom;
@@ -48,8 +33,6 @@ import ai.individual.extra.KaimAbigore;
 import ai.individual.extra.Kechi;
 import ai.individual.extra.KelBilette;
 import ai.individual.extra.OlAriosh;
-import ai.individual.extra.SeerFlouros;
-import ai.individual.extra.SeerUgoros;
 import ai.individual.extra.SelfExplosiveKamikaze;
 import ai.individual.extra.ValakasMinions;
 import ai.individual.extra.VenomousStorace;
@@ -63,11 +46,9 @@ import ai.individual.extra.ToiRaids.Kernon;
  * @author L2jSunrise Team
  * @Website www.l2jsunrise.com
  */
-public final class IndividualLoader
+public final class IndividualLoader extends ABLoader
 {
-	private static final Logger _log = LoggerFactory.getLogger(IndividualLoader.class);
-	
-	private static final Class<?>[] individual =
+	private final Class<?>[] SCRIPTS =
 	{
 		Anais.class,
 		Ballista.class,
@@ -79,7 +60,11 @@ public final class IndividualLoader
 		EvasGiftBox.class,
 		FrightenedRagnaOrc.class,
 		Gordon.class,
+		GraveRobbers.class,
 		QueenShyeed.class,
+		RagnaOrcCommander.class,
+		RagnaOrcHero.class,
+		RagnaOrcSeer.class,
 		SinEater.class,
 		SinWardens.class,
 		
@@ -97,8 +82,6 @@ public final class IndividualLoader
 		Kechi.class,
 		KelBilette.class,
 		OlAriosh.class,
-		SeerFlouros.class,
-		SeerUgoros.class,
 		SelfExplosiveKamikaze.class,
 		ValakasMinions.class,
 		VenomousStorace.class,
@@ -116,17 +99,12 @@ public final class IndividualLoader
 	
 	public IndividualLoader()
 	{
-		_log.info(IndividualLoader.class.getSimpleName() + ": Loading related scripts.");
-		for (Class<?> script : individual)
-		{
-			try
-			{
-				script.newInstance();
-			}
-			catch (Exception e)
-			{
-				_log.error(IndividualLoader.class.getSimpleName() + ": Failed loading " + script.getSimpleName() + ":", e);
-			}
-		}
+		loadScripts();
+	}
+	
+	@Override
+	public Class<?>[] getScripts()
+	{
+		return SCRIPTS;
 	}
 }

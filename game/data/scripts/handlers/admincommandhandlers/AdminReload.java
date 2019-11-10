@@ -26,7 +26,6 @@ import javax.script.ScriptException;
 
 import l2r.Config;
 import l2r.gameserver.cache.HtmCache;
-import l2r.gameserver.data.SpawnTable;
 import l2r.gameserver.data.sql.CrestTable;
 import l2r.gameserver.data.sql.NpcTable;
 import l2r.gameserver.data.sql.TeleportLocationTable;
@@ -45,7 +44,6 @@ import l2r.gameserver.instancemanager.CursedWeaponsManager;
 import l2r.gameserver.instancemanager.QuestManager;
 import l2r.gameserver.instancemanager.WalkingManager;
 import l2r.gameserver.instancemanager.ZoneManager;
-import l2r.gameserver.model.L2Spawn;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.scripting.L2ScriptEngineManager;
 import l2r.gameserver.util.Util;
@@ -95,24 +93,8 @@ public class AdminReload implements IAdminCommandHandler
 				}
 				case "npc":
 				{
-					if (st.hasMoreElements())
-					{
-						Integer npcId = Integer.parseInt(st.nextToken());
-						NpcTable.getInstance().reloadNpc(npcId);
-						for (L2Spawn spawn : SpawnTable.getInstance().getSpawns(npcId))
-						{
-							if (spawn != null)
-							{
-								spawn.respawnNpc(spawn.getLastSpawn());
-							}
-						}
-						activeChar.sendMessage("NPC " + npcId + " have been reloaded");
-					}
-					else
-					{
-						NpcTable.getInstance().reloadAllNpc();
-						activeChar.sendMessage("All NPCs have been reloaded");
-					}
+					NpcTable.getInstance().load();
+					AdminData.getInstance().broadcastMessageToGMs(activeChar.getName() + ": Reloaded Npcs.");
 					break;
 				}
 				case "quest":
