@@ -2,6 +2,7 @@
 *.pkc
 *.l2j
 *.csv
+*.bak
 game/log/*
 game/core.jar.bkp
 game_backup/*
